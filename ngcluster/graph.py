@@ -25,7 +25,8 @@ def threshold_graph(data, threshold):
     """
 
     # Compute correlation matrix, replacing NaN (due to all-zero rows) with 0
-    corr = np.nan_to_num(np.corrcoef(data))
+    with np.errstate(invalid='ignore'):
+        corr = np.nan_to_num(np.corrcoef(data))
 
     # Compute the adjacency matrix
     adj = (corr > threshold)
