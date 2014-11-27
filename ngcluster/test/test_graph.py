@@ -131,3 +131,108 @@ class TestRelativeNeighborhoodGraph(unittest.TestCase):
             [0, 1, 1, 0],
             ])
         assert_array_equal(graph.relative_neighborhood_graph(data), adj)
+
+class TestGabrielGraph(unittest.TestCase):
+
+    def testGabrielPair(self):
+
+        # There are only two points, so they are Gabriel neighbors
+
+        data = np.array([
+            [0, 0],
+            [1, 1],
+            ])
+        adj = np.array([
+            [0, 1],
+            [1, 0],
+            ])
+        assert_array_equal(graph.gabriel_graph(data), adj)
+
+    def testGabrielSquare(self):
+
+        # Each pair defining a side of a square are Gabriel neighbors
+
+        data = np.array([
+            [0, 0], # a
+            [1, 0], # b
+            [1, 1], # c
+            [0, 1], # d
+            ])
+        adj = np.array([
+            [0, 1, 0, 1],
+            [1, 0, 1, 0],
+            [0, 1, 0, 1],
+            [1, 0, 1, 0],
+            ])
+        assert_array_equal(graph.gabriel_graph(data), adj)
+
+    def testGabrielSquare2(self):
+
+        # Point z is in the middle of the square, so the corners of the square
+        # are Gabriel neighbors with z instead of each other
+
+        data = np.array([
+            [0, 0], # a
+            [1, 0], # b
+            [1, 1], # c
+            [0, 1], # d
+            [0.5, 0.5], # z
+            ])
+        adj = np.array([
+            [0, 0, 0, 0, 1],
+            [0, 0, 0, 0, 1],
+            [0, 0, 0, 0, 1],
+            [0, 0, 0, 0, 1],
+            [1, 1, 1, 1, 0],
+            ])
+        assert_array_equal(graph.gabriel_graph(data), adj)
+
+    def testGabrielSquare3(self):
+
+        # From testGabrielSquare2, move z a little to the right, out of the
+        # discs between the pairs defining the top (c,d), left (a,d), and bottom
+        # (a, b) sides, making those pairs neighbors as well.
+
+        data = np.array([
+            [0, 0], # a
+            [1, 0], # b
+            [1, 1], # c
+            [0, 1], # d
+            [0.51, 0.5], # z
+            ])
+        adj = np.array([
+            [0, 1, 0, 1, 1],
+            [1, 0, 0, 0, 1],
+            [0, 0, 0, 1, 1],
+            [1, 0, 1, 0, 1],
+            [1, 1, 1, 1, 0],
+            ])
+        assert_array_equal(graph.gabriel_graph(data), adj)
+
+    def testGabrielCube(self):
+
+        # Each pair defining an edge of the cube are Gabriel neighbors,
+        # so each point has 3 neighbors.
+
+        data = np.array([
+            [0, 0, 0], # a
+            [1, 0, 0], # b
+            [1, 1, 0], # c
+            [0, 1, 0], # d
+            [0, 0, 1], # e
+            [1, 0, 1], # f
+            [1, 1, 1], # g
+            [0, 1, 1], # h
+            ])
+        adj = np.array([
+            #a  b  c  d  e  f  g  h
+            [0, 1, 0, 1, 1, 0, 0, 0], # a
+            [1, 0, 1, 0, 0, 1, 0, 0], # b
+            [0, 1, 0, 1, 0, 0, 1, 0], # c
+            [1, 0, 1, 0, 0, 0, 0, 1], # d
+            [1, 0, 0, 0, 0, 1, 0, 1], # e
+            [0, 1, 0, 0, 1, 0, 1, 0], # f
+            [0, 0, 1, 0, 0, 1, 0, 1], # g
+            [0, 0, 0, 1, 1, 0, 1, 0], # h
+            ])
+        assert_array_equal(graph.gabriel_graph(data), adj)

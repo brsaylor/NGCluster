@@ -110,3 +110,62 @@ def relative_neighborhood_graph(data):
         return adj
 
     return build_graph(corr, adj)
+
+def gabriel_graph(data):
+    """
+    Create a Gabriel graph from the given expression data. Euclidean distance is
+    used to compute the graph.
+
+    Parameters
+    ----------
+    data : ndarray
+        An n*m array of of expression data for n genes under m conditions.
+
+    Returns
+    -------
+    ndarray
+        An adjacency matrix represented by an n*n array of boolean values.
+    """
+
+    # FIXME: This is slow! More efficient algorithms exist.
+
+    rows, cols = data.shape
+    midpoint = np.empty(cols)
+    adj = np.zeros((rows, rows), dtype=bool)
+
+    @jit(nopython=True)
+    def build_graph(data, rows, cols, midpoint, adj):
+
+        # For each pair of points (p, q)...
+        for p in range(rows - 1):
+            for q in range(p + 1, rows):
+
+                # ...calculate their midpoint and their distance 'radius' to it.
+                radius = 0
+                for i in range(cols):
+                    midpoint[i] = (data[p, i] + data[q, i]) * 0.5
+                    radius += (data[p, i] - midpoint[i]) ** 2
+                radius **= 0.5
+
+                # For each other point z...
+                for z in range(rows):
+                    if z == p or z == q:
+                        continue
+
+                    # ...calculate its distance from the midpoint.
+                    dist = 0
+                    for i in range(cols):
+                        dist += (data[z, i] - midpoint[i]) ** 2
+                    dist **= 0.5
+
+                    # If that distance is less than 'radius', then p and q are not
+                    # Gabriel neighbors.
+                    if dist <= radius:
+                        break
+                else:
+                    # Since there is no other point z is within 'radius' distance of
+                    # the midpoint, p and q are Gabriel neighbors.
+                    adj[p, q] = adj[q, p] = True
+        return adj
+
+    return build_graph(data, rows, cols, midpoint, adj)
