@@ -141,10 +141,12 @@ def rand_index(X, Y):
 
     """
 
+    # TODO: handle unclustered genes
+
     agreements = 0.
     total_pairs = 0.
     n = len(X)
-    for i in range(n):
+    for i in range(n - 1):
         for j in range(i + 1, n):
             if (    (X[i] == X[j] and Y[i] == Y[j]) or
                     (X[i] != X[j] and Y[i] != Y[j])):
