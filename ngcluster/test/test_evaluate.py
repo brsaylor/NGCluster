@@ -6,7 +6,7 @@ import unittest
 
 import numpy as np
 
-from ngcluster.evaluate import fom, aggregate_fom
+from ngcluster.evaluate import fom, aggregate_fom, rand_index
 
 def dummy_clusters(data, k):
     """ Perform a dummy clustering of the data by alternately assigning rows
@@ -89,3 +89,32 @@ class TestAggregateFOM(unittest.TestCase):
             ])
         self.assertAlmostEqual(aggregate_fom(data, dummy_clusters, [k]),
                 139.7143912044)
+
+class TestRandIndex(unittest.TestCase):
+    """ Tests for rand_index """
+
+    def testZeroAgreement(self):
+        X = np.array([0, 1, 2]) # All in different clusters
+        Y = np.array([0, 0, 0]) # All in same cluster
+        self.assertEqual(rand_index(X, Y), 0.0)
+
+    def testPerfectAgreementDifferent(self):
+        X = np.array([0, 1, 2]) # All in different clusters
+        Y = np.array([0, 1, 2]) # All in different clusters
+        self.assertEqual(rand_index(X, Y), 1.0)
+
+    def testPerfectAgreementSame(self):
+        X = np.array([0, 0, 0]) # All in same cluster
+        Y = np.array([0, 0, 0]) # All in same cluster
+        self.assertEqual(rand_index(X, Y), 1.0)
+
+    def testHalfAgreement(self):
+        X = np.array([0, 0, 0, 0]) # All in same cluster
+        Y = np.array([0, 0, 0, 1]) # Half of the pairs are split
+        self.assertEqual(rand_index(X, Y), 0.5)
+
+    def testRand1971Example(self):
+        # This is from William Rand's 1971 paper that defined the index
+        X = np.array([0, 0, 0, 1, 1, 1])
+        Y = np.array([0, 0, 1, 1, 1, 2])
+        self.assertEqual(rand_index(X, Y), 0.6)

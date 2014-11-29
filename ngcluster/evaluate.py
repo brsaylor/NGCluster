@@ -5,6 +5,7 @@ Functions for evaluating clusterings
 from math import sqrt
 
 import numpy as np
+from numba import jit
 
 class ClusterEvaluationError(Exception):
     def __init__(self, value):
@@ -117,3 +118,36 @@ def aggregate_fom(data, fn, fn_args=[], fn_kwargs={}, adjust=True):
         result += fom(clusters, hidden_data, adjust)
 
     return result
+
+@jit(nopython=True)
+def rand_index(X, Y):
+    """
+    Calculate the Rand index of the two given clusterings.
+
+    Parameters
+    ----------
+    X : ndarray
+        A 1-dimensional array of length n, where n is the number of genes in the
+        clustered expression data, and each element is the cluster ID of the
+        corresponding gene, negative if that gene is not in any cluster.
+
+    Y : ndarray
+        A different clustering of the same genes, represented similarly to X.
+
+    Returns
+    -------
+    float
+        The non-adjusted Rand index of X and Y.
+
+    """
+
+    agreements = 0.
+    total_pairs = 0.
+    n = len(X)
+    for i in range(n):
+        for j in range(i + 1, n):
+            if (    (X[i] == X[j] and Y[i] == Y[j]) or
+                    (X[i] != X[j] and Y[i] != Y[j])):
+                agreements += 1
+            total_pairs += 1
+    return agreements / total_pairs
