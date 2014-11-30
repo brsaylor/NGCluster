@@ -5,6 +5,7 @@ Functions for evaluating clusterings
 from math import sqrt
 
 import numpy as np
+from scipy.spatial.distance import pdist, squareform
 from numba import jit
 
 class ClusterEvaluationError(Exception):
@@ -153,3 +154,97 @@ def rand_index(X, Y):
                 agreements += 1
             total_pairs += 1
     return agreements / total_pairs
+
+def silhouette_widths(clusters, data, metric='euclidean', dmatrix=None):
+    """
+    Calculate the silhouette widths for the given clustering.
+
+    Parameters
+    ----------
+    clusters : ndarray
+        A 1-dimensional array of length n, where n is the number of genes in the
+        clustered expression data, and each element is the cluster ID of the
+        corresponding gene, negative if that gene is not in any cluster.
+
+    data : ndarray, optional
+        The expression data, required to calculate pairwise distances if
+        if `dmatrix` is not supplied.
+
+    metric : string, optional
+        The distance metric to use if `dmatrix` is not supplied. Any metric
+        accepted by scipy.spatial.distance.pdist can be used - for example,
+        'euclidean' (default), 'correlation', 'cosine'.
+
+    dmatrix : ndarray, optional
+        A n by n distance matrix, required if `data` is not supplied.
+
+    Returns
+    -------
+    ndarray
+        A 1-dimensional array of length n, each element of which is the
+        silhouette width of the corresponding gene.
+    """
+
+    if dmatrix is None:
+        # Calculate distance matrix
+        dmatrix = squareform(pdist(data, metric))
+
+    widths = np.empty(len(clusters))  # Silhouette widths
+    k = int(clusters.max() + 1)       # Number of clusters
+    dsum = np.empty(k)                # Sum of distances by cluster
+    dcount = np.empty(k)              # Count of objects by cluster
+
+    @jit(nopython=True)
+    def compute_widths(dmatrix, clusters, k, widths, dsum, dcount):
+        n = len(dmatrix)
+
+        # For each object 'i'...
+        for i in range(n):
+
+            # (if 'i' is not in a cluster, set its width to 0)
+            if clusters[i] < 0:
+                widths[i] = 0.
+                continue
+
+            for c in range(k):
+                dsum[c] = 0.
+                dcount[c] = 0.
+
+            # ...calculate the average distance 'a' to all other objects 'j' in
+            # the same cluster, and the average distance 'd[c]' to the objects
+            # 'j' in each other cluster 'c'. Let 'b' be the minimum value of
+            # 'd[c]' for object i.
+            for j in range(n):
+                if i == j:
+                    continue
+                c = clusters[j]
+
+                # Skip 'j' if it is not in a cluster
+                if c < 0:
+                    continue
+
+                dsum[c] += dmatrix[i, j]
+                dcount[c] += 1
+
+            # If 'i' is the only object in its cluster, then its silhouette
+            # width is 0.
+            if dcount[clusters[i]] == 0:
+                widths[i] = 0.
+                continue
+
+            # Calculate 'a' and 'b'
+            b = np.inf
+            for c in range(k):
+                if c == clusters[i]:
+                    a = dsum[c] / dcount[c]
+                else:
+                    d = dsum[c] / dcount[c]
+                    if d < b:
+                        b = d
+
+            # Silhouette width for object i
+            widths[i] = (b - a) / max(a, b)
+
+        return widths
+
+    return compute_widths(dmatrix, clusters, k, widths, dsum, dcount)
