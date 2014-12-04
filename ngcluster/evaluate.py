@@ -123,7 +123,16 @@ def aggregate_fom(data, fn, fn_args=[], fn_kwargs={}, adjust=True):
 @jit(nopython=True)
 def rand_index(X, Y):
     """
-    Calculate the Rand index of the two given clusterings.
+    Calculate the Rand index of the two given clusterings X and Y.
+
+    One or both of the clusterings can contain unclustered objects. If an object
+    is unclustered in both X and Y, it is removed from consideration. If an
+    object is clustered in X but not in Y, or vice versa, it will be included in
+    the calculations and its (negative) cluster ID will be treated like any
+    other.
+
+    To compare X and Y based only on objects clustered in both, first set all
+    cluster ID's in X to negative where they are negative in Y, and vice versa.
 
     Parameters
     ----------
@@ -142,17 +151,28 @@ def rand_index(X, Y):
 
     """
 
-    # TODO: handle unclustered genes
-
     agreements = 0.
     total_pairs = 0.
     n = len(X)
+
     for i in range(n - 1):
+
+        # Skip gene i if both X and Y do not include it in a cluster
+        if X[i] < 0 and Y[i] < 0:
+            continue
+
         for j in range(i + 1, n):
+
+            # Skip gene j if both X and Y do not include it in a cluster
+            if X[j] < 0 and Y[j] < 0:
+                continue
+
             if (    (X[i] == X[j] and Y[i] == Y[j]) or
                     (X[i] != X[j] and Y[i] != Y[j])):
                 agreements += 1
+
             total_pairs += 1
+
     return agreements / total_pairs
 
 def silhouette_widths(clusters, data, metric='euclidean', dmatrix=None):

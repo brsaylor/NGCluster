@@ -120,6 +120,16 @@ class TestRandIndex(unittest.TestCase):
         Y = np.array([0, 0, 1, 1, 1, 2])
         self.assertEqual(rand_index(X, Y), 0.6)
 
+    def testZeroAgreementWithUnclustered(self):
+        X = np.array([0, 1, 2, -1]) # All in different clusters
+        Y = np.array([0, 0, 0, -1]) # All in same cluster
+        self.assertEqual(rand_index(X, Y), 0.0)
+
+    def testHalfAgreementWithUnclustered(self):
+        X = np.array([0, 0, 0, 0, -1]) # All in same cluster
+        Y = np.array([0, 0, 0, 1, -1]) # Half of the pairs are split
+        self.assertEqual(rand_index(X, Y), 0.5)
+
 class TestSilhouetteWidths(unittest.TestCase):
     """ Tests for silhouette_widths """
 
