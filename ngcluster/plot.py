@@ -3,6 +3,7 @@ Functions for plotting clustering results
 """
 
 import matplotlib.pyplot as plt
+from matplotlib.backends.backend_pdf import PdfPages
 
 def plot_cluster_expression(names, data, clusters):
     """
@@ -42,3 +43,20 @@ def plot_cluster_expression(names, data, clusters):
             plt.plot(range(1, len(row) + 1), row)
 
     return figs
+
+def save_pdf(figures, filename):
+    """
+    Save the given figures to a PDF file, one figure per page.
+
+    Parameters
+    ----------
+    figures : list of matplotlib.figure.Figure
+        A list of figures to save.
+
+    filename : string
+        The name of the output PDF file to create.
+    """
+
+    with PdfPages(filename) as pdf:
+        for fig in figures:
+            fig.savefig(pdf, format='pdf')
