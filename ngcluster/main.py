@@ -70,13 +70,17 @@ def main(datadir, outdir, run_configs):
         log("Running configuration " + key)
         log("Description: " + config['description'])
 
+        cluster_fn, cluster_kwargs = config['cluster']
+        graph_fn, graph_kwargs = config.get('graph', (None, None))
+        if graph_fn:
+            cluster_kwargs.update({'fn': graph_fn, 'fn_kwargs': graph_kwargs})
+
         log("Calculating aggregate FOM")
-        fom = aggregate_fom(
-                data, config['fn'], config['fn_args'], config['fn_kwargs'])
+        fom = aggregate_fom(data, cluster_fn, [], cluster_kwargs)
         log("Aggregate FOM = {0}".format(fom))
 
         log("Clustering entire dataset")
-        clusters = config['fn'](data, *config['fn_args'], **config['fn_kwargs'])
+        clusters = cluster_fn(data, **cluster_kwargs)
 
         num_clusters = clusters.max() + 1
         log("{0} clusters generated".format(num_clusters))
