@@ -2,6 +2,8 @@
 Functions for creating neighborhood graphs from expression data
 """
 
+from math import isnan
+
 import numpy as np
 from numba import jit
 
@@ -84,9 +86,11 @@ def relative_neighborhood_graph(data):
         An adjacency matrix represented by an n*n array of boolean values.
     """
 
-    # Compute correlation matrix, replacing NaN (due to all-zero rows) with 0
-    with np.errstate(invalid='ignore'):
-        corr = np.nan_to_num(np.corrcoef(data))
+    # Compute correlation matrix.
+    # There are some all-zero rows resulting in NaN for the corresponding
+    # correlations; these are skipped when computing the graph.
+    with np.errstate(invalid='ignore'): # Supress warnings from all-zero rows
+        corr = np.corrcoef(data)
 
     adj = np.zeros(corr.shape, dtype=bool)
 
@@ -96,10 +100,15 @@ def relative_neighborhood_graph(data):
         # For each pair of points (p, q)...
         for p in range(corr.shape[0] - 1):
             for q in range(p + 1, corr.shape[0]):
+
+                if isnan(corr[p, q]):
+                    continue
+
                 # ...if there is no other point z closer to both p and q than
                 # they are to each other...
                 for z in range(corr.shape[0]):
-                    if z == p or z == q:
+                    if (z == p or z == q or
+                            isnan(corr[p, z]) or isnan(corr[q, z])):
                         continue
                     if corr[p, z] > corr[p, q] and corr[q, z] > corr[p, q]:
                         # (don't add an edge)
