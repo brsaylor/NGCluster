@@ -3,6 +3,7 @@ import sys
 import datetime
 
 import numpy as np
+import matplotlib.pyplot as plt
 
 from ngcluster.config import configurations
 from ngcluster.graph import threshold_graph
@@ -97,6 +98,7 @@ def main(datadir, outdir, run_configs):
         log("Plotting cluster expression levels")
         figs = plot_cluster_expression(names, data, clusters)
         save_pdf(figs, os.path.join(config_outdir, key + '-figures.pdf'))
+        plt.close('all')
 
         log("Finished running configuration {0}".format(key))
         log(datetime.datetime.now().strftime('%c'))
