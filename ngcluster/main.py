@@ -5,10 +5,10 @@ import datetime
 import numpy as np
 import matplotlib.pyplot as plt
 
-from ngcluster.config import configurations
+from ngcluster.config import configurations, external_cluster_files
 from ngcluster.graph import threshold_graph
 from ngcluster.cluster import graph_clusters
-from ngcluster.evaluate import aggregate_fom
+from ngcluster.evaluate import aggregate_fom, rand_index
 from ngcluster.plot import plot_cluster_expression, save_pdf
 
 def main(datadir, outdir, run_configs):
@@ -60,6 +60,11 @@ def main(datadir, outdir, run_configs):
                 print("Error: '{0}' is not a valid configuration".format(key))
                 sys.exit(1)
 
+    external_clusterings = [
+            (filename,
+                load_external_clusters(names, os.path.join(datadir, filename)))
+            for filename in external_cluster_files]
+
     for key in run_configs:
         config = configurations[key]
         config_outdir = os.path.join(outdir, key)
@@ -91,9 +96,13 @@ def main(datadir, outdir, run_configs):
                 .format(clustered_genes, total_genes,
                     round(100 * float(clustered_genes) / total_genes)))
 
-        clusters_outdata = np.vstack((clusters, names)).transpose()
+        clusters_outdata = np.vstack((names, clusters)).transpose()
         np.savetxt(os.path.join(config_outdir, key + '-clusters.txt'),
                 clusters_outdata, fmt='%s')
+
+        for ext_filename, ext_clusters in external_clusterings:
+            rand_index_val = rand_index(clusters, ext_clusters)
+            log("Rand index = {0} ({1})".format(rand_index_val, ext_filename))
 
         log("Plotting cluster expression levels")
         figs = plot_cluster_expression(names, data, clusters)
@@ -104,3 +113,63 @@ def main(datadir, outdir, run_configs):
         log(datetime.datetime.now().strftime('%c'))
         print()
         logfile.close()
+
+def load_external_clusters(names, filename):
+    """
+    Load cluster assignments from an external file.
+
+    Parameters
+    ----------
+    names : ndarray
+        The array of gene names.
+
+    filename : string
+        The full path to the file to load. The file should be a text file with
+        two columns delimited by whitespace. The first column should contain the
+        names of the clustered genes, and the second column should contain
+        integer cluster IDs or arbitrary cluster labels. It is an error to mix
+        the two. In the case of integer IDs, a negative value indicates that the
+        corresponding gene is not in a cluster.
+
+    Returns
+    -------
+    ndarray
+        An array of cluster assignments in the same format as returned by the
+        functions in ngcluster.cluster.
+    """
+
+    clusters = np.empty(len(names), dtype=int)
+    clusters.fill(-1)
+
+    # Map gene names to their positions in the data
+    gene_id_lookup = {name: i for i, name in enumerate(names)}
+
+    # Given a cluster label or cluster ID, return an integer cluster ID
+    label_type = None
+    cluster_id_lookup = {}
+    next_cluster_id = 0
+    def get_cluster_id(label):
+        nonlocal label_type, cluster_id_lookup, next_cluster_id
+        if label_type is None:
+            try:
+                cluster_id = int(label)
+                label_type = int
+            except ValueError:
+                label_type = str
+        if label_type is int:
+            cluster_id = int(label)
+        elif label not in cluster_id_lookup:
+            cluster_id = next_cluster_id
+            cluster_id_lookup[label] = cluster_id
+            next_cluster_id += 1
+        else:
+            cluster_id = cluster_id_lookup[label]
+
+        return cluster_id
+
+    with open(filename, 'r') as f:
+        for line in f:
+            gene_name, cluster_label = line.split()
+            clusters[gene_id_lookup[gene_name]] = get_cluster_id(cluster_label)
+
+    return clusters
