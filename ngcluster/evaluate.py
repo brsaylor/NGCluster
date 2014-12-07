@@ -268,3 +268,38 @@ def silhouette_widths(clusters, data, metric='euclidean', dmatrix=None):
         return widths
 
     return compute_widths(dmatrix, clusters, k, widths, dsum, dcount)
+
+def silhouette_stats(clusters, widths):
+    """
+    Compute per-cluster statistics on silhouette widths.
+
+    Parameters
+    ----------
+    clusters : ndarray
+        A 1-dimensional array of length n, where n is the number of genes in the
+        clustered expression data, and each element is the cluster ID of the
+        corresponding gene, negative if that gene is not in any cluster.
+
+    widths : ndarray
+        An array returned by silhouette_widths which was passed the same
+        clusters array.
+
+    Returns
+    -------
+    ndarray
+        A k by 4 array, where k is the number of clusters. Each row contains the
+        count, mean, min, and max silhouette_widths for the corresponding
+        cluster.
+    """
+
+    k = int(clusters.max() + 1)
+    stats = np.empty((k, 4))
+
+    for i in range(k):
+        cwidths = widths[clusters == i]
+        stats[i, 0] = cwidths.size
+        stats[i, 1] = cwidths.mean()
+        stats[i, 2] = cwidths.min()
+        stats[i, 3] = cwidths.max()
+
+    return stats

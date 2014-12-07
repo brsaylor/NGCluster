@@ -7,7 +7,8 @@ import unittest
 import numpy as np
 from numpy.testing import assert_array_equal, assert_array_almost_equal
 
-from ngcluster.evaluate import fom, aggregate_fom, rand_index, silhouette_widths
+from ngcluster.evaluate import (fom, aggregate_fom, rand_index,
+        silhouette_widths, silhouette_stats)
 
 def dummy_clusters(data, k):
     """ Perform a dummy clustering of the data by alternately assigning rows
@@ -255,3 +256,16 @@ class TestSilhouetteWidths(unittest.TestCase):
         #          = 0.365676057597283
         correct = np.array([1, 1, -0.3936609374091676, 0.365676057597283])
         assert_array_almost_equal(silhouette_widths(clusters, data), correct)
+
+class TestSilhouetteStats(unittest.TestCase):
+    """ Tests for silhouette_stats """
+
+    def test1(self):
+        clusters = np.array([0, 0, 1, 1, 2, 2, -1])
+        widths =   np.array([1, 2, 3, 4, 5, 6, 100])
+        stats = np.array([
+            [2, 1.5, 1, 2],
+            [2, 3.5, 3, 4],
+            [2, 5.5, 5, 6],
+            ])
+        assert_array_equal(silhouette_stats(clusters, widths), stats)
