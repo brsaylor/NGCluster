@@ -287,19 +287,29 @@ def silhouette_stats(clusters, widths):
     Returns
     -------
     ndarray
-        A k by 4 array, where k is the number of clusters. Each row contains the
-        count, mean, min, and max silhouette_widths for the corresponding
-        cluster.
+        A structured array with length equal to the number of clusters, and the
+        following fields with statistics for silhouette widths by cluster:
+        cluster, count, mean, min, max
+        The records are sorted by mean silhouette width.
     """
 
     k = int(clusters.max() + 1)
-    stats = np.empty((k, 4))
+    stats = np.empty(k, dtype=[
+        ('cluster', 'i4'),
+        ('count', 'i4'),
+        ('mean', 'f8'),
+        ('min', 'f8'),
+        ('max', 'f8'),
+        ])
 
     for i in range(k):
         cwidths = widths[clusters == i]
-        stats[i, 0] = cwidths.size
-        stats[i, 1] = cwidths.mean()
-        stats[i, 2] = cwidths.min()
-        stats[i, 3] = cwidths.max()
+        stats['cluster'][i] = i
+        stats['count'][i] = cwidths.size
+        stats['mean'][i] = cwidths.mean()
+        stats['min'][i] = cwidths.min()
+        stats['max'][i] = cwidths.max()
+
+    stats.sort(order=['mean'])
 
     return stats
