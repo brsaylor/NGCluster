@@ -2,7 +2,7 @@
 Functions for evaluating clusterings
 """
 
-from math import sqrt
+from math import sqrt, isnan
 
 import numpy as np
 from scipy.spatial.distance import pdist, squareform
@@ -239,8 +239,9 @@ def silhouette_widths(clusters, data, metric='euclidean', dmatrix=None):
                     continue
                 c = clusters[j]
 
-                # Skip 'j' if it is not in a cluster
-                if c < 0:
+                # Skip 'j' if it is not in a cluster,
+                # or if its distance to i is undefined.
+                if c < 0 or isnan(dmatrix[i, j]):
                     continue
 
                 dsum[c] += dmatrix[i, j]
