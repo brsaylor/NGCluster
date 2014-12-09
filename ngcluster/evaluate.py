@@ -49,6 +49,9 @@ def fom(clusters, hidden_data, adjust=True):
     num_clustered_genes = 0
     num_clusters = clusters.max() + 1
 
+    if num_clusters <= 0:
+        raise ClusterEvaluationError("There are no clusters")
+
     # Calculate the sum of squared deviations from cluster means
     for i in range(num_clusters):
         cluster_data = hidden_data[clusters == i]

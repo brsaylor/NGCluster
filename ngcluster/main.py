@@ -6,10 +6,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from ngcluster.config import configurations, external_cluster_files
-from ngcluster.graph import threshold_graph
-from ngcluster.cluster import graph_clusters
-from ngcluster.evaluate import (aggregate_fom, rand_index, silhouette_widths,
-        silhouette_stats)
+from ngcluster.evaluate import (ClusterEvaluationError, aggregate_fom,
+        rand_index, silhouette_widths, silhouette_stats)
 from ngcluster.plot import plot_cluster_expression, save_pdf
 
 def main(datadir, outdir, run_configs):
@@ -83,14 +81,20 @@ def main(datadir, outdir, run_configs):
             cluster_kwargs.update({'fn': graph_fn, 'fn_kwargs': graph_kwargs})
 
         log("Calculating aggregate FOM")
-        fom = aggregate_fom(data, cluster_fn, [], cluster_kwargs)
-        log("Aggregate FOM = {0}".format(fom))
+        try:
+            fom = aggregate_fom(data, cluster_fn, [], cluster_kwargs)
+            log("Aggregate FOM = {0}".format(fom))
+        except ClusterEvaluationError as e:
+            log("Cannot calculate aggregate FOM: {0}".format(e))
 
         log("Clustering entire dataset")
         clusters = cluster_fn(data, **cluster_kwargs)
 
         num_clusters = clusters.max() + 1
         log("{0} clusters generated".format(num_clusters))
+        if num_clusters <= 0:
+            log("Error: There are no clusters. Skipping configuration")
+            continue
         total_genes = len(data)
         clustered_genes = (clusters >= 0).sum()
         log("{0} of {1} genes clustered ({2}%)"
