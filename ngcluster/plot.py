@@ -29,7 +29,7 @@ def plot_cluster_expression(names, data, clusters):
         subplot is a plot of the expression data for the genes in one cluster.
     """
 
-    plots_per_fig = 2
+    plots_per_fig = 1
 
     num_clusters = clusters.max() + 1
     figs = []
