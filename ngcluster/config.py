@@ -48,4 +48,5 @@ configurations = OrderedDict([
 # index. The main program will look for these files in the data directory.
 external_cluster_files = [
         'threshold_graph_default-clusters.txt',
+        'gene_association.txt',
         ]

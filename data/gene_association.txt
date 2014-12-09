@@ -1,0 +1,2599 @@
+YFR019W	1-phosphatidylinositol-3-phosphate 5-kinase
+YLR343W	1,3-beta-glucanosyltransferase
+YHR044C	2-deoxyglucose-6-phosphate phosphatase
+YBR026C	2-enoyl thioester reductase
+YPR006C	2-methylisocitrate lyase of the mitochondrial matrix
+YBR061C	2'-O-ribose methyltransferase
+YDR035W	3-deoxy-D-arabino-heptulosonate-7-phosphate (DAHP) synthase
+YKR009C	3-hydroxyacyl-CoA dehydrogenase and enoyl-CoA hydratase
+YJR025C	3-hydroxyanthranilic acid dioxygenase
+YER142C	3-methyl-adenine DNA glycosylase
+YOL151W	3-methylbutanal reductase and NADPH-dependent methylglyoxal reductase
+YER081W	3-phosphoglycerate dehydrogenase
+YCR012W	3-phosphoglycerate kinase
+YDR487C	3,4-dihydroxy-2-butanone-4-phosphate synthase (DHBP synthase)
+YPR167C	3'-phosphoadenylsulfate reductase
+YER099C	5-phospho-ribosyl-1(alpha)-pyrophosphate synthetase, synthesizes PRPP
+YBL068W	5-phospho-ribosyl-1(alpha)-pyrophosphate synthetase, synthesizes PRPP
+YER171W	5' to 3' DNA helicase
+YKL113C	5' to 3' exonuclease, 5' flap endonuclease
+YAL027W	5'- and 3'-flap DNA binding protein
+YIL107C	6-phosphofructo-2-kinase
+YNR058W	7,8-diamino-pelargonic acid aminotransferase (DAPA)
+YLR151C	8-oxo-dGTP diphosphatase
+YJR142W	8-oxo-dGTP diphosphatase of the Nudix hydrolase family
+YPR173C	AAA-ATPase involved in multivesicular body (MVB) protein sorting
+YKL197C	AAA-peroxin
+YNL329C	AAA-peroxin
+YLR355C	Acetohydroxyacid reductoisomerase and mtDNA binding protein
+YMR108W	Acetolactate synthase
+YAL054C	Acetyl-coA synthetase isoform
+YDR517W	Acetylated cis-Golgi protein, involved in ER to Golgi transport
+YER069W	Acetylglutamate kinase and N-acetyl-gamma-glutamyl-phosphate reductase
+YJL071W	Acetylglutamate synthase (glutamate N-acetyltransferase)
+YOL140W	Acetylornithine aminotransferase
+YFR027W	Acetyltransferase
+YPR026W	Acid trehalase required for utilization of extracellular trehalose
+YMR009W	Acireductone dioxygenease involved in the methionine salvage pathway
+YLR304C	Aconitase
+YFL039C	Actin
+YOR181W	Actin assembly factor
+YMR092C	Actin cortical patch component
+YLR319C	Actin- and formin-interacting protein
+YDR388W	Actin-associated protein with roles in endocytosis and exocytosis
+YHR016C	Actin-binding protein
+YHR129C	Actin-related protein of the dynactin complex
+YGL116W	Activator of anaphase-promoting complex/cyclosome (APC/C)
+YBL061C	Activator of Chs3p (chitin synthase III) during vegetative growth
+YOR066W	Activator of G1-specific transcription factors MBF and SBF
+YNR019W	Acyl-CoA:sterol acyltransferase
+YPR049C	Adapter protein for pexophagy and the Cvt targeting pathway
+YCL032W	Adaptor protein for various signaling pathways
+YDR323C	Adaptor protein involved in vesicle-mediated vacuolar protein sorting
+YNL243W	Adaptor protein that links actin to clathrin and endocytosis
+YJR105W	Adenosine kinase
+YNL220W	Adenylosuccinate synthase
+YKL001C	Adenylylsulfate kinase
+YGL032C	Adhesion subunit of a-agglutinin of a-cells
+YCL054W	AdoMet-dependent methyltransferase
+YOL141W	AdoMet-dependent tRNA methyltransferase
+YDL192W	ADP-ribosylation factor
+YDR524C	ADP-ribosylation factor (ARF) GTPase activating protein (GAP) effector
+YNL083W	ADP/ATP transporter
+YBR028C	AGC kinase
+YLR089C	Alanine transaminase (glutamic pyruvic transaminase)
+YFL030W	Alanine:glyoxylate aminotransferase (AGT)
+YOR377W	Alcohol acetyltransferase
+YBR145W	Alcohol dehydrogenase isoenzyme V
+YHR104W	Aldose reductase
+YBR183W	Alkaline ceramidase
+YPL087W	Alkaline dihydroceramidase, involved in sphingolipid metabolism
+YIR029W	Allantoicase
+YOL038W	Alpha 4 subunit of the 20S proteasome
+YOR362C	Alpha 7 subunit of the 20S proteasome
+YJL084C	Alpha arrestin
+YKR021W	Alpha arrestin, substrate of calcineurin
+YDR212W	Alpha subunit of chaperonin-containing T-complex
+YFL022C	Alpha subunit of cytoplasmic phenylalanyl-tRNA synthetase
+YPL231W	Alpha subunit of fatty acid synthetase
+YOR142W	Alpha subunit of succinyl-CoA ligase
+YJR131W	Alpha-1,2-mannosidase
+YER001W	Alpha-1,3-mannosyltransferase
+YJR075W	Alpha-1,6-mannosyltransferase
+YBL037W	Alpha-adaptin
+YJR004C	Alpha-agglutinin of alpha-cells
+YIL172C	Alpha-glucosidase
+YJL221C	Alpha-glucosidase
+YDL247W	Alpha-glucoside permease
+YJR160C	Alpha-glucoside permease
+YBL050W	Alpha-SNAP cochaperone
+YNL148C	Alpha-tubulin folding protein
+YOR061W	Alpha' catalytic subunit of casein kinase 2 (CK2)
+YDR046C	Amino acid permease
+YER166W	Aminophospholipid translocase (flippase)
+YNL142W	Ammonium permease involved in regulation of pseudohyphal growth
+YML035C	AMP deaminase
+YDR477W	AMP-activated serine/threonine protein kinase
+YNR044W	Anchorage subunit of a-agglutinin of a-cells
+YJR092W	Anillin-like protein involved in bud-site selection
+YDL197C	Anti-silencing protein
+YDR423C	AP-1-like basic leucine zipper (bZIP) transcriptional activator
+YER005W	Apyrase with wide substrate specificity
+YLL043W	Aquaglyceroporin, plasma membrane channel
+YDR465C	Arginine N5 methyltransferase
+YNL270C	Arginine transporter
+YHR018C	Argininosuccinate lyase
+YOL058W	Arginosuccinate synthetase
+YHR137W	Aromatic aminotransferase II
+YPR200C	Arsenate reductase required for arsenate resistance
+YDR505C	Asn and gln rich protein of unknown function
+YDR158W	Aspartic beta semi-aldehyde dehydrogenase
+YLR121C	Aspartic protease
+YIL015W	Aspartyl protease
+YLL018C	Aspartyl-tRNA synthetase, primarily cytoplasmic
+YER168C	ATP (CTP):tRNA-specific tRNA nucleotidyltransferase
+YPL226W	ATP binding cassette protein
+YJR010W	ATP sulfurylase
+YIL013C	ATP-binding cassette (ABC) transporter
+YLL024C	ATP-binding protein
+YNL082W	ATP-binding protein required for mismatch repair
+YJL050W	ATP-dependent 3'-5' RNA helicase of the DExD/H family
+YOR304W	ATP-dependent DNA translocase involved in chromatin remodeling
+YMR290C	ATP-dependent RNA helicase
+YPL029W	ATP-dependent RNA helicase
+YNL112W	ATP-dependent RNA helicase of the DEAD-box protein family
+YMR080C	ATP-dependent RNA helicase of the SFI superfamily
+YDL110C	ATPase dedicated chaperone that adapts proteasome assembly to stress
+YAL005C	ATPase involved in protein folding and NLS-directed nuclear transport
+YBL075C	ATPase involved in protein folding and the response to stress
+YDR394W	ATPase of the 19S regulatory particle of the 26S proteasome
+YBR245C	ATPase subunit of imitation-switch (ISWI) class chromatin remodelers
+YPL209C	Aurora kinase of conserved chromosomal passenger complex
+YHR171W	Autophagy-related protein and dual specificity member of the E1 family
+YPL166W	Autophagy-specific protein
+YDR022C	Autophagy-specific protein required for autophagosome formation
+YBL035C	B subunit of DNA polymerase alpha-primase complex
+YGR108W	B-type cyclin involved in cell cycle progression
+YPR119W	B-type cyclin involved in cell cycle progression
+YPR120C	B-type cyclin involved in DNA replication during S phase
+YGR109C	B-type cyclin involved in DNA replication during S phase
+YOL164W	Bacterially-derived sulfatase
+YIL041W	BAR domain protein that localizes to early and late Golgi vesicles
+YIR018W	Basic leucine zipper (bZIP) iron-sensing transcription factor
+YDR259C	Basic leucine zipper (bZIP) transcription factor
+YOR077W	Basic zinc-finger protein
+YJL001W	Beta 1 subunit of the 20S proteasome
+YER012W	Beta 4 subunit of the 20S proteasome
+YBL041W	Beta 6 subunit of the 20S proteasome
+YLR060W	Beta subunit of cytoplasmic phenylalanyl-tRNA synthetase
+YKL182W	Beta subunit of fatty acid synthetase
+YGL155W	Beta subunit of geranylgeranyltransferase type I
+YLR291C	Beta subunit of the translation initiation factor eIF2B
+YPR176C	Beta subunit of Type II geranylgeranyltransferase
+YCL018W	Beta-isopropylmalate dehydrogenase (IMDH)
+YFR055W	Beta-lyase involved in the production of thiols
+YOR032C	bHLH protein with similarity to myc-family transcription factors
+YBL103C	bHLH/Zip transcription factor for retrograde (RTG) and TOR pathways
+YDL168W	Bifunctional alcohol dehydrogenase and formaldehyde dehydrogenase
+YBR213W	Bifunctional dehydrogenase and ferrochelatase
+YIL124W	Bifunctional triacylglycerol lipase and 1-acyl DHAP reductase
+YGR286C	Biotin synthase
+YDL141W	Biotin:apoprotein ligase
+YOL064C	Bisphosphate-3'-nucleotidase
+YIR043C	Blocked reading frame
+YIL167W	Blocked reading frame otherwise encoding L-serine dehydratase
+YOR175C	Broad-specificity lysophospholipid acyltransferase
+YJL051W	Bud tip localized protein of unknown function
+YIR017C	bZIP transcriptional activator in the Cbf1p-Met4p-Met28p complex
+YMR202W	C-8 sterol isomerase
+YJL089W	C6 zinc cluster transcriptional activator
+YBR295W	Cadmium transporting P-type ATPase
+YKL190W	Calcineurin B
+YBR109C	Calmodulin
+YOL016C	Calmodulin-dependent protein kinase
+YMR154C	Calpain-like cysteine protease
+YJL164C	cAMP-dependent protein kinase catalytic subunit
+YPL203W	cAMP-dependent protein kinase catalytic subunit
+YKL166C	cAMP-dependent protein kinase catalytic subunit
+YDR216W	Carbon source-responsive zinc-finger transcription factor
+YDR435C	Carboxyl methyltransferase
+YDL142C	Cardiolipin synthase
+YML042W	Carnitine acetyl-CoA transferase
+YDR256C	Catalase A
+YKL139W	Catalytic (alpha) subunit of C-terminal domain kinase I (CTDK-I)
+YDL008W	Catalytic core subunit, Anaphase-Promoting Complex/Cyclosome (APC/C)
+YDR211W	Catalytic epsilon subunit of the translation initiation factor eIF2B
+YGR032W	Catalytic subunit of 1,3-beta-glucan synthase
+YDR165W	Catalytic subunit of a tRNA methyltransferase complex
+YOL124C	Catalytic subunit of adoMet-dependent tRNA methyltransferase complex
+YDL102W	Catalytic subunit of DNA polymerase delta
+YMR035W	Catalytic subunit of mitochondrial inner membrane peptidase complex
+YDL216C	Catalytic subunit of the COP9 signalosome (CSN) complex
+YNL102W	Catalytic subunit of the DNA polymerase I alpha-primase complex
+YPR131C	Catalytic subunit of the NatB N-terminal acetyltransferase
+YPR051W	Catalytic subunit of the NatC type N-terminal acetyltransferase
+YOR290C	Catalytic subunit of the SWI/SNF chromatin remodeling complex
+YDR111C	Catalytically inactive alanine transaminase
+YHL007C	Cdc42p-activated signal transducing kinase
+YJL157C	CDK inhibitor and nuclear anchor
+YNL176C	Cell cycle-regulated gene of unknown function
+YMR232W	Cell fusion regulator
+YPL163C	Cell wall and vacuolar protein
+YLR110C	Cell wall mannoprotein
+YJR150C	Cell wall mannoprotein
+YJR151C	Cell wall mannoprotein
+YER011W	Cell wall mannoprotein
+YIL011W	Cell wall mannoprotein
+YKL096W	Cell wall mannoprotein that localizes to birth scars of daughter cells
+YDR134C	Cell wall protein
+YDR055W	Cell wall protein that contains a putative GPI-attachment site
+YMR305C	Cell wall protein with similarity to glucanases
+YGL028C	Cell wall protein with similarity to glucanases
+YJL078C	Cell wall-associated protein involved in export of acetylated sterols
+YNL160W	Cell wall-related secretory glycoprotein
+YLR158C	Cell-wall L-asparaginase II involved in asparagine catabolism
+YGL227W	Central component of GID Complex, involved in FBPase degradation
+YGL060W	Central kinetochore associated protein
+YDR383C	Central kinetochore protein and subunit of the Ctf19 complex
+YKL042W	Central plaque component of spindle pole body (SPB)
+YKL008C	Ceramide synthase component
+YBR173C	Chaperone required for correct maturation of the 20S proteasome
+YDR079W	Chaperone that facilitates the assembly of cytochrome c oxidase
+YOR368W	Checkpoint protein
+YNL192W	Chitin synthase I
+YBR038W	Chitin synthase II
+YBR023C	Chitin synthase III
+YGR189C	Chitin transglycosylase
+YLR133W	Choline kinase
+YPR135W	Chromatin-associated protein
+YDL010W	Cis-golgi localized monothiol glutaredoxin, binds Fe-S cluster
+YDL099W	Cis-golgi localized protein involved in ER to Golgi transport
+YBR002C	Cis-prenyltransferase involved in dolichol synthesis
+YNR001C	Citrate synthase
+YCR005C	Citrate synthase
+YPR068C	Class I histone deacetylase (HDAC) family member
+YMR161W	Co-chaperone for Hsp40p
+YDR214W	Co-chaperone that binds Hsp82p and activates its ATPase activity
+YFL016C	Co-chaperone that stimulates HSP70 protein Ssc1p ATPase activity
+YNL227C	Co-chaperone that stimulates the ATPase activity of Ssa1p
+YLR223C	Coactivator, regulates transcription of ribosomal protein (RP) genes
+YMR076C	Cohesion maintenance factor
+YMR255W	Coiled-coiled protein of unknown function
+YGL128C	Component of a complex containing Cef1p
+YBL078C	Component of autophagosomes and Cvt vesicles
+YMR033W	Component of both the SWI/SNF and RSC chromatin remodeling complexes
+YGR275W	Component of both the SWI/SNF and RSC chromatin remodeling complexes
+YCR060W	Component of conserved R2TP complex (Rvb1-Rvb2-Tah1-Pih1)
+YDR495C	Component of CORVET membrane tethering complex
+YMR086W	Component of eisosome required for proper eisosome assembly
+YDR255C	Component of GID Complex that confers ubiquitin ligase (U3) activity
+YNL191W	Component of glutamine amidotransferase (GATase II)
+YCL052C	Component of glycosylphosphatidylinositol-mannosyltransferase I
+YMR263W	Component of Rpd3L histone deacetylase complex
+YIL132C	Component of Shu complex (aka PCSS complex)
+YLR376C	Component of Shu complex (aka PCSS complex)
+YOR078W	Component of small ribosomal subunit (SSU) processosome
+YNL164C	Component of the BUB2-dependent spindle checkpoint pathway
+YAL021C	Component of the CCR4-NOT transcriptional complex
+YNL051W	Component of the conserved oligomeric Golgi complex
+YNL041C	Component of the conserved oligomeric Golgi complex
+YBL014C	Component of the core factor (CF) rDNA transcription factor complex
+YPR046W	Component of the Ctf19 complex and the COMA subcomplex
+YGL090W	Component of the DNA ligase IV complex
+YKR007W	Component of the EGO and GSE complexes
+YMR031C	Component of the eisosome required for proper eisosome assembly
+YLR119W	Component of the ESCRT-I complex
+YCL008C	Component of the ESCRT-I complex
+YPL002C	Component of the ESCRT-II complex
+YKR020W	Component of the GARP (Golgi-associated retrograde protein) complex
+YKL143W	Component of the GSE complex
+YOR189W	Component of the INO80 chromatiin remodeling complex
+YIL144W	Component of the kinetochore-associated Ndc80 complex
+YOL069W	Component of the kinetochore-associated Ndc80 complex
+YMR117C	Component of the kinetochore-associated Ndc80 complex
+YER018C	Component of the kinetochore-associated Ndc80 complex
+YML115C	Component of the mannan polymerase I
+YLR274W	Component of the Mcm2-7 hexameric helicase complex
+YBR202W	Component of the Mcm2-7 hexameric helicase complex
+YOR177C	Component of the meiotic outer plaque
+YOL091W	Component of the meiotic outer plaque of the spindle pole body
+YGL170C	Component of the meiotic outer plaque of the spindle pole body
+YBR262C	Component of the MICOS complex
+YHR172W	Component of the microtubule-nucleating Tub4p (gamma-tubulin) complex
+YNL126W	Component of the microtubule-nucleating Tub4p (gamma-tubulin) complex
+YOR297C	Component of the mitochondrial TIM22 complex
+YIL106W	Component of the mitotic exit network
+YBL034C	Component of the mitotic spindle
+YLR455W	Component of the NuA3b histone acetyltransferase complex
+YOR123C	Component of the Paf1 complex
+YOL145C	Component of the Paf1p complex involved in transcription elongation
+YBR279W	Component of the Paf1p complex involved in transcription elongation
+YLL021W	Component of the polarisome
+YPL009C	Component of the ribosome quality control complex (RQC)
+YGL151W	Component of the RNA polymerase II mediator complex
+YKL185W	Component of the Rpd3L histone deacetylase complex
+YAL013W	Component of the Rpd3L histone deacetylase complex
+YNL097C	Component of the Rpd3L histone deacetylase complex
+YDL076C	Component of the Rpd3L histone deacetylase complex
+YBL006C	Component of the RSC chromatin remodeling complex
+YMR091C	Component of the RSC chromatin remodeling complex
+YNL049C	Component of the Sec23p-Sfb2p heterodimer of the COPII vesicle coat
+YCR063W	Component of the SF3b subcomplex of the U2 snRNP
+YPR094W	Component of the SF3b subcomplex of the U2 snRNP
+YBL004W	Component of the small-subunit (SSU) processome
+YGR090W	Component of the small-subunit processome
+YLR007W	Component of the SMC5-SMC6 complex
+YDR288W	Component of the SMC5-SMC6 complex
+YDL105W	Component of the SMC5-SMC6 complex
+YLR383W	Component of the SMC5-SMC6 complex
+YOR073W	Component of the spindle checkpoint
+YOR373W	Component of the spindle pole body outer plaque
+YDR160W	Component of the SPS plasma membrane amino acid sensor system
+YDR299W	Component of the SSU and 90S preribosomes
+YJR002W	Component of the SSU processome and 90S preribosome
+YOR279C	Component of the Sum1p-Rfm1p-Hst1p complex
+YBR231C	Component of the SWR1 complex
+YGR002C	Component of the Swr1p complex that incorporates Htz1p into chromatin
+YGR082W	Component of the TOM (translocase of outer membrane) complex
+YLR298C	Component of the U1 snRNP complex required for pre-mRNA splicing
+YDL098C	Component of the U4/U6.U5 snRNP complex
+YML010W	Component of the universally conserved Spt4/5 complex (DSIF complex)
+YMR294W	Component of the yeast dynactin complex
+YEL048C	Component of transport protein particle (TRAPP) complex II
+YDR108W	Component of transport protein particle (TRAPP) complex III
+YDR240C	Component of U1 snRNP required for mRNA splicing via spliceosome
+YBR070C	Component of UDP-GlcNAc transferase
+YCR057C	Conserved 90S pre-ribosomal component
+YNL223W	Conserved cysteine protease required for autophagy
+YDL042C	Conserved NAD+ dependent histone deacetylase of the Sirtuin family
+YLR114C	Conserved protein involved in exocytic transport from the Golgi
+YLR340W	Conserved ribosomal protein P0 of the ribosomal stalk
+YMR049C	Constituent of 66S pre-ribosomal particles
+YDR060W	Constituent of 66S pre-ribosomal particles
+YNL110C	Constituent of 66S pre-ribosomal particles
+YOR272W	Constituent of 66S pre-ribosomal particles
+YNL328C	Constituent of the mitochondrial import motor
+YBR092C	Constitutively expressed acid phosphatase similar to Pho5p
+YPL085W	COPII vesicle coat protein required for ER transport vesicle budding
+YBR037C	Copper-binding protein of mitochondrial inner membrane
+YGL166W	Copper-binding transcription factor
+YMR021C	Copper-sensing transcription factor
+YDR044W	Coproporphyrinogen III oxidase
+YML077W	Core component of transport protein particle (TRAPP) complexes I-III
+YDR246W	Core component of transport protein particle (TRAPP) complexes I-III
+YLR275W	Core Sm protein Sm D2
+YPR182W	Core Sm protein Sm F
+YJL076W	Core subunit of the RENT complex
+YKL096W-A	Covalently linked cell wall mannoprotein
+YBR162C	Covalently-bound cell wall protein of unknown function
+YOR302W	CPA1 uORF
+YER139C	CTD phosphatase
+YDR270W	Cu(+2)-transporting P-type ATPase
+YDL179W	Cyclin
+YPL031C	Cyclin-dependent kinase
+YBR160W	Cyclin-dependent kinase (CDK) catalytic subunit
+YLR079W	Cyclin-dependent kinase inhibitor (CKI)
+YPL042C	Cyclin-dependent protein kinase
+YNL289W	Cyclin, interacts with cyclin-dependent kinase Pho85p
+YDL127W	Cyclin, interacts with cyclin-dependent kinase Pho85p
+YAL012W	Cystathionine gamma-lyase
+YML054C	Cytochrome b2 (L-lactate cytochrome-c oxidoreductase)
+YNL111C	Cytochrome b5
+YAL039C	Cytochrome c heme lyase (holocytochrome c synthase)
+YEL039C	Cytochrome c isoform 2, expressed under hypoxic conditions
+YML030W	Cytochrome c oxidase subunit
+YNR018W	Cytochrome c oxidase subunit
+YJR048W	Cytochrome c, isoform 1
+YOR065W	Cytochrome c1
+YKL087C	Cytochrome c1 heme lyase
+YMR170C	Cytoplasmic aldehyde dehydrogenase
+YMR169C	Cytoplasmic aldehyde dehydrogenase
+YBR121C	Cytoplasmic and mitochondrial glycyl-tRNA synthase
+YHR113W	Cytoplasmic aspartyl aminopeptidase with possible vacuole function
+YDL229W	Cytoplasmic ATPase that is a ribosome-associated molecular chaperone
+YNL209W	Cytoplasmic ATPase that is a ribosome-associated molecular chaperone
+YMR186W	Cytoplasmic chaperone of the Hsp90 family
+YDL160C	Cytoplasmic DExD/H-box helicase, stimulates mRNA decapping
+YDR513W	Cytoplasmic glutaredoxin
+YDR272W	Cytoplasmic glyoxalase II
+YGR100W	Cytoplasmic GTPase-activating protein
+YNL163C	Cytoplasmic GTPase/eEF2-like factor involved in ribosomal biogenesis
+YKR054C	Cytoplasmic heavy chain dynein
+YJL144W	Cytoplasmic hydrophilin essential in desiccation-rehydration process
+YBR011C	Cytoplasmic inorganic pyrophosphatase (PPase)
+YBL076C	Cytoplasmic isoleucine-tRNA synthetase
+YDR424C	Cytoplasmic light chain dynein, microtubule motor protein
+YOL126C	Cytoplasmic malate dehydrogenase
+YDR155C	Cytoplasmic peptidyl-prolyl cis-trans isomerase (cyclophilin)
+YBR267W	Cytoplasmic pre-60S factor
+YGR268C	Cytoplasmic protein containing a zinc finger domain
+YPR005C	Cytoplasmic protein involved in halotolerance
+YAL049C	Cytoplasmic protein involved in mitochondrial function or organization
+YOR284W	Cytoplasmic protein of unknown function
+YPL263C	Cytoplasmic protein of unknown function
+YBR138C	Cytoplasmic protein of unknown function
+YOL022C	Cytoplasmic protein required for correct processing of 20S pre-rRNA
+YFR017C	Cytoplasmic protein that inhibits Gdb1p glycogen debranching activity
+YAL031C	Cytoplasmic protein that regulates protein phosphatase 1 Glc7p
+YMR174C	Cytoplasmic proteinase A (Pep4p) inhibitor
+YDR247W	Cytoplasmic serine/threonine protein kinase
+YDR353W	Cytoplasmic thioredoxin reductase
+YLR024C	Cytoplasmic ubiquitin-protein ligase (E3)
+YPL061W	Cytosolic aldehyde dehydrogenase
+YJR148W	Cytosolic branched-chain amino acid (BCAA) aminotransferase
+YGR088W	Cytosolic catalase T
+YNL015W	Cytosolic inhibitor of vacuolar proteinase B (PRB1)
+YDR321W	Cytosolic L-asparaginase, involved in asparagine catabolism
+YLR058C	Cytosolic serine hydroxymethyltransferase
+YDL174C	D-lactate dehydrogenase
+YGL196W	D-serine dehydratase (aka D-serine ammonia-lyase)
+YDL219W	D-Tyr-tRNA(Tyr) deacylase
+YER124C	Daughter cell-specific protein
+YOR264W	Daughter cell-specific protein, may help establish daughter fate
+YHR143W	Daughter cell-specific secreted protein with similarity to glucanases
+YNR067C	Daughter cell-specific secreted protein with similarity to glucanases
+YJL033W	DEAD box RNA helicase
+YKR086W	DEAH-box RNA helicase involved in second catalytic step of splicing a
+YDL004W	Delta subunit of the central stalk of mitochondrial F1F0 ATP synthase
+YGR083C	Delta subunit of the translation initiation factor eIF2B
+YHR037W	Delta-1-pyrroline-5-carboxylate dehydrogenase
+YML008C	Delta(24)-sterol C-methyltransferase
+YGL055W	Delta(9) fatty acid desaturase
+YFL044C	Deubiquitylation enzyme that binds to the chaperone-ATPase Cdc48p
+YDR284C	Diacylglycerol pyrophosphate (DGPP) phosphatase
+YDR530C	Diadenosine 5',5'''-P1,P4-tetraphosphate phosphorylase II
+YBR153W	Diaminohydroxyphoshoribosylaminopyrimidine deaminase
+YPL265W	Dicarboxylic amino acid permease
+YOR236W	Dihydrofolate reductase involved in tetrahydrofolate biosynthesis
+YNL071W	Dihydrolipoamide acetyltransferase component (E2) of the PDC
+YFL018C	Dihydrolipoamide dehydrogenase
+YDR148C	Dihydrolipoyl transsuccinylase
+YLR420W	Dihydroorotase
+YDR294C	Dihydrosphingosine phosphate lyase
+YML080W	Dihydrouridine synthase
+YLR401C	Dihydrouridine synthase
+YJR016C	Dihydroxyacid dehydratase
+YDR305C	Dinucleoside triphosphate hydrolase
+YOR219C	Dipeptidyl aminopeptidase
+YLL026W	Disaggregase
+YHR050W	Divalent metal ion transporter involved in manganese homeostasis
+YER062C	DL-glycerol-3-phosphate phosphatase involved in glycerol biosynthesis
+YMR156C	DNA 3'-phosphatase
+YER111C	DNA binding component of the SBF complex (Swi4p-Swi6p)
+YKL112W	DNA binding protein with possible chromatin-reorganizing activity
+YLR098C	DNA binding transcriptional activator
+YPL194W	DNA damage checkpoint protein
+YPL153C	DNA damage response protein kinase
+YER143W	DNA damage-inducible v-SNARE binding protein
+YMR173W	DNA damage-responsive protein
+YJL092W	DNA helicase and DNA-dependent ATPase
+YPR204W	DNA helicase encoded within the telomeric Y' element
+YHR031C	DNA helicase involved in rDNA replication and Ty1 transposition
+YML061C	DNA helicase, potent G-quadruplex DNA binder/unwinder
+YLR032W	DNA helicase/Ubiquitin ligase
+YDL164C	DNA ligase found in the nucleus and mitochondria
+YOR005C	DNA ligase required for nonhomologous end-joining (NHEJ)
+YAL015C	DNA N-glycosylase and apurinic/apyrimidinic (AP) lyase
+YOR386W	DNA photolyase involved in photoreactivation
+YDR419W	DNA polymerase eta
+YCR014C	DNA polymerase IV
+YEL055C	DNA Polymerase phi
+YLR103C	DNA replication initiation factor
+YLR234W	DNA Topoisomerase III
+YDL156W	DNA-binding protein with preference for UV-damaged DNA
+YPL248C	DNA-binding transcription factor required for activating GAL genes
+YBR073W	DNA-dependent ATPase
+YJL073W	DnaJ-like chaperone required for nuclear membrane fusion during mating
+YPR001W	Dual specificity mitochondrial citrate and methylcitrate synthase
+YNL053W	Dual-specificity protein phosphatase
+YDR488C	Dynein intermediate chain, microtubule motor protein
+YMR299C	Dynein light intermediate chain (LIC)
+YHR111W	E1-like protein that activates Urm1p before urmylation
+YCR066W	E3 ubiquitin ligase
+YDR457W	E3 ubiquitin ligase of the hect-domain class
+YOL054W	E3 ubiquitin ligase targeting centromere-binding protein Cse4p
+YJL083W	EH domain-containing protein
+YNL084C	EH domain-containing protein involved in endocytosis
+YBR079C	eIF3a subunit of the eukaryotic translation initiation factor 3 (eIF3)
+YMR146C	eIF3i subunit of the eukaryotic translation initiation factor 3 (eIF3)
+YLR192C	eIF3j component of translation initiation factor 3 (eIF3)
+YKL204W	eIF4E-associated protein, competes with eIF4G for binding to eIF4E
+YKL105C	Eisosome component
+YPL004C	Eisosome core component
+YJL196C	Elongase I, medium-chain acyl elongase
+YDR385W	Elongation factor 2 (EF-2), also encoded by EFT1
+YNL230C	Elongin A
+YLR286C	Endochitinase
+YBR228W	Endonuclease involved in DNA recombination and repair
+YOL010W	Endonuclease that cleaves pre-rRNA at site A2 for 18S rRNA biogenesis
+YDR411C	Endoplasmic reticulum (ER) localized protein
+YHL028W	Endoplasmic reticulum (ER) membrane protein
+YBR036C	Endoplasmic reticulum membrane protein
+YNR039C	Endoplasmic reticulum zinc transporter
+YOL158C	Endosomal ferric enterobactin transporter
+YNR006W	Endosomal protein that forms a complex with Hse1p
+YCR094W	Endosomal protein that interacts with phospholipid flippase Drs2p
+YOR089C	Endosomal Rab family GTPase
+YGL234W	Enzyme of the 'de novo' purine nucleotide biosynthetic pathway
+YLR386W	Enzyme regulator
+YLR306W	Enzyme that mediates the conjugation of Rub1p
+YOR103C	Epsilon subunit of the oligosaccharyltransferase complex
+YLL006W	ER integral membrane protein, ERMES complex subunit
+YLR205C	ER localized heme oxygenase
+YDR331W	ER membrane glycoprotein subunit of the GPI transamidase complex
+YDR302W	ER membrane protein involved in a late step of GPI anchor assembly
+YIR033W	ER membrane protein involved in regulation of OLE1 transcription
+YKL020C	ER membrane protein involved in regulation of OLE1 transcription
+YMR281W	ER membrane protein involved in the second step of GPI anchor assembly
+YER140W	ER membrane protein of unknown function
+YLR207W	ER membrane protein that plays a central role in ERAD
+YBR201W	ER membrane protein that promotes export of misfolded polypeptides
+YNL087W	ER protein involved in ER-plasma membrane tethering
+YDR057W	ER quality-control lectin
+YPR063C	ER-localized protein of unknown function
+YJL192C	ER-membrane protein
+YGR206W	ESCRT-I subunit required to stabilize ESCRT-I core complex oligomers
+YLR166C	Essential 100kDa subunit of the exocyst complex
+YPR055W	Essential 121 kDa subunit of the exocyst complex
+YJL097W	Essential 3-hydroxyacyl-CoA dehydratase of the ER membrane
+YIL068C	Essential 88kDa subunit of the exocyst complex
+YDL003W	Essential alpha-kleisin subunit of the cohesin complex
+YJL194W	Essential ATP-binding protein required for DNA replication
+YIL150C	Essential chromatin-associated protein
+YAL034W-A	Essential component of the MIND kinetochore complex
+YJR112W	Essential component of the MIND kinetochore complex
+YIL022W	Essential component of the TIM23 complex
+YNL313C	Essential conserved protein with a role in cell wall integrity
+YPR112C	Essential conserved small ribosomal subunit (40s) synthesis factor
+YKL059C	Essential conserved subunit of CPF cleavage and polyadenylation factor
+YMR128W	Essential DEAH-box ATP-dependent RNA helicase specific to U3 snoRNP
+YLR197W	Essential evolutionarily-conserved nucleolar protein
+YDR091C	Essential Fe-S protein
+YPR019W	Essential helicase component of heterohexameric MCM2-7 complexes
+YDR168W	Essential Hsp90p co-chaperone
+YGR140W	Essential kinetochore protein
+YGL106W	Essential light chain for Myo1p
+YGL075C	Essential membrane protein localized at nuclear envelope and SPBs
+YDL166C	Essential NTPase required for small ribosome subunit synthesis
+YAL025C	Essential nuclear protein
+YBR142W	Essential nucleolar protein
+YOR145C	Essential nucleolar protein required for pre-18S rRNA processing
+YMR211W	Essential protein involved in mtDNA inheritance
+YDR361C	Essential protein involved in nuclear export of Mss4p
+YNR038W	Essential protein involved in ribosome biogenesis
+YCL031C	Essential protein involved in rRNA processing and ribosome biogenesis
+YDL058W	Essential protein involved in vesicle-mediated ER to Golgi transport
+YPL242C	Essential protein required for determination of budding pattern
+YLR068W	Essential protein required for maturation of 18S rRNA
+YNL149C	Essential protein required for maturation of Gas1p and Pho8p
+YKL095W	Essential protein required for pre-mRNA splicing
+YDR499W	Essential protein required for the DNA integrity checkpoint pathways
+YNL152W	Essential protein that associates with contractile actomyosin ring
+YPR107C	Essential RNA-binding component of cleavage and polyadenylation factor
+YMR213W	Essential splicing factor
+YPL094C	Essential subunit of Sec63 complex
+YOR254C	Essential subunit of Sec63 complex
+YDR016C	Essential subunit of the Dam1 complex (aka DASH complex)
+YGR113W	Essential subunit of the Dam1 complex (aka DASH complex)
+YGL061C	Essential subunit of the Dam1 complex (aka DASH complex)
+YJL039C	Essential subunit of the inner ring of the nuclear pore complex (NPC)
+YJL010C	Essential subunit of U3-containing 90S preribosome
+YBR102C	Exocyst subunit with dual roles in exocytosis and spliceosome assembly
+YOR104W	Exomer-dependent cargo protein
+YHR201C	Exopolyphosphatase
+YOL021C	Exosome core complex catalytic subunit
+YHR069C	Exosome non-catalytic core component
+YCR034W	Fatty acid elongase, involved in sphingolipid biosynthesis
+YLL057C	Fe(II)-dependent sulfonate/alpha-ketoglutarate dioxygenase
+YNR060W	Ferric reductase
+YEL065W	Ferrioxamine B transporter
+YMR058W	Ferro-O2-oxidoreductase
+YOR098C	FG-nucleoporin component of central core of the nuclear pore complex
+YKL068W	FG-nucleoporin component of central core of the nuclear pore complex
+YDL045C	Flavin adenine dinucleotide (FAD) synthetase
+YGR029W	Flavin-linked sulfhydryl oxidase of the mitochondrial IMS
+YIL131C	Forkhead family transcription factor
+YCR065W	Forkhead transcription factor
+YIL159W	Formin
+YDR428C	Formylkynurenine formamidase
+YKL060C	Fructose 1,6-bisphosphate aldolase
+YJL155C	Fructose-2,6-bisphosphatase, required for glucose metabolism
+YBR004C	Functional ortholog of human PIG-V
+YLR167W	Fusion protein cleaved to yield ribosomal protein S31 and ubiquitin
+YMR116C	G-protein beta subunit and guanine dissociation inhibitor for Gpa2p
+YAL040C	G1 cyclin involved in cell cycle progression
+YMR199W	G1 cyclin involved in regulation of the cell cycle
+YPL256C	G1 cyclin involved in regulation of the cell cycle
+YDL210W	GABA (gamma-aminobutyrate) permease
+YBR020W	Galactokinase
+YLR081W	Galactose permease
+YJL101C	Gamma glutamylcysteine synthetase
+YLR249W	Gamma subunit of translational elongation factor eEF1B
+YGR019W	Gamma-aminobutyrate (GABA) transaminase
+YDR300C	Gamma-glutamyl kinase
+YLR212C	Gamma-tubulin
+YDL055C	GDP-mannose pyrophosphorylase (mannose-1-phosphate guanyltransferase)
+YGR070W	GDP/GTP exchange protein (GEP) for Rho1p
+YKR039W	General amino acid permease
+YBR112C	General transcriptional co-repressor
+YBR105C	GID Complex regulatory subunit
+YCL040W	Glucokinase
+YNL241C	Glucose-6-phosphate dehydrogenase (G6PD)
+YOR094W	Glucose-repressible ADP-ribosylation factor
+YMR303C	Glucose-repressible alcohol dehydrogenase II
+YBR229C	Glucosidase II catalytic subunit
+YMR250W	Glutamate decarboxylase
+YLR364W	Glutaredoxin that employs a dithiol mechanism of catalysis
+YOL049W	Glutathione synthetase
+YDR098C	Glutathione-dependent oxidoreductase
+YER174C	Glutathione-dependent oxidoreductase
+YJL052W	Glyceraldehyde-3-phosphate dehydrogenase (GAPDH), isozyme 1
+YJR009C	Glyceraldehyde-3-phosphate dehydrogenase (GAPDH), isozyme 2
+YOR120W	Glycerol dehydrogenase
+YKR067W	Glycerol-3-phosphate/dihydroxyacetone phosphate sn-1 acyltransferase
+YPR081C	Glycine-tRNA synthetase, not expressed under normal growth conditions
+YEL011W	Glycogen branching enzyme, involved in glycogen accumulation
+YPR184W	Glycogen debranching enzyme
+YPR160W	Glycogen phosphorylase required for the mobilization of glycogen
+YFR015C	Glycogen synthase
+YLR258W	Glycogen synthase
+YDL079C	Glycogen synthase kinase 3 (GSK-3) homolog
+YJL137C	Glycogenin glucosyltransferase
+YBR196C	Glycolytic enzyme phosphoglucose isomerase
+YMR129W	Glycoprotein subunit of transmembrane ring of nuclear pore complex
+YNL327W	Glycosylphosphatidylinositol (GPI)-anchored cell wall endoglucanase
+YNL300W	Glycosylphosphatidylinositol-dependent cell wall protein
+YNL274C	Glyoxylate reductase
+YPL113C	Glyoxylate reductase
+YMR217W	GMP synthase
+YDR358W	Golgi-localized protein with homology to gamma-adaptin
+YDR141C	Golgi-localized, leucine-zipper domain containing protein
+YER150W	GPI-anchored cell wall protein involved in weak acid resistance
+YJL171C	GPI-anchored cell wall protein of unknown function
+YBR078W	GPI-anchored protein of unknown function
+YKR091W	GTB motif (G1/S transcription factor binding) containing protein
+YOR185C	GTP binding protein (mammalian Ranp homolog)
+YGR152C	GTP-binding protein of the Ras superfamily
+YML064C	GTP-binding protein of the Ras superfamily
+YCR038C	GTP/GDP exchange factor for Rsr1p (Bud1p)
+YKL092C	GTPase activating factor for Rsr1p/Bud1p
+YMR235C	GTPase activating protein (GAP) for Gsp1p
+YDR389W	GTPase activating protein (GAP) for Rho1p
+YKL173W	GTPase component of U5 snRNP involved in mRNA splicing via spliceosome
+YKR084C	GTPase with similarity to translation release factors
+YBR140C	GTPase-activating protein
+YOL081W	GTPase-activating protein
+YDL240W	GTPase-activating protein (GAP)
+YPL241C	GTPase-activating protein (GAP) for Cin4p
+YJL044C	GTPase-activating protein (GAP) for yeast Rab family member Ypt6p
+YPL249C	GTPase-activating protein (GAP) for yeast Rab family members
+YLR452C	GTPase-activating protein for Gpa1p
+YOR127W	GTPase-activating protein for polarity-establishment protein Cdc42p
+YDR379W	GTPase-activating protein for polarity-establishment protein Cdc42p
+YDL234C	GTPase-activating protein for yeast Rab family members
+YPR017C	Guanine nucleotide dissociation stimulator for Sec4p
+YDR170C	Guanine nucleotide exchange factor (GEF) for ADP ribosylation factors
+YPR095C	Guanine nucleotide exchange factor (GEF) for Arf proteins
+YLR425W	Guanine nucleotide exchange factor (GEF) that modulate Rho1p activity
+YAL041W	Guanine nucleotide exchange factor for Cdc42p
+YEL042W	Guanosine diphosphatase located in the Golgi
+YGL130W	Guanylyltransferase involved in mRNA 5' capping
+YBR172C	GYF domain protein
+YAL044C	H subunit of the mitochondrial glycine decarboxylase complex
+YPR122W	Haploid specific endoprotease of a-factor mating pheromone
+YOL155C	Haze-protective mannoprotein
+YBL040C	HDEL receptor
+YNL281W	Heat shock protein regulator
+YER103W	Heat shock protein that is highly induced upon stress
+YBR290W	Heavy metal ion homeostasis protein
+YDR545W	Helicase encoded by the Y' element of subtelomeric regions
+YER190W	Helicase encoded by the Y' element of subtelomeric regions
+YLR467W	Helicase encoded by the Y' element of subtelomeric regions
+YNL339C	Helicase encoded by the Y' element of subtelomeric regions
+YPL283C	Helicase encoded by the Y' element of subtelomeric regions
+YBL111C	Helicase-like protein encoded within the telomeric Y' element
+YBL113C	Helicase-like protein encoded within the telomeric Y' element
+YEL077C	Helicase-like protein encoded within the telomeric Y' element
+YHR218W	Helicase-like protein encoded within the telomeric Y' element
+YPL172C	Heme A:farnesyltransferase
+YPR065W	Heme-dependent repressor of hypoxic genes
+YDR252W	Heterotrimeric nascent polypeptide-associated complex beta3 subunit
+YMR110C	Hexadecenal dehydrogenase
+YKL017C	Hexameric DNA polymerase alpha-associated DNA helicase A
+YBR003W	Hexaprenyl pyrophosphate synthetase
+YFR053C	Hexokinase isoenzyme 1
+YGR055W	High affinity methionine permease
+YLR092W	High affinity sulfate permease
+YBL042C	High affinity uridine permease, localizes to the plasma membrane
+YAL022C	High affinity, broad selectivity, nucleoside/nucleobase transporter
+YPR124W	High-affinity copper transporter of the plasma membrane
+YLR411W	High-affinity copper transporter of the plasma membrane
+YHR092C	High-affinity glucose transporter
+YDR343C	High-affinity glucose transporter
+YDR342C	High-affinity glucose transporter
+YMR011W	High-affinity glucose transporter of the major facilitator superfamily
+YGR289C	High-affinity maltose transporter (alpha-glucoside transporter)
+YOR071C	High-affinity nicotinamide riboside transporter
+YGR065C	High-affinity plasma membrane H+-biotin (vitamin H) symporter
+YPL274W	High-affinity S-adenosylmethionine permease
+YLL061W	High-affinity S-methylmethionine permease
+YGL255W	High-affinity zinc transporter of the plasma membrane
+YPR052C	High-mobility group (HMG) protein
+YIL003W	Highly conserved iron-sulfur cluster binding protein
+YGR243W	Highly conserved subunit of mitochondrial pyruvate carrier
+YJR117W	Highly conserved zinc metalloprotease
+YDR152W	Highly-acidic RWD domain-containing protein of unknown function
+YLL002W	Histone acetyltransferase
+YBL052C	Histone acetyltransferase catalytic subunit of NuA3 complex
+YMR231W	Histone E3 ligase, component of CORVET membrane tethering complex
+YPL127C	Histone H1, linker histone with roles in meiosis and sporulation
+YDR225W	Histone H2A
+YBL003C	Histone H2A
+YDR224C	Histone H2B
+YBL002W	Histone H2B
+YBR010W	Histone H3
+YNL031C	Histone H3
+YBR009C	Histone H4
+YNL030W	Histone H4
+YOL012C	Histone variant H2AZ
+YLR450W	HMG-CoA reductase
+YDR451C	Homeobox transcriptional repressor
+YML027W	Homeobox transcriptional repressor
+YGL096W	Homeodomain-containing protein and putative transcription factor
+YDR234W	Homoaconitase
+YDL182W	Homocitrate synthase isozyme
+YLR211C	Homodimeric subunit of autophagy-specific PtdIns-3-kinase complex I
+YDL021W	Homolog of Gpm1p phosphoglycerate mutase
+YLR254C	Homolog of nuclear distribution factor NudE
+YJR139C	Homoserine dehydrogenase (L-homoserine:NADP oxidoreductase)
+YBR101C	Hsp70 (Ssa1p) nucleotide exchange factor
+YPL240C	Hsp90 chaperone
+YOR027W	Hsp90 cochaperone
+YDR485C	Htz1p-binding component of the SWR1 complex
+YPL223C	Hydrophilin essential in desiccation-rehydration process
+YPL258C	Hydroxymethylpyrimidine (HMP) and HMP-phosphate kinase
+YOL153C	Hypothetical protein
+YLR178C	Inhibitor of carboxypeptidase Y (Prc1p), and Ras GAP (Ira2p)
+YML034W	Inner nuclear membrane protein
+YDR356W	Inner plaque spindle pole body (SPB) component
+YPL124W	Inner plaque spindle pole body (SPB) component
+YLR432W	Inosine monophosphate dehydrogenase
+YML056C	Inosine monophosphate dehydrogenase
+YDR017C	Inositol hexakisphosphate and inositol heptakisphosphate kinase
+YDR287W	Inositol monophosphatase
+YER019W	Inositol phosphosphingolipid phospholipase C
+YDR173C	Inositol polyphosphate multikinase (IPMK)
+YLR080W	Integral membrane component of ER-derived COPII-coated vesicles
+YFL048C	Integral membrane component of ER-derived COPII-coated vesicles
+YKR093W	Integral membrane peptide transporter
+YKR088C	Integral membrane protein
+YNL263C	Integral membrane protein
+YNL194C	Integral membrane protein
+YDL222C	Integral membrane protein localized to mitochondria
+YHR101C	Integral membrane protein of the endoplasmic reticulum
+YGR105W	Integral membrane protein required for V-ATPase function
+YPR075C	Integral membrane protein that acts as a membrane anchor for Ste50p
+YBR230C	Integral mitochondrial outer membrane protein
+YIL140W	Integral plasma membrane protein
+YJL062W	Integral plasma membrane protein
+YPL047W	Integral subunit of SAGA histone acetyltransferase complex
+YML104C	Intermediate filament protein
+YKL006C-A	Intra-Golgi v-SNARE
+YIL162W	Invertase
+YOR269W	Involved in nuclear migration, part of the dynein/dynactin pathway
+YLL041C	Iron-sulfur protein subunit of succinate dehydrogenase
+YER065C	Isocitrate lyase
+YJR119C	JmjC domain family histone demethylase
+YPL269W	Karyogamy protein
+YJR132W	Karyopherin
+YGL016W	Karyopherin beta
+YMR308C	Karyopherin/importin that interacts with the nuclear pore complex
+YBR176W	Ketopantoate hydroxymethyltransferase
+YEL061C	Kinesin motor protein
+YMR198W	Kinesin-associated protein
+YBL063W	Kinesin-related motor protein
+YPL155C	Kinesin-related motor protein involved in mitotic spindle positioning
+YOR026W	Kinetochore checkpoint WD40 repeat protein
+YOR195W	Kinetochore-associated protein
+YLR231C	Kynureninase
+YJL060W	Kynurenine aminotransferase
+YNL277W	L-homoserine-O-acetyltransferase
+YLR438W	L-ornithine transaminase (OTAse)
+YJR109C	Large subunit of carbamoyl phosphate synthetase
+YPL174C	Large subunit of the dynactin complex
+YML100W	Large subunit of trehalose 6-phosphate synthase/phosphatase complex
+YPR018W	Largest subunit (p90) of the Chromatin Assembly Complex (CAF-1)
+YNL172W	Largest subunit of the Anaphase-Promoting Complex/Cyclosome
+YML065W	Largest subunit of the origin recognition complex
+YAL063C	Lectin-like protein with similarity to Flo1p
+YDR503C	Lipid phosphate phosphatase
+YBL069W	Lipid raft associated protein
+YOR317W	Long chain fatty acyl-CoA synthetase
+YIL009W	Long chain fatty acyl-CoA synthetase
+YMR246W	Long chain fatty acyl-CoA synthetase
+YDR345C	Low affinity glucose transporter of the major facilitator superfamily
+YHL036W	Low affinity methionine permease
+YCL025C	Low-affinity amino acid permease with broad substrate range
+YGL248W	Low-affinity cyclic AMP phosphodiesterase
+YHR094C	Low-affinity glucose transporter of the major facilitator superfamily
+YCR037C	Low-affinity inorganic phosphate (Pi) transporter
+YNR013C	Low-affinity vacuolar phosphate transporter
+YBL026W	Lsm (Like Sm) protein
+YDR378C	Lsm (Like Sm) protein
+YNL147W	Lsm (Like Sm) protein
+YOL143C	Lumazine synthase (DMRL synthase)
+YHR192W	Lunapark family member involved in ER network formation
+YHL039W	Lysine methyltransferase
+YDR430C	Lysine-specific metalloprotease of the pitrilysin family
+YLR099C	Lysophosphatidic acid acyltransferase
+YOR173W	m(7)GpppX pyrophosphatase regulator
+YBR182C	MADS-box transcription factor involved in osmotic stress response
+YBL030C	Major ADP/ATP carrier of the mitochondrial inner membrane
+YBR067C	Major cell wall mannoprotein with possible lipase activity
+YBL039C	Major CTP synthase isozyme (see also URA8)
+YLR300W	Major exo-1,3-beta-glucanase of the cell wall
+YER070W	Major isoform of large subunit of ribonucleotide-diphosphate reductase
+YNL079C	Major isoform of tropomyosin
+YGL125W	Major isozyme of methylenetetrahydrofolate reductase
+YLR176C	Major transcriptional repressor of DNA-damage-regulated genes
+YGR288W	MAL-activator protein
+YBR297W	MAL-activator protein
+YIR031C	Malate synthase
+YBR299W	Maltase (alpha-D-glucosidase)
+YBR298C	Maltose permease
+YOR247W	Mannoprotein that exhibits a tight association with the cell wall
+YOR383C	Mannoprotein that is incorporated into the cell wall
+YER003C	Mannose-6-phosphate isomerase
+YJL158C	Mannose-containing glycoprotein constituent of the cell wall
+YBR161W	Mannosylinositol phosphorylceramide (MIPC) synthase catalytic subunit
+YPL057C	Mannosylinositol phosphorylceramide (MIPC) synthase catalytic subunit
+YBR110W	Mannosyltransferase
+YNL219C	Mannosyltransferase, involved in N-linked glycosylation
+YCR073C	MAP kinase kinase kinase of HOG1 mitogen-activated signaling pathway
+YJL128C	MAP kinase kinase of the HOG signaling pathway
+YPL140C	MAPKK involved in the protein kinase C signaling pathway
+YJR094C	Master regulator of meiosis that is active only during meiotic events
+YDR461W	Mating pheromone a-factor
+YPL187W	Mating pheromone alpha-factor, made by alpha cells
+YGL089C	Mating pheromone alpha-factor, made by alpha cells
+YPR007C	Meiosis-specific component of sister chromatid cohesion complex
+YDR273W	Meiosis-specific component of the spindle pole body
+YML066C	Meiosis-specific prospore membrane protein
+YNL012W	Meiosis-specific prospore protein
+YGL249W	Meiosis-specific protein
+YHR153C	Meiosis-specific protein involved in synaptonemal complex assembly
+YDR104C	Meiosis-specific protein required for spore wall formation
+YER179W	Meiosis-specific recombinase required for repair of double-strand bre
+YMR017W	Meiosis-specific subunit of the t-SNARE complex
+YOL104C	Meiosis-specific telomere protein
+YHR014W	Meiotic regulator
+YMR044W	Member of a complex (Isw1b) with Isw1p and Ioc2p
+YNL333W	Member of a stationary phase-induced gene family
+YFL059W	Member of a stationary phase-induced gene family
+YHR073W	Member of an oxysterol-binding protein family
+YKR003W	Member of an oxysterol-binding protein family
+YIL027C	Member of conserved ER transmembrane complex
+YDR151C	Member of the CCCH zinc finger family
+YJL099W	Member of the ChAPs (Chs5p-Arf1p-binding proteins) family
+YJR072C	Member of the conserved GPN-loop GTPase family
+YAL036C	Member of the DRG family of GTP-binding proteins
+YKR102W	Member of the FLO family of cell wall flocculation proteins
+YBR169C	Member of the heat shock protein 70 (HSP70) family
+YJR050W	Member of the NineTeen Complex (NTC)
+YBR188C	Member of the NineTeen Complex (NTC)
+YDR416W	Member of the NineTeen Complex (NTC)
+YGR129W	Member of the NineTeen Complex (NTC)
+YAL007C	Member of the p24 family involved in ER to Golgi transport
+YML012W	Member of the p24 family involved in ER to Golgi transport
+YOL113W	Member of the PAK family of serine/threonine protein kinases
+YJR091C	Member of the Puf family of RNA-binding proteins
+YAR020C	Member of the seripauperin multigene family
+YOR025W	Member of the Sir2 family of NAD(+)-dependent protein deacetylases
+YDR191W	Member of the Sir2 family of NAD(+)-dependent protein deacetylases
+YDR178W	Membrane anchor subunit of succinate dehydrogenase (SDH)
+YPR079W	Membrane protein
+YGR216C	Membrane protein involved in the synthesis of GlcNAc-PI
+YDR492W	Membrane protein involved in zinc ion homeostasis
+YLR023C	Membrane protein involved in zinc ion homeostasis
+YOL101C	Membrane protein involved in zinc ion homeostasis
+YCL027W	Membrane protein localized to the shmoo tip
+YPR028W	Membrane protein that interacts with Yip1p to mediate membrane traffic
+YAL002W	Membrane-binding component of the CORVET complex
+YDR519W	Membrane-bound peptidyl-prolyl cis-trans isomerase (PPIase)
+YCL033C	Methionine-R-sulfoxide reductase
+YER042W	Methionine-S-sulfoxide reductase
+YJR073C	Methylene-fatty-acyl-phospholipid synthase
+YCR047C	Methyltransferase
+YLR186W	Methyltransferase for rRNA
+YLR063W	Methyltransferase required for m3U2843 methylation of the 25S rRNA
+YMR208W	Mevalonate kinase
+YER007W	Microtubule effector required for tubulin heterodimer formation
+YER016W	Microtubule plus end-tracking protein
+YLR045C	Microtubule-associated protein (MAP) of the XMAP215/Dis1 family
+YLR134W	Minor isoform of pyruvate decarboxylase
+YMR271C	Minor orotate phosphoribosyltransferase (OPRTase) isozyme
+YLR260W	Minor sphingoid long-chain base kinase
+YJL045W	Minor succinate dehydrogenase isozyme
+YPR141C	Minus-end-directed microtubule motor
+YDR219C	Mitochondria-associated F-box protein
+YGR150C	Mitochondrial 15S rRNA-binding protein
+YHR067W	Mitochondrial 3-hydroxyacyl-thioester dehydratase
+YKL055C	Mitochondrial 3-oxoacyl-[acyl-carrier-protein] reductase
+YMR207C	Mitochondrial acetyl-coenzyme A carboxylase
+YER170W	Mitochondrial adenylate kinase
+YOR374W	Mitochondrial aldehyde dehydrogenase
+YCR024C	Mitochondrial asparaginyl-tRNA synthetase
+YBR084W	Mitochondrial C1-tetrahydrofolate synthase
+YHR002W	Mitochondrial carrier protein
+YGL219C	Mitochondrial component of the ERMES complex
+YER053C	Mitochondrial copper and phosphate carrier
+YOR330C	Mitochondrial DNA polymerase gamma subunit
+YMR072W	Mitochondrial DNA-binding protein
+YJL102W	Mitochondrial elongation factor involved in translational elongation
+YMR145C	Mitochondrial external NADH dehydrogenase
+YIL155C	Mitochondrial glycerol-3-phosphate dehydrogenase
+YOR040W	Mitochondrial glyoxalase II
+YDL198C	Mitochondrial GTP/GDP transporter
+YLR369W	Mitochondrial hsp70-type molecular chaperone
+YMR056C	Mitochondrial inner membrane ADP/ATP translocator
+YBR085W	Mitochondrial inner membrane ADP/ATP translocator
+YER017C	Mitochondrial inner membrane m-AAA protease component
+YIL157C	Mitochondrial inner membrane protein
+YJL003W	Mitochondrial inner membrane protein
+YDR231C	Mitochondrial inner membrane protein
+YPR125W	Mitochondrial inner membrane protein
+YDR282C	Mitochondrial inner membrane protein of unknown function
+YGR112W	Mitochondrial inner membrane protein required for complex IV assembly
+YPL134C	Mitochondrial inner membrane transporter
+YKL134C	Mitochondrial intermediate peptidase
+YLR168C	Mitochondrial intermembrane space protein
+YJL066C	Mitochondrial intermembrane space protein of unknown function
+YLR382C	Mitochondrial leucyl-tRNA synthetase
+YNL073W	Mitochondrial lysine-tRNA synthetase
+YKL029C	Mitochondrial malic enzyme
+YKL192C	Mitochondrial matrix acyl carrier protein
+YBR238C	Mitochondrial membrane protein
+YIL006W	Mitochondrial NAD+ transporter
+YPL188W	Mitochondrial NADH kinase
+YKL150W	Mitochondrial NADH-cytochrome b5 reductase
+YDR263C	Mitochondrial nuclease functioning in DNA repair and replication
+YMR062C	Mitochondrial ornithine acetyltransferase
+YIL136W	Mitochondrial outer membrane protein of unknown function
+YGR049W	Mitochondrial outer membrane protein of unknown function
+YIL146C	Mitochondrial outer membrane protein required to initiate mitophagy
+YOL009C	Mitochondrial outer membrane protein, ERMES complex subunit
+YML078W	Mitochondrial peptidyl-prolyl cis-trans isomerase (cyclophilin)
+YBL064C	Mitochondrial peroxiredoxin with thioredoxin peroxidase activity
+YPR047W	Mitochondrial phenylalanyl-tRNA synthetase
+YJR077C	Mitochondrial phosphate carrier
+YPR083W	Mitochondrial protein
+YOL027C	Mitochondrial protein
+YNR036C	Mitochondrial protein
+YMR023C	Mitochondrial protein
+YGL236C	Mitochondrial protein
+YPL159C	Mitochondrial protein
+YGL104C	Mitochondrial protein
+YDR511W	Mitochondrial protein involved in assembly of succinate dehydrogenase
+YMR066W	Mitochondrial protein of unknown function
+YDR185C	Mitochondrial protein of unknown function
+YJL147C	Mitochondrial protein of unknown function
+YLR253W	Mitochondrial protein of unknown function involved in lipid homeostas
+YOL026C	Mitochondrial protein required for outer membrane protein import
+YMR098C	Mitochondrial protein required for the stability of Oli1p (Atp9p) mRNA
+YBR120C	Mitochondrial protein required for translation of the COB mRNA
+YGR207C	Mitochondrial protein that interacts with frataxin (Yfh1p)
+YJL209W	Mitochondrial protein, regulator of COB mRNA stability and translation
+YDR405W	Mitochondrial ribosomal protein of the large subunit
+YDR116C	Mitochondrial ribosomal protein of the large subunit
+YDL202W	Mitochondrial ribosomal protein of the large subunit
+YBL038W	Mitochondrial ribosomal protein of the large subunit
+YNL252C	Mitochondrial ribosomal protein of the large subunit
+YMR024W	Mitochondrial ribosomal protein of the large subunit
+YMR286W	Mitochondrial ribosomal protein of the large subunit
+YDR322W	Mitochondrial ribosomal protein of the large subunit
+YBR122C	Mitochondrial ribosomal protein of the large subunit
+YBR268W	Mitochondrial ribosomal protein of the large subunit
+YML009C	Mitochondrial ribosomal protein of the large subunit
+YLR439W	Mitochondrial ribosomal protein of the large subunit
+YPL173W	Mitochondrial ribosomal protein of the large subunit
+YMR225C	Mitochondrial ribosomal protein of the large subunit
+YJL096W	Mitochondrial ribosomal protein of the large subunit
+YNR022C	Mitochondrial ribosomal protein of the large subunit
+YHR147C	Mitochondrial ribosomal protein of the large subunit
+YJL063C	Mitochondrial ribosomal protein of the large subunit
+YDR347W	Mitochondrial ribosomal protein of the small subunit
+YBL090W	Mitochondrial ribosomal protein of the small subunit
+YPL013C	Mitochondrial ribosomal protein of the small subunit
+YMR188C	Mitochondrial ribosomal protein of the small subunit
+YNL306W	Mitochondrial ribosomal protein of the small subunit
+YDR337W	Mitochondrial ribosomal protein of the small subunit
+YMR158W	Mitochondrial ribosomal protein of the small subunit
+YGL129C	Mitochondrial ribosomal protein of the small subunit
+YIL093C	Mitochondrial ribosomal protein of the small subunit
+YDR494W	Mitochondrial ribosomal protein of the small subunit
+YFL036W	Mitochondrial RNA polymerase
+YMR228W	Mitochondrial RNA polymerase specificity factor
+YBR263W	Mitochondrial serine hydroxymethyltransferase
+YJR095W	Mitochondrial succinate-fumarate transporter
+YCR083W	Mitochondrial thioredoxin
+YKL194C	Mitochondrial threonyl-tRNA synthetase
+YDR194C	Mitochondrial transcription elongation factor
+YOL023W	Mitochondrial translation initiation factor 2
+YJL131C	Mitochondrial translation initiation factor 3 (IF3, mIF3)
+YDL069C	Mitochondrial translational activator of the COB mRNA
+YDR197W	Mitochondrial translational activator of the COB mRNA
+YPR011C	Mitochondrial transporter
+YDR438W	Mitochondrial transporter repressible by thiamine
+YGL063W	Mitochondrial tRNA:pseudouridine synthase
+YCR079W	Mitochondrial type 2C protein phosphatase (PP2C)
+YBL016W	Mitogen-activated serine/threonine protein kinase involved in mating
+YMR055C	Mitotic exit network regulator
+YOR058C	Mitotic spindle midzone-localized microtubule bundling protein
+YBL031W	Mitotic spindle protein
+YMR200W	Molecular chaperone involved in protein folding in ER
+YOL139C	mRNA cap binding protein and translation initiation factor eIF4E
+YBR152W	mRNA splicing factor, component of U4/U6.U5 tri-snRNP
+YLR136C	mRNA-binding protein expressed during iron starvation
+YNL210W	mRNA-binding protein required for meiosis-specific mRNA splicing
+YGR014W	Mucin family member involved in various signaling pathways
+YOL052C-A	Multi-stress response protein
+YOL073C	Multi-transmembrane subunit of the DSC ubiquitin ligase complex
+YIL120W	Multidrug transporter of the major facilitator superfamily
+YCL030C	Multifunctional enzyme containing phosphoribosyl-ATP pyrophosphatase
+YOR371C	Multistep regulator of cAMP-PKA signaling
+YAL056W	Multistep regulator of cAMP-PKA signaling
+YGL141W	Multiubiquitin chain assembly factor (E4)
+YKR095W	Myosin-like protein associated with the nuclear envelope
+YMR069W	N alpha-acetyl-transferase
+YGR212W	N-acetyltransferase
+YDR373W	N-myristoylated calcium-binding protein
+YAR015W	N-succinyl-5-aminoimidazole-4-carboxamide ribotide synthetase
+YDR456W	Na+/H+ and K+/H+ exchanger
+YLR138W	Na+/H+ antiporter
+YAL060W	NAD-dependent (R,R)-butanediol dehydrogenase
+YOL059W	NAD-dependent glycerol 3-phosphate dehydrogenase
+YDL022W	NAD-dependent glycerol-3-phosphate dehydrogenase
+YDL215C	NAD(+)-dependent glutamate dehydrogenase
+YML120C	NADH:ubiquinone oxidoreductase
+YKL151C	NADHX dehydratase
+YNL200C	NADHX epimerase
+YAL062W	NADP(+)-dependent glutamate dehydrogenase
+YMR226C	NADP(+)-dependent serine dehydrogenase and carbonyl reductase
+YGL160W	NADPH oxidase localized to the perinuclear ER
+YDL124W	NADPH-dependent alpha-keto amide reductase
+YBR046C	NADPH-dependent quinone reductase
+YCR059C	Negative regulator of eIF2 kinase Gcn2p
+YOR107W	Negative regulator of glucose-induced cAMP signaling
+YDR277C	Negative regulator of the glucose-sensing signal transduction pathway
+YCR021C	Negative regulator of the H(+)-ATPase Pma1p
+YKR072C	Negative regulatory subunit of protein phosphatase 1 (Ppz1p)
+YOR054C	Negative regulatory subunit of protein phosphatase 1 Ppz1p
+YGL037C	Nicotinamidase that converts nicotinamide to nicotinic acid
+YCL047C	Nicotinamide mononucleotide-specific adenylyltransferase (NMNAT)
+YGR010W	Nicotinic acid mononucleotide adenylyltransferase
+YKL101W	Nim1p-related protein kinase
+YNL299W	Non-canonical poly(A) polymerase
+YEL053C	Non-catalytic subunit of N-terminal acetyltransferase of the NatC type
+YLL022C	Non-essential component of the HAT-B histone acetyltransferase complex
+YEL015W	Non-essential conserved protein with a role in mRNA decapping
+YLR270W	Non-essential hydrolase involved in mRNA decapping
+YDL002C	Non-essential INO80 chromatin remodeling complex subunit
+YER064C	Non-essential nuclear protein
+YBL043W	Non-essential protein of unknown function
+YBL001C	Non-essential protein of unknown function
+YJL201W	Non-essential protein of unknown function
+YBR076W	Non-essential protein of unknown function
+YKR004C	Non-essential protein of unknown function
+YDR512C	Non-essential protein of unknown function
+YDR516C	Non-essential protein of unknown function
+YBL081W	Non-essential protein of unknown function
+YLL016W	Non-essential Ras guanine nucleotide exchange factor (GEF)
+YBR171W	Non-essential subunit of Sec63 complex
+YEL018W	Non-essential subunit of the NuA4 acetyltransferase complex
+YMR233W	Non-essential sumoylated protein of unknown function
+YGR187C	Nonessential protein of unknown function
+YAR018C	Nonessential serine/threonine protein kinase
+YJL081C	Nuclear actin-related protein involved in chromatin remodeling
+YML060W	Nuclear and mitochondrial glycosylase/lyase
+YIL122W	Nuclear chromatin-associated protein of unknown function
+YPR134W	Nuclear encoded protein needed for splicing of mitochondrial intron
+YJL019W	Nuclear envelope protein
+YER009W	Nuclear envelope protein
+YOR001W	Nuclear exosome exonuclease component
+YOR160W	Nuclear import receptor
+YDR381W	Nuclear polyadenylated RNA-binding protein
+YKL205W	Nuclear pore protein
+YDR184C	Nuclear protein
+YMR131C	Nuclear protein involved in early steps of ribosome biogenesis
+YNL035C	Nuclear protein of unknown function
+YOR315W	Nuclear protein putative transcription factor
+YGL246C	Nuclear protein with decapping endonuclease activity
+YBR034C	Nuclear SAM-dependent mono- and asymmetric methyltransferase
+YLL008W	Nucleolar DEAD-box protein required for ribosome assembly and function
+YML074C	Nucleolar peptidyl-prolyl cis-trans isomerase (PPIase)
+YOL077C	Nucleolar protein
+YPL146C	Nucleolar protein
+YLR222C	Nucleolar protein
+YMR093W	Nucleolar protein
+YDR449C	Nucleolar protein
+YER082C	Nucleolar protein
+YNL175C	Nucleolar protein found in preribosomal complexes
+YMR269W	Nucleolar protein implicated in ribosome biogenesis
+YOL041C	Nucleolar protein involved in pre-25S rRNA processing
+YDR365C	Nucleolar protein involved in pre-rRNA processing
+YLR051C	Nucleolar protein involved in the early steps of 35S rRNA processing
+YOL144W	Nucleolar protein required for 60S ribosomal subunit biogenesis
+YPL211W	Nucleolar protein required for 60S ribosome subunit biogenesis
+YCL059C	Nucleolar protein required for rRNA synthesis and ribosomal assembly
+YGR159C	Nucleolar protein that binds nuclear localization sequences
+YCR086W	Nucleolar protein that mediates homolog segregation during meiosis I
+YDR083W	Nucleolar S-adenosylmethionine-dependent rRNA methyltransferase
+YKL067W	Nucleoside diphosphate kinase
+YDR440W	Nucleosomal histone H3-Lys79 methylase
+YJL115W	Nucleosome assembly factor
+YER020W	Nucleotide binding alpha subunit of the heterotrimeric G protein
+YOL031C	Nucleotide exchange factor for the ER lumenal Hsp70 chaperone Kar2p
+YBR114W	Nucleotide excision repair (NER) protein
+YJR052W	Nucleotide excision repair (NER) protein
+YEL016C	Nucleotide pyrophosphatase/phosphodiesterase
+YBR111C	Nudix hydrolase family member with ADP-ribose pyrophosphatase activity
+YKL163W	O-glycosylated covalently-bound cell wall protein
+YKL164C	O-glycosylated protein required for cell wall stability
+YOL096C	O-methyltransferase
+YAL051W	Oleate-activated transcription factor
+YDR258C	Oligomeric mitochondrial matrix chaperone
+YPR194C	Oligopeptide transporter
+YKR076W	Omega class glutathione transferase
+YMR251W	Omega class glutathione transferase
+YGR154C	Omega-class glutathione transferase
+YLR025W	One of four subunits of the ESCRT-III complex
+YPL145C	One of seven members of the yeast oxysterol binding protein family
+YGL208W	One of three beta subunits of the Snf1 kinase complex
+YAR071W	One of three repressible acid phosphatases
+YHR215W	One of three repressible acid phosphatases
+YBL057C	One of two mitochondrially-localized peptidyl-tRNA hydrolases
+YMR109W	One of two type I myosin motors
+YKL129C	One of two type I myosins
+YJL088W	Ornithine carbamoyltransferase
+YEL021W	Orotidine-5'-phosphate (OMP) decarboxylase
+YBR107C	Outer kinetochore protein and component of the Ctf19 complex
+YDR254W	Outer kinetochore protein required for chromosome stability
+YLR381W	Outer kinetochore protein that forms a complex with Mcm16p and Mcm22p
+YDR470C	Outer membrane component of the mitochondrial fusion machinery
+YAR035W	Outer mitochondrial carnitine acetyltransferase
+YGL039W	Oxidoreductase shown to reduce carbonyl compounds to chiral alcohols
+YHR001W	Oxysterol-binding protein
+YMR189W	P subunit of the mitochondrial glycine decarboxylase complex
+YBR025C	P-loop ATPase with similarity to human OLA1 and bacterial YchF
+YDR039C	P-type ATPase sodium pump
+YBL054W	PAC motif binding protein involved in rRNA and ribosome biogenesis
+YNL154C	Palmitoylated plasma membrane-bound casein kinase I (CK1) isoform
+YER123W	Palmitoylated vacuolar membrane-localized casein kinase I isoform
+YDR126W	Palmitoyltransferase that acts on transmembrane proteins
+YDR531W	Pantothenate kinase, ATP:D-pantothenate 4'-phosphotransferase
+YIL145C	Pantothenate synthase
+YIR006C	Part of actin cytoskeleton-regulatory complex Pan1p-Sla1p-End3p
+YNL278W	Part of the CCR4-NOT transcriptional regulatory complex
+YAL017W	PAS domain-containing serine/threonine protein kinase
+YGR058W	Penta-EF-hand protein
+YLR216C	Peptidyl-prolyl cis-trans isomerase (cyclophilin)
+YIL153W	Peptidyl-prolyl cis/trans-isomerase
+YPL152W	Peptidyl-prolyl cis/trans-isomerase
+YJR017C	Peptidylprolyl-cis/trans-isomerase (PPIase)
+YNL258C	Peripheral membrane protein needed for Golgi-to-ER retrograde traffic
+YNL242W	Peripheral membrane protein required for autophagic vesicle formation
+YPL005W	Peripheral mitochondrial inner membrane protein
+YBR293W	Permease of basic amino acids in the vacuolar membrane
+YHR160C	Peroxin
+YGR239C	Peroxin required for peroxisomal matrix protein targeting
+YJR019C	Peroxisomal acyl-CoA thioesterase
+YPR128C	Peroxisomal adenine nucleotide transporter
+YGL184C	Peroxisomal cystathionine beta-lyase
+YLR191W	Peroxisomal importomer complex component
+YDR479C	Peroxisomal integral membrane peroxin
+YLR324W	Peroxisomal integral membrane protein
+YBR168W	Peroxisomal integral membrane protein
+YOR084W	Peroxisomal matrix-localized lipase
+YDR329C	Peroxisomal membrane protein (PMP)
+YDR244W	Peroxisomal membrane signal receptor for peroxisomal matrix proteins
+YNL009W	Peroxisomal NADP-dependent isocitrate dehydrogenase
+YOR180C	Peroxisomal protein
+YOL147C	Peroxisomal protein required for medium-chain fatty acid oxidation
+YDR142C	Peroxisomal signal receptor for peroxisomal matrix proteins
+YMR163C	Peroxisome-specific receptor important for peroxisome inheritance
+YNL294C	pH sensor molecule, component of the RIM101 pathway
+YDR538W	Phenylacrylic acid decarboxylase
+YDR380W	Phenylpyruvate decarboxylase
+YNL279W	Pheromone-regulated multispanning membrane protein
+YJL108C	Pheromone-regulated protein
+YDL039C	Pheromone-regulated protein
+YGL053W	Pheromone-regulated protein
+YAR031W	Pheromone-regulated protein
+YIL117C	Pheromone-regulated protein, predicted to have 1 transmembrane segment
+YDR103W	Pheromone-responsive MAPK scaffold protein
+YDR074W	Phosphatase subunit of the trehalose-6-P synthase/phosphatase complex
+YBR022W	Phosphatase that is highly specific for ADP-ribose 1''-phosphate
+YOR283W	Phosphatase with a broad substrate specificity
+YBR029C	Phosphatidate cytidylyltransferase (CDP-diglyceride synthetase)
+YNL094W	Phosphatidate phosphatase, converts phosphatidate to diacylglycerol
+YJR110W	Phosphatidylinositol 3-phosphate (PI3P) phosphatase
+YNL325C	Phosphatidylinositol 3,5-bisphosphate (PtdIns[3,5]P) phosphatase
+YOL065C	Phosphatidylinositol 4,5-bisphosphate 5-phosphatase
+YPR113W	Phosphatidylinositol synthase
+YLR380W	Phosphatidylinositol transfer protein
+YNL231C	Phosphatidylinositol transfer protein (PITP)
+YLR305C	Phosphatidylinositol-4-kinase
+YMR079W	Phosphatidylinositol/phosphatidylcholine transfer protein
+YKR097W	Phosphoenolpyruvate carboxykinase
+YMR105C	Phosphoglucomutase
+YKL127W	Phosphoglucomutase, minor isoform
+YPL100W	Phosphoinositide binding protein
+YNL047C	Phosphoinositide PI4,5P(2) binding protein, forms a complex with Slm1p
+YIL105C	Phosphoinositide PI4,5P(2) binding protein, forms a complex with Slm2p
+YMR008C	Phospholipase B (lysophospholipase) involved in lipid metabolism
+YMR006C	Phospholipase B (lysophospholipase) involved in lipid metabolism
+YOL011W	Phospholipase B (lysophospholipase) involved in lipid metabolism
+YPL268W	Phospholipase C
+YKR031C	Phospholipase D
+YKL026C	Phospholipid hydroperoxide glutathione peroxidase
+YBR244W	Phospholipid hydroperoxide glutathione peroxidase
+YPL148C	Phosphopantetheine:protein transferase (PPTase)
+YCL063W	Phosphoprotein involved in vacuole inheritance
+YMR278W	Phosphoribomutase
+YLR190W	Phosphorylated protein of the mitochondrial outer membrane
+YDL230W	Phosphotyrosine-specific protein phosphatase
+YER075C	Phosphotyrosine-specific protein phosphatase
+YJR066W	PIK-related protein kinase and rapamycin target
+YLL010C	Plasma membrane associated protein phosphatase
+YPL058C	Plasma membrane ATP-binding cassette (ABC) transporter
+YOR153W	Plasma membrane ATP-binding cassette (ABC) transporter
+YDR011W	Plasma membrane ATP-binding cassette (ABC) transporter
+YDL035C	Plasma membrane G protein coupled receptor (GPCR)
+YCR028C	Plasma membrane H+-pantothenate symporter
+YBR021W	Plasma membrane localized uracil permease
+YOL130W	Plasma membrane Mg(2+) transporter
+YBR296C	Plasma membrane Na+/Pi cotransporter
+YCR098C	Plasma membrane permease
+YNL173C	Plasma membrane protein
+YFL014W	Plasma membrane protein involved in maintaining membrane organization
+YLR414C	Plasma membrane protein with a role in cell wall integrity
+YML052W	Plasma membrane protein, component of eisosomes
+YDR384C	Plasma membrane protein, putative ammonium transporter
+YOL002C	Plasma membrane receptor for plant antifungal protein, osmotin
+YOR306C	Plasma membrane riboflavin transporter
+YPL092W	Plasma membrane sulfite pump involved in sulfite metabolism
+YPL232W	Plasma membrane t-SNARE
+YMR183C	Plasma membrane t-SNARE
+YNL065W	Plasma membrane transporter of the major facilitator superfamily
+YIL121W	Plasma membrane transporter of the major facilitator superfamily
+YPR115W	Pleckstrin homology domain containing protein
+YMR001C	Polo-like kinase
+YNL016W	Poly (A)+ RNA-binding protein
+YFR023W	Poly(A) binding protein, suppressor of DNA polymerase epsilon mutation
+YKR002W	Poly(A) polymerase
+YCL011C	Poly(A+) RNA-binding protein
+YNL004W	Poly(A+) RNA-binding protein
+YDR071C	Polyamine acetyltransferase
+YLL028W	Polyamine transporter of the major facilitator superfamily
+YGR138C	Polyamine transporter of the major facilitator superfamily
+YPR156C	Polyamine transporter of the major facilitator superfamily
+YOR273C	Polyamine transporter of the major facilitator superfamily
+YBR143C	Polypeptide release factor (eRF1) in translation termination
+YOR163W	Polyphosphate phosphatase
+YNL106C	Polyphosphatidylinositol phosphatase
+YOR109W	Polyphosphatidylinositol phosphatase
+YDL205C	Porphobilinogen deaminase
+YNL314W	Positive regulator of allophanate inducible genes
+YIL170W	Possible pseudogene in strain S288C
+YIL171W	Possible pseudogene in strain S288C
+YDR374C	Posttranscriptional regulator of phosphate metabolism
+YDR441C	Potential adenine phosphoribosyltransferase
+YDR364C	Pre-mRNA splicing factor
+YBR065C	Pre-mRNA splicing factor
+YAL059W	Pre-ribosomal factor involved in 60S ribosomal protein subunit export
+YEL043W	Predicted cytoskeleton protein involved in intracellular signaling
+YDR414C	Predicted membrane protein required for lumenal ER protein retention
+YPR106W	Predicted protein kinase
+YDR210W	Predicted tail-anchored plasma membrane protein
+YMR166C	Predicted transporter of the mitochondrial inner membrane
+YKL078W	Predominantly nucleolar DEAH-box ATP-dependent RNA helicase
+YHR048W	Presumed antiporter of the major facilitator superfamily
+YLR430W	Presumed helicase and subunit of the Nrd1 complex (Nrd1p-Nab3p-Sen1p)
+YHR004C	Probable catalytic subunit of Nem1p-Spo7p phosphatase holoenzyme
+YNR049C	Probable component of the secretory vesicle docking complex
+YPL008W	Probable DNA helicase
+YPR061C	Probable Hsp40p co-chaperone
+YBR106W	Probable membrane protein
+YDR018C	Probable membrane protein with three predicted transmembrane domains
+YNL237W	Probable type-III integral membrane protein of unknown function
+YBR088C	Proliferating cell nuclear antigen (PCNA)
+YLR142W	Proline oxidase
+YGL121C	Proposed gamma subunit of the heterotrimeric G protein
+YPL020C	Protease that specifically cleaves Smt3p protein conjugates
+YFL007W	Proteasome activator
+YBR272C	Proteasome-interacting protein
+YIL007C	Proteasome-interacting protein
+YBR024W	Protein anchored to mitochondrial inner membrane
+YBR133C	Protein arginine N-methyltransferase
+YNL310C	Protein co-chaperone with a zinc finger motif
+YLR048W	Protein component of the small (40S) ribosomal subunit
+YOR293W	Protein component of the small (40S) ribosomal subunit
+YMR230W	Protein component of the small (40S) ribosomal subunit
+YDR025W	Protein component of the small (40S) ribosomal subunit
+YBR048W	Protein component of the small (40S) ribosomal subunit
+YOR369C	Protein component of the small (40S) ribosomal subunit
+YDR064W	Protein component of the small (40S) ribosomal subunit
+YCR031C	Protein component of the small (40S) ribosomal subunit
+YJL191W	Protein component of the small (40S) ribosomal subunit
+YOL040C	Protein component of the small (40S) ribosomal subunit
+YMR143W	Protein component of the small (40S) ribosomal subunit
+YDL083C	Protein component of the small (40S) ribosomal subunit
+YDR450W	Protein component of the small (40S) ribosomal subunit
+YML026C	Protein component of the small (40S) ribosomal subunit
+YNL302C	Protein component of the small (40S) ribosomal subunit
+YKR057W	Protein component of the small (40S) ribosomal subunit
+YJL136C	Protein component of the small (40S) ribosomal subunit
+YJL190C	Protein component of the small (40S) ribosomal subunit
+YLR367W	Protein component of the small (40S) ribosomal subunit
+YER074W	Protein component of the small (40S) ribosomal subunit
+YIL069C	Protein component of the small (40S) ribosomal subunit
+YLR333C	Protein component of the small (40S) ribosomal subunit
+YER131W	Protein component of the small (40S) ribosomal subunit
+YKL156W	Protein component of the small (40S) ribosomal subunit
+YOR167C	Protein component of the small (40S) ribosomal subunit
+YLR388W	Protein component of the small (40S) ribosomal subunit
+YDL061C	Protein component of the small (40S) ribosomal subunit
+YJR145C	Protein component of the small (40S) ribosomal subunit
+YJR123W	Protein component of the small (40S) ribosomal subunit
+YPL090C	Protein component of the small (40S) ribosomal subunit
+YBR181C	Protein component of the small (40S) ribosomal subunit
+YNL096C	Protein component of the small (40S) ribosomal subunit
+YBL072C	Protein component of the small (40S) ribosomal subunit
+YER102W	Protein component of the small (40S) ribosomal subunit
+YPL081W	Protein component of the small (40S) ribosomal subunit
+YBR189W	Protein component of the small (40S) ribosomal subunit
+YDL048C	Protein containing a Kruppel-type zinc-finger domain
+YMR136W	Protein containing GATA family zinc finger motifs
+YBR200W	Protein containing SH3-domains
+YDR518W	Protein disulfide isomerase of the endoplasmic reticulum lumen
+YCR032W	Protein homologous to Chediak-Higashi syndrome and Beige proteins
+YHR154W	Protein implicated in Mms22-dependent DNA repair during S phase
+YER114C	Protein implicated in polar growth, functionally redundant with Boi1p
+YOR237W	Protein implicated in the regulation of ergosterol biosynthesis
+YDR316W	Protein integral to the mitochondrial membrane
+YDL059C	Protein involved DNA double-strand break repair
+YER032W	Protein involved in 3' mRNA processing
+YNL305C	Protein involved in apoptosis
+YGL181W	Protein involved in Arf3p regulation and in transcription regulation
+YAR014C	Protein involved in bud-site selection
+YCL014W	Protein involved in bud-site selection
+YLR353W	Protein involved in bud-site selection
+YGR041W	Protein involved in bud-site selection
+YJR055W	Protein involved in C/D snoRNP assembly
+YBR214W	Protein involved in cell separation during budding
+YBR216C	Protein involved in cellular response to oxidative stress
+YMR244C-A	Protein involved in cytochrome c oxidase (Complex IV) assembly
+YPL164C	Protein involved in DNA mismatch repair and meiotic recombination
+YBL023C	Protein involved in DNA replication
+YEL032W	Protein involved in DNA replication
+YGL201C	Protein involved in DNA replication
+YHR157W	Protein involved in early stages of meiotic recombination
+YMR133W	Protein involved in early stages of meiotic recombination
+YJL151C	Protein involved in efficient MVB sorting of proteins to the vacuole
+YBR210W	Protein involved in export of proteins from the endoplasmic reticulum
+YDR296W	Protein involved in homologous recombination in mitochondria
+YHR061C	Protein involved in initiation of budding and cellular polarization
+YGR221C	Protein involved in localization of Cdc24p to the site of bud growth
+YLR445W	Protein involved in meiotic crossing over
+YDR506C	Protein involved in meiotic progression
+YGL010W	Protein involved in metabolism of phytosphingosine
+YNR046W	Protein involved in methylation of tRNA, rRNA, and translation factors
+YOR265W	Protein involved in microtubule morphogenesis
+YLR035C	Protein involved in mismatch repair and meiotic recombination
+YAL046C	Protein involved in mitochondrial function or organization
+YJL116C	Protein involved in mitochondrion organization
+YDR314C	Protein involved in nucleotide excision repair (NER)
+YLR215C	Protein involved in nutritional control of the cell cycle
+YJL037W	Protein involved in outer spore wall assembly
+YJL038C	Protein involved in outer spore wall assembly
+YPR137W	Protein involved in pre-rRNA processing
+YDR326C	Protein involved in programmed cell death
+YBL025W	Protein involved in promoting high level transcription of rDNA
+YMR270C	Protein involved in promoting high level transcription of rDNA
+YLL040C	Protein involved in prospore membrane morphogenesis
+YOR056C	Protein involved in proteasomal and 40S ribosomal subunit biogenesis
+YFR008W	Protein involved in recovery from pheromone-induced cell cycle arrest
+YBL101C	Protein involved in regulating endocytosis of plasma membrane proteins
+YDR528W	Protein involved in regulation of cell wall composition and integrity
+YLR265C	Protein involved in regulation of nonhomologous end joining
+YNL156C	Protein involved in regulation of sterol biosynthesis
+YCL058C	Protein involved in regulation of the mating pathway
+YGR008C	Protein involved in resistance to desiccation stress
+YGR197C	Protein involved in resistance to nitrosoguanidine and 6-azauracil
+YLR039C	Protein involved in retrograde transport to the cis-Golgi network
+YOR206W	Protein involved in ribosome biogenesis
+YLR313C	Protein involved in shmoo formation and bipolar bud site selection
+YGR143W	Protein involved in sphingolipid biosynthesis
+YMR306W	Protein involved in spore wall assembly
+YAL018C	Protein Involved in spore wall assembly
+YOL047C	Protein Involved in spore wall assembly
+YOL048C	Protein involved in spore wall assembly
+YJR156C	Protein involved in synthesis of the thiamine precursor HMP
+YDL244W	Protein involved in synthesis of the thiamine precursor HMP
+YFL058W	Protein involved in synthesis of the thiamine precursor HMP
+YOL017W	Protein involved in telomeric and mating-type locus silencing
+YDR162C	Protein involved in the HOG (high osmolarity glycerol) pathway
+YJL091C	Protein involved in the inositol acylation of GlcN-PI
+YCR018C	Protein involved in the processing of pre-rRNA to mature rRNA
+YDL146W	Protein involved in the regulation of endocytosis
+YNL038W	Protein involved in the synthesis of GlcNAc-PI
+YPL076W	Protein involved in the synthesis of GlcNAc-PI
+YDR527W	Protein involved in transcription
+YDL070W	Protein involved in transcription initiation
+YLR141W	Protein involved in transcription of rDNA by RNA polymerase I
+YDR289C	Protein involved in transcription termination by RNA polymerase II
+YOL063C	Protein involved in transcriptional regulation of RNR2 and RNR3
+YDR206W	Protein involved in translation inhibition and nonsense-mediated decay
+YMR096W	Protein involved in vitamin B6 biosynthesis
+YGL021W	Protein kinase
+YBL009W	Protein kinase
+YOR267C	Protein kinase
+YPL204W	Protein kinase
+YKL161C	Protein kinase
+YKL171W	Protein kinase
+YMR139W	Protein kinase
+YGL179C	Protein kinase
+YDR507C	Protein kinase involved in bud growth and assembly of the septin ring
+YLR248W	Protein kinase involved in response to oxidative and osmotic stress
+YGR188C	Protein kinase involved in the cell cycle checkpoint into anaphase
+YCL024W	Protein kinase of the bud neck involved in the septin checkpoint
+YAR019C	Protein kinase of the Mitotic Exit Network
+YHR102W	Protein kinase of the PAK/Ste20 family, required for cell integrity
+YPL141C	Protein kinase of unknown cellular role
+YMR291W	Protein kinase of unknown cellular role
+YPL150W	Protein kinase of unknown cellular role
+YBL088C	Protein kinase primarily involved in telomere length regulation
+YMR104C	Protein kinase similar to serine/threonine protein kinase Ypk1p
+YJL187C	Protein kinase that regulates the G2/M transition
+YDR466W	Protein kinase with similarity to mammalian PDK1 and yeast Pkh1p/Phk2p
+YNL078W	Protein localized in the bud neck at G2/M phase
+YAL042W	Protein localized to COPII-coated vesicles
+YLR137W	Protein lysine methyltransferase
+YOR321W	Protein O-mannosyltransferase
+YDL093W	Protein O-mannosyltransferase
+YAL023C	Protein O-mannosyltransferase of the ER membrane
+YHR161C	Protein of the AP180 family, involved in clathrin cage assembly
+YCR044C	Protein of the endoplasmic reticulum
+YBR005W	Protein of the ER membrane involved in cell wall chitin deposition
+YLL013C	Protein of the mitochondrial outer surface
+YDL154W	Protein of the MutS family
+YMR095C	Protein of unconfirmed function
+YMR184W	Protein of unknown function
+YMR003W	Protein of unknown function
+YGR230W	Protein of unknown function
+YLR267W	Protein of unknown function
+YNL042W	Protein of unknown function
+YDR275W	Protein of unknown function
+YNL269W	Protein of unknown function
+YNL336W	Protein of unknown function
+YBR302C	Protein of unknown function
+YDL248W	Protein of unknown function
+YKL219W	Protein of unknown function
+YOL007C	Protein of unknown function
+YML101C	Protein of unknown function
+YNL335W	Protein of unknown function
+YKL121W	Protein of unknown function
+YMR316W	Protein of unknown function
+YGR146C	Protein of unknown function
+YKR096W	Protein of unknown function
+YGR131W	Protein of unknown function
+YDR070C	Protein of unknown function
+YNL133C	Protein of unknown function
+YBR157C	Protein of unknown function
+YMR195W	Protein of unknown function
+YPL250C	Protein of unknown function
+YJR118C	Protein of unknown function
+YJL082W	Protein of unknown function
+YMR132C	Protein of unknown function
+YCL034W	Protein of unknown function
+YJR008W	Protein of unknown function
+YBL049W	Protein of unknown function
+YOR188W	Protein of unknown function
+YML128C	Protein of unknown function
+YLR219W	Protein of unknown function
+YHR039C	Protein of unknown function
+YHR151C	Protein of unknown function
+YOL070C	Protein of unknown function
+YPR149W	Protein of unknown function
+YHL013C	Protein of unknown function
+YDR542W	Protein of unknown function
+YLL025W	Protein of unknown function
+YMR325W	Protein of unknown function
+YOL161C	Protein of unknown function
+YOR394W	Protein of unknown function
+YPL282C	Protein of unknown function
+YAL068C	Protein of unknown function
+YDR281C	Protein of unknown function
+YDL189W	Protein of unknown function
+YOR220W	Protein of unknown function
+YBR052C	Protein of unknown function
+YER067W	Protein of unknown function
+YDR065W	Protein of unknown function
+YLR187W	Protein of unknown function
+YFL060C	Protein of unknown function
+YDR006C	Protein of unknown function
+YDL246C	Protein of unknown function
+YBR250W	Protein of unknown function
+YDR464W	Protein of unknown function
+YCL048W	Protein of unknown function
+YLR250W	Protein of unknown function
+YAL011W	Protein of unknown function
+YER071C	Protein of unknown function
+YDL169C	Protein of unknown function
+YHR029C	Protein of unknown function
+YMR152W	Protein of unknown function
+YBR162W-A	Protein of unknown function
+YER033C	Protein of unknown function
+YAL064W	Protein of unknown function
+YBR197C	Protein of unknown function
+YCR061W	Protein of unknown function
+YDL009C	Protein of unknown function
+YDL129W	Protein of unknown function
+YDL211C	Protein of unknown function
+YDR132C	Protein of unknown function
+YDR222W	Protein of unknown function
+YER034W	Protein of unknown function
+YER084W	Protein of unknown function
+YFL067W	Protein of unknown function
+YFR020W	Protein of unknown function
+YGL101W	Protein of unknown function
+YGL204C	Protein of unknown function
+YGR042W	Protein of unknown function
+YHR112C	Protein of unknown function
+YHR173C	Protein of unknown function
+YIL163C	Protein of unknown function
+YJR120W	Protein of unknown function
+YJR146W	Protein of unknown function
+YKL044W	Protein of unknown function
+YKL050C	Protein of unknown function
+YKL222C	Protein of unknown function
+YKR041W	Protein of unknown function
+YKR075C	Protein of unknown function
+YLR072W	Protein of unknown function
+YLR108C	Protein of unknown function
+YLR149C	Protein of unknown function
+YLR297W	Protein of unknown function
+YLR358C	Protein of unknown function
+YML083C	Protein of unknown function
+YML131W	Protein of unknown function
+YMR111C	Protein of unknown function
+YMR160W	Protein of unknown function
+YMR178W	Protein of unknown function
+YMR181C	Protein of unknown function
+YMR262W	Protein of unknown function
+YMR316C-A	Protein of unknown function
+YNL134C	Protein of unknown function
+YNL140C	Protein of unknown function
+YNL184C	Protein of unknown function
+YNL195C	Protein of unknown function
+YNR065C	Protein of unknown function
+YOL036W	Protein of unknown function
+YOR342C	Protein of unknown function
+YPL068C	Protein of unknown function
+YPR148C	Protein of unknown function
+YPR174C	Protein of unknown function
+YBR071W	Protein of unknown function found in the cytoplasm and bud neck
+YIL089W	Protein of unknown function found in the ER and vacuole lumen
+YBR187W	Protein of unknown function involved in calcium homeostasis
+YMR134W	Protein of unknown function involved in ergosterol biosynthesis
+YPL041C	Protein of unknown function involved in maintenance of telomere length
+YEL057C	Protein of unknown function involved in telomere maintenance
+YJR126C	Protein of unknown function involved in vacuolar protein sorting
+YEL017W	Protein of unknown function may be involved in glutathione metabolism
+YLR054C	Protein of unknown function reputedly involved in spore wall assembly
+YLR327C	Protein of unknown function that associates with ribosomes
+YOR252W	Protein of unknown function that associates with ribosomes
+YMR295C	Protein of unknown function that associates with ribosomes
+YOR091W	Protein of unknown function that associates with translating ribosomes
+YLR392C	Protein of unknown function that contains 2 PY motifs
+YDR514C	Protein of unknown function that localizes to mitochondria
+YMR040W	Protein of unknown function that may interact with ribosomes
+YBL028C	Protein of unknown function that may interact with ribosomes
+YJL213W	Protein of unknown function that may interact with ribosomes
+YBR054W	Protein of unknown function with similarity to archaeal rhodopsins
+YNL234W	Protein of unknown function with similarity to globins
+YDL245C	Protein of unknown function with similarity to hexose transporters
+YJR158W	Protein of unknown function with similarity to hexose transporters
+YJL214W	Protein of unknown function with similarity to hexose transporters
+YNR077C	Protein of unknown function, abundance changes with carbon source
+YJL105W	Protein of unknown function, contains a SET domain
+YIR026C	Protein phosphatase
+YPR073C	Protein phosphotyrosine phosphatase of unknown cellular role
+YJL020C	Protein possibly involved in assembly of actin patches
+YLR065C	Protein proposed to be involved in vacuolar functions
+YGR068C	Protein proposed to regulate endocytosis of plasma membrane proteins
+YDL208W	Protein related to mammalian high mobility group (HMG) proteins
+YOR006C	Protein required for 20S pre-rRNA processing
+YGR245C	Protein required for actin organization and passage through Start
+YER058W	Protein required for assembly of cytochrome c oxidase
+YBR269C	Protein required for assembly of succinate dehydrogenase
+YDR493W	Protein required for assembly of the cytochrome bc(1) complex
+YNL132W	Protein required for biogenesis of the small ribosomal subunit
+YDR351W	Protein required for bud growth
+YBR158W	Protein required for daughter cell separation
+YPR151C	Protein required for degradation of unstable forms of cytochrome c
+YPL132W	Protein required for delivery of copper to Cox1p
+YDR369C	Protein required for DNA repair
+YLR251W	Protein required for ethanol metabolism
+YKL187C	Protein required for fatty acid uptake
+YLR087C	Protein required for fermentation at low temperature
+YOL071W	Protein required for flavinylation of Sdh1p
+YGL229C	Protein required for function of the Sit4p protein phosphatase
+YDR504C	Protein required for high temperature survival during stationary phase
+YGL126W	Protein required for inositol prototrophy
+YGL250W	Protein required for meiotic recombination and gene conversion
+YMR167W	Protein required for mismatch repair in mitosis and meiosis
+YDR097C	Protein required for mismatch repair in mitosis and meiosis
+YOR205C	Protein required for mitochondrial ribosome small subunit biogenesis
+YAL020C	Protein required for modification of wobble nucleosides in tRNA
+YOL060C	Protein required for normal mitochondrial morphology
+YPL192C	Protein required for nuclear envelope fusion during karyogamy
+YDR150W	Protein required for nuclear migration
+YLR150W	Protein required for optimal translation under nutrient stress
+YDR085C	Protein required for pheromone-induced projection (shmoo) formation
+YIL019W	Protein required for pre-rRNA processing
+YMR191W	Protein required for proteasome assembly during quiescence
+YKR010C	Protein required for rDNA silencing and mitotic rDNA condensation
+YJL023C	Protein required for respiratory growth
+YMR030W	Protein required for respiratory growth
+YDR312W	Protein required for ribosomal large subunit maturation
+YDL239C	Protein required for spore wall formation
+YEL072W	Protein required for sporulation
+YKL089W	Protein required for structural integrity of elongating spindles
+YMR212C	Protein required for Stt4-containing PI kinase complex localization
+YKL191W	Protein required for synthesis of diphthamide
+YJL059W	Protein required for the ATP-dependent transport of arginine
+YER141W	Protein required for the hydroxylation of heme O to form heme A
+YMR185W	Protein required for the nuclear import and biogenesis of RNA pol II
+YPL255W	Protein required for the spindle pole body (SPB) duplication
+YGL211W	Protein required for uridine thiolation of Gln, Lys, and Glu tRNAs
+YGR249W	Protein similar to heat shock transcription factor
+YML091C	Protein subunit of mitochondrial RNase P
+YPR066W	Protein that activates Rub1p (NEDD8) before neddylation
+YPL003W	Protein that activates Rub1p (NEDD8) before neddylation
+YKL056C	Protein that associates with ribosomes
+YNL215W	Protein that associates with the INO80 chromatin remodeling complex
+YOL090W	Protein that binds to DNA mismatches
+YBR275C	Protein that binds to the Rap1p C-terminus
+YLR453C	Protein that binds to the Rap1p C-terminus
+YPR097W	Protein that contains a PX domain and binds phosphoinositides
+YGR089W	Protein that exhibits physical and genetic interactions with Rpb8p
+YDL181W	Protein that inhibits ATP hydrolysis by the F1F0-ATP synthase
+YBR108W	Protein that inhibits barbed-end actin filament elongation
+YDR183W	Protein that interacts with CCT (chaperonin containing TCP-1) complex
+YMR053C	Protein that interacts with Sin3p in a two-hybrid assay
+YPR040W	Protein that interacts with Tap42p, which regulates PP2A
+YPL186C	Protein that interacts with Ulp1p
+YER128W	Protein that interacts with Vps4p and has a role in vacuolar sorting
+YDR033W	Protein that localizes primarily to the plasma membrane
+YKR090W	Protein that localizes to sites of polarized growth
+YEL052W	Protein that may act as a chaperone for cytochrome c oxidase subunits
+YGR122W	Protein that may be involved in pH regulation
+YPR045C	Protein that may have a role in transcription elongation
+YML068W	Protein that modulates the efficiency of translation termination
+YGR238C	Protein that negatively regulates mitotic exit
+YMR201C	Protein that recognizes and binds damaged DNA during NER
+YPL158C	Protein that regulates Cdc42p and Rho1p
+YLR437C	Protein that regulates nuclear localization of Rnr2p and Rnr4p
+YCL056C	Protein that regulates peroxisome populations
+YLR010C	Protein that regulates telomeric length
+YML032C	Protein that stimulates strand exchange
+YDR076W	Protein that stimulates strand exchange
+YDR004W	Protein that stimulates strand exchange
+YDR375C	Protein translocase and chaperone required for Complex III assembly
+YMR036C	Protein tyrosine phosphatase involved in cell cycle control
+YOR313C	Protein whose expression is induced during sporulation
+YER152C	Protein with 2-aminoadipate transaminase activity
+YOL032W	Protein with a possible role in phospholipid biosynthesis
+YNR034W	Protein with a possible role in tRNA export
+YER113C	Protein with a role in cellular adhesion and filamentous growth
+YJR080C	Protein with a role in determining mitochondrial architecture
+YBR137W	Protein with a role in ER delivery of tail-anchored membrane proteins
+YPL103C	Protein with a role in maintaining mitochondrial morphology
+YJL077C	Protein with a role in processing of secretory proteins
+YMR273C	Protein with a role in regulating Swe1p-dependent polarized growth
+YML109W	Protein with a role in regulating Swe1p-dependent polarized growth
+YER104W	Protein with a role in regulation of Ty1 transposition
+YNR004W	Protein with a role in snRNA and snoRNA cap trimethylation
+YMR179W	Protein with a role in transcriptional silencing
+YDR204W	Protein with a role in ubiquinone (Coenzyme Q) biosynthesis
+YER132C	Protein with an N-terminal kelch-like domain
+YBL015W	Protein with CoA transferase activity
+YNL218W	Protein with DNA-dependent ATPase and ssDNA annealing activities
+YMR074C	Protein with homology to human PDCD5
+YGL144C	Protein with putative serine active lipase domain
+YNL309W	Protein with role in regulation of MBF-specific transcription at Start
+YHR136C	Protein with similarity to cyclin-dependent kinase inhibitors
+YDL018C	Protein with similarity to Emp24p and Erv25p
+YHR110W	Protein with similarity to Emp24p and Erv25p
+YJR036C	Protein with similarity to hect domain E3 ubiquitin-protein ligases
+YCR075C	Protein with similarity to human cystinosin
+YPR121W	Protein with similarity to hydroxymethylpyrimidine phosphate kinases
+YOL119C	Protein with similarity to mammalian monocarboxylate permeases
+YDR038C	Protein with similarity to P-type ATPase sodium pumps
+YEL037C	Protein with ubiquitin-like N terminus
+YJL212C	Proton-coupled oligopeptide transporter of the plasma membrane
+YCL073C	Proton:glutathione antiporter
+YKR106W	Proton:glutathione antiporter
+YER014W	Protoporphyrinogen oxidase
+YAR061W	Pseudogenic fragment with similarity to flocculins
+YAR064W	Pseudogenic fragment with similarity to flocculins
+YPL267W	Pseudosubstrate inhibitor of the APC/C
+YLR175W	Pseudouridine synthase catalytic subunit of box H/ACA snoRNPs
+YLR209C	Purine nucleoside phosphorylase
+YER056C	Purine-cytosine permease
+YMR215W	Putative 1,3-beta-glucanosyltransferase
+YPR002W	Putative 2-methylcitrate dehydratase
+YJL218W	Putative acetyltransferase
+YNR071C	Putative aldose 1-epimerase
+YHR210C	Putative aldose 1-epimerase superfamily protein
+YBR205W	Putative alpha-1,2-mannosyltransferase
+YDR415C	Putative aminopeptidase
+YJR155W	Putative aryl-alcohol dehydrogenase
+YOL165C	Putative aryl-alcohol dehydrogenase
+YCR107W	Putative aryl-alcohol dehydrogenase
+YDL243C	Putative aryl-alcohol dehydrogenase
+YFL056C	Putative aryl-alcohol dehydrogenase
+YCR011C	Putative ATP-dependent permease of the ABC transporter family
+YDL031W	Putative ATP-dependent RNA helicase of the DEAD-box protein family
+YLL034C	Putative ATPase of the AAA family
+YER047C	Putative ATPase of the AAA family
+YPL074W	Putative ATPase of the CDC48/PAS1/SEC18 (AAA) family
+YOL028C	Putative basic leucine zipper (bZIP) transcription factor
+YMR279C	Putative boron transporter involved in boron efflux and resistance
+YDL086W	Putative carboxymethylenebutenolidase
+YNL021W	Putative catalytic subunit of a class II histone deacetylase complex
+YFL054C	Putative channel-like protein
+YDR371W	Putative chitinase
+YGL197W	Putative component of the TOR regulatory pathway
+YDR541C	Putative dihydrokaempferol 4-reductase
+YBR180W	Putative dityrosine transporter of the major facilitator superfamily
+YOL042W	Putative endonuclease
+YLR277C	Putative endoribonuclease
+YAL053W	Putative FAD transporter
+YOR384W	Putative ferric reductase with similarity to Fre2p
+YOL152W	Putative ferric reductase with similarity to Fre2p
+YLR126C	Putative glutamine amidotransferase
+YIR007W	Putative glycosidase
+YBR056W	Putative glycoside hydrolase of the mitochondrial intermembrane space
+YAR066W	Putative GPI protein
+YIR039C	Putative GPI-anchored aspartic protease
+YOL154W	Putative GPI-anchored protein
+YNR053C	Putative GTPase
+YGL099W	Putative GTPase involved in 60S ribosomal subunit biogenesis
+YMR097C	Putative GTPase peripheral to the mitochondrial inner membrane
+YLR243W	Putative GTPase with a role in biogenesis of RNA pol II and polIII
+YJL219W	Putative hexose transporter that is nearly identical to Hxt11p
+YOL156W	Putative hexose transporter that is nearly identical to Hxt9p
+YJL127C	Putative histone acetylase with a role in transcriptional silencing
+YDR444W	Putative hydrolase acting on ester bonds
+YCR007C	Putative integral membrane protein
+YHL044W	Putative integral membrane protein
+YDR109C	Putative kinase
+YDL109C	Putative lipase
+YJR107W	Putative lipase
+YJL046W	Putative lipoate-protein ligase
+YEL070W	Putative mannitol dehydrogenase
+YNR073C	Putative mannitol dehydrogenase
+YKL046C	Putative mannosidase
+YNL029C	Putative mannosyltransferase involved in protein glycosylation
+YPR071W	Putative membrane protein
+YNR062C	Putative membrane protein of unknown function
+YPL264C	Putative membrane protein of unknown function
+YMR177W	Putative metal transporter involved in mitochondrial iron accumulation
+YPL224C	Putative metal transporter involved in mitochondrial iron accumulation
+YBR284W	Putative metallo-dependent hydrolase superfamily protein
+YEL006W	Putative mitochondrial NAD+ transporter
+YDL119C	Putative mitochondrial transport protein
+YBR001C	Putative neutral trehalase, required for thermotolerance
+YBL036C	Putative non-specific single-domain racemase
+YML038C	Putative nucleotide sugar transporter
+YOR356W	Putative ortholog of human ETF-dH
+YHR009C	Putative oxidoreductase involved in late endosome to Golgi transport
+YOR378W	Putative paralog of ATR1
+YAL067C	Putative permease
+YAL055W	Putative peroxisomal membrane protein
+YDR539W	Putative phenylacrylic acid decarboxylase
+YKL091C	Putative phosphatidylinositol/phosphatidylcholine transfer protein
+YDR339C	Putative PINc domain nuclease
+YGR023W	Putative plasma membrane sensor
+YKL201C	Putative positive regulator of mannosylphosphate transferase Mnn6p
+YOR003W	Putative precursor to the subtilisin-like protease III
+YLL053C	Putative protein
+YJL165C	Putative protein kinase
+YDL025C	Putative protein kinase, potentially phosphorylated by Cdc28p
+YHL021C	Putative protein of unknown function
+YIL087C	Putative protein of unknown function
+YIL158W	Putative protein of unknown function
+YKL037W	Putative protein of unknown function
+YDR020C	Putative protein of unknown function
+YHL043W	Putative protein of unknown function
+YBR047W	Putative protein of unknown function
+YLR454W	Putative protein of unknown function
+YJL161W	Putative protein of unknown function
+YPL222W	Putative protein of unknown function
+YLR413W	Putative protein of unknown function
+YMR073C	Putative protein of unknown function
+YDR540C	Putative protein of unknown function
+YPL056C	Putative protein of unknown function
+YGL085W	Putative protein of unknown function
+YNL056W	Putative protein of unknown function
+YPL272C	Putative protein of unknown function
+YFR032C	Putative protein of unknown function
+YHR159W	Putative protein of unknown function
+YJR116W	Putative protein of unknown function
+YLR426W	Putative protein of unknown function
+YPR157W	Putative protein of unknown function
+YFR026C	Putative protein of unknown function
+YLR261C	Putative protein of unknown function
+YAL037W	Putative protein of unknown function
+YAL065C	Putative protein of unknown function
+YBL010C	Putative protein of unknown function
+YBL095W	Putative protein of unknown function
+YBL112C	Putative protein of unknown function
+YBR053C	Putative protein of unknown function
+YBR063C	Putative protein of unknown function
+YBR090C	Putative protein of unknown function
+YBR096W	Putative protein of unknown function
+YBR184W	Putative protein of unknown function
+YBR220C	Putative protein of unknown function
+YBR285W	Putative protein of unknown function
+YCL002C	Putative protein of unknown function
+YCL042W	Putative protein of unknown function
+YCR015C	Putative protein of unknown function
+YCR043C	Putative protein of unknown function
+YCR051W	Putative protein of unknown function
+YCR090C	Putative protein of unknown function
+YCR099C	Putative protein of unknown function
+YCR102C	Putative protein of unknown function
+YDL027C	Putative protein of unknown function
+YDL057W	Putative protein of unknown function
+YDL157C	Putative protein of unknown function
+YDL186W	Putative protein of unknown function
+YDL206W	Putative protein of unknown function
+YDR042C	Putative protein of unknown function
+YDR114C	Putative protein of unknown function
+YDR249C	Putative protein of unknown function
+YDR262W	Putative protein of unknown function
+YDR286C	Putative protein of unknown function
+YDR336W	Putative protein of unknown function
+YDR338C	Putative protein of unknown function
+YDR366C	Putative protein of unknown function
+YDR391C	Putative protein of unknown function
+YDR476C	Putative protein of unknown function
+YEL023C	Putative protein of unknown function
+YEL025C	Putative protein of unknown function
+YEL073C	Putative protein of unknown function
+YEL076C	Putative protein of unknown function
+YER079W	Putative protein of unknown function
+YER121W	Putative protein of unknown function
+YER137C	Putative protein of unknown function
+YER187W	Putative protein of unknown function
+YER189W	Putative protein of unknown function
+YFL064C	Putative protein of unknown function
+YFL065C	Putative protein of unknown function
+YFR035C	Putative protein of unknown function
+YGL081W	Putative protein of unknown function
+YGL117W	Putative protein of unknown function
+YGL230C	Putative protein of unknown function
+YGL262W	Putative protein of unknown function
+YGR053C	Putative protein of unknown function
+YGR149W	Putative protein of unknown function
+YGR153W	Putative protein of unknown function
+YHL017W	Putative protein of unknown function
+YHL026C	Putative protein of unknown function
+YHL042W	Putative protein of unknown function
+YHL049C	Putative protein of unknown function
+YHR022C	Putative protein of unknown function
+YHR097C	Putative protein of unknown function
+YHR202W	Putative protein of unknown function
+YHR214W	Putative protein of unknown function
+YIL055C	Putative protein of unknown function
+YIL092W	Putative protein of unknown function
+YIL169C	Putative protein of unknown function
+YIR042C	Putative protein of unknown function
+YJL049W	Putative protein of unknown function
+YJL107C	Putative protein of unknown function
+YJL118W	Putative protein of unknown function
+YJL132W	Putative protein of unknown function
+YJL163C	Putative protein of unknown function
+YJL181W	Putative protein of unknown function
+YJL206C	Putative protein of unknown function
+YJR015W	Putative protein of unknown function
+YJR030C	Putative protein of unknown function
+YJR039W	Putative protein of unknown function
+YJR079W	Putative protein of unknown function
+YJR098C	Putative protein of unknown function
+YJR115W	Putative protein of unknown function
+YJR149W	Putative protein of unknown function
+YKL100C	Putative protein of unknown function
+YKL133C	Putative protein of unknown function
+YKR005C	Putative protein of unknown function
+YKR045C	Putative protein of unknown function
+YKR051W	Putative protein of unknown function
+YLR001C	Putative protein of unknown function
+YLR012C	Putative protein of unknown function
+YLR030W	Putative protein of unknown function
+YLR031W	Putative protein of unknown function
+YLR049C	Putative protein of unknown function
+YLR053C	Putative protein of unknown function
+YLR152C	Putative protein of unknown function
+YLR159W	Putative protein of unknown function
+YLR161W	Putative protein of unknown function
+YLR177W	Putative protein of unknown function
+YLR281C	Putative protein of unknown function
+YLR283W	Putative protein of unknown function
+YLR287C	Putative protein of unknown function
+YLR312C	Putative protein of unknown function
+YLR326W	Putative protein of unknown function
+YLR415C	Putative protein of unknown function
+YML037C	Putative protein of unknown function
+YML053C	Putative protein of unknown function
+YML119W	Putative protein of unknown function
+YMR090W	Putative protein of unknown function
+YMR130W	Putative protein of unknown function
+YMR144W	Putative protein of unknown function
+YMR147W	Putative protein of unknown function
+YMR196W	Putative protein of unknown function
+YMR253C	Putative protein of unknown function
+YMR265C	Putative protein of unknown function
+YMR317W	Putative protein of unknown function
+YNL011C	Putative protein of unknown function
+YNL019C	Putative protein of unknown function
+YNL033W	Putative protein of unknown function
+YNL034W	Putative protein of unknown function
+YNL046W	Putative protein of unknown function
+YNL058C	Putative protein of unknown function
+YNL115C	Putative protein of unknown function
+YNL144C	Putative protein of unknown function
+YNL146W	Putative protein of unknown function
+YNL193W	Putative protein of unknown function
+YNL211C	Putative protein of unknown function
+YNL217W	Putative protein of unknown function
+YNR014W	Putative protein of unknown function
+YNR068C	Putative protein of unknown function
+YOL014W	Putative protein of unknown function
+YOL107W	Putative protein of unknown function
+YOL162W	Putative protein of unknown function
+YOL163W	Putative protein of unknown function
+YOR012W	Putative protein of unknown function
+YOR114W	Putative protein of unknown function
+YOR152C	Putative protein of unknown function
+YOR289W	Putative protein of unknown function
+YOR292C	Putative protein of unknown function
+YOR338W	Putative protein of unknown function
+YOR365C	Putative protein of unknown function
+YOR385W	Putative protein of unknown function
+YOR387C	Putative protein of unknown function
+YOR389W	Putative protein of unknown function
+YPL014W	Putative protein of unknown function
+YPL067C	Putative protein of unknown function
+YPL077C	Putative protein of unknown function
+YPL162C	Putative protein of unknown function
+YPL191C	Putative protein of unknown function
+YPL199C	Putative protein of unknown function
+YPL229W	Putative protein of unknown function
+YPL247C	Putative protein of unknown function
+YPL257W	Putative protein of unknown function
+YPR015C	Putative protein of unknown function
+YPR027C	Putative protein of unknown function
+YPR078C	Putative protein of unknown function
+YPR084W	Putative protein of unknown function
+YPR202W	Putative protein of unknown function
+YPR203W	Putative protein of unknown function
+YLR346C	Putative protein of unknown function found in mitochondria
+YLR352W	Putative protein of unknown function with similarity to F-box proteins
+YLR462W	Putative protein of unknown function with similarity to helicases
+YOL114C	Putative protein of unknown function with similarity to human ICT1
+YMR018W	Putative protein of unknown function with similarity to human PEX5Rp
+YLL054C	Putative protein of unknown function with similarity to Pip2p
+YLL058W	Putative protein of unknown function with similarity to Str2p
+YGR035C	Putative protein of unknown function, potential Cdc28p substrate
+YML082W	Putative protein predicted to have carbon-sulfur lyase activity
+YDR523C	Putative protein serine/threonine kinase
+YML096W	Putative protein with similarity to asparagine synthetases
+YER060W	Putative purine-cytosine permease
+YKR049C	Putative redox protein containing a thioredoxin fold
+YAL009W	Putative regulatory subunit of Nem1p-Spo7p phosphatase holoenzyme
+YER054C	Putative regulatory subunit of protein phosphatase Glc7p
+YCR036W	Putative ribokinase
+YDL167C	Putative RNA binding protein of unknown function
+YOL080C	Putative RNA exonuclease
+YGR271W	Putative RNA helicase related to Ski2p
+YHR015W	Putative RNA-binding protein
+YML117W	Putative RNA-binding protein
+YHL024W	Putative RNA-binding protein
+YMR209C	Putative S-adenosylmethionine-dependent methyltransferase
+YNL092W	Putative S-adenosylmethionine-dependent methyltransferase
+YMR222C	Putative serine hydrolase that localizes to the cytoplasm
+YBR139W	Putative serine type carboxypeptidase
+YCR091W	Putative serine/threonine protein kinase
+YPL026C	Putative serine/threonine protein kinase
+YNR032W	Putative serine/threonine protein phosphatase
+YKL107W	Putative short-chain dehydrogenase/reductase
+YKR060W	Putative subunit of U3-containing 90S preribosome complex
+YPR003C	Putative sulfate permease
+YLR273C	Putative targeting subunit for type-1 protein phosphatase Glc7p
+YBL066C	Putative transcription factor
+YPL230W	Putative transcription factor containing a C2H2 zinc finger
+YHR177W	Putative transcription factor containing a WOPR domain
+YDR501W	Putative transcription factor, contains Forkhead Associated domain
+YLR183C	Putative transcription factor, contains Forkhead Associated domain
+YKR077W	Putative transcriptional activator
+YNR002C	Putative transmembrane protein involved in export of ammonia
+YEL064C	Putative transporter
+YBL089W	Putative transporter
+YDL199C	Putative transporter
+YDR387C	Putative transporter
+YMR034C	Putative transporter
+YKR104W	Putative transporter of the MRP subfamily
+YGL232W	Putative tRNA acetyltransferase
+YJR078W	Putative tryptophan 2,3-dioxygenase or indoleamine 2,3-dioxygenase
+YBR094W	Putative tubulin tyrosine ligase associated with P-bodies
+YIL045W	Putative type-1 protein phosphatase targeting subunit
+YBR147W	Putative vacuolar membrane transporter for cationic amino acids
+YDR352W	Putative vacuolar membrane transporter for cationic amino acids
+YIL177C	Putative Y' element ATP-dependent helicase
+YJL225C	Putative Y' element ATP-dependent helicase
+YLL066C	Putative Y' element ATP-dependent helicase
+YLL067C	Putative Y' element ATP-dependent helicase
+YML133C	Putative Y' element ATP-dependent helicase
+YJL103C	Putative zinc cluster protein of unknown function
+YNR063W	Putative zinc-cluster protein of unknown function
+YBR035C	Pyridoxine (pyridoxamine) phosphate oxidase
+YGL062W	Pyruvate carboxylase isoform
+YBR218C	Pyruvate carboxylase isoform
+YAL038W	Pyruvate kinase
+YOR347C	Pyruvate kinase
+YFL005W	Rab family GTPase
+YLR262C	Rab family GTPase
+YNL304W	Rab GTPase
+YLR293C	Ran GTPase
+YKL178C	Receptor for a factor pheromone
+YOL082W	Receptor protein for the cytoplasm-to-vacuole targeting (Cvt) pathway
+YOL083W	Receptor protein involved in selective autophagy during starvation
+YMR190C	RecQ family nucleolar DNA helicase
+YDR309C	Redundant rho-like GTPase Cdc42p effector
+YDL233W	Regulator of filamentous growth
+YPL052W	Regulator of ornithine decarboxylase Spe1p
+YPR104C	Regulator of ribosomal protein (RP) transcription
+YAL016W	Regulatory subunit A of the heterotrimeric PP2A complex
+YOR178C	Regulatory subunit for Glc7p type-1 protein phosphatase (PP1)
+YBL046W	Regulatory subunit of protein phosphatase PP4
+YPR185W	Regulatory subunit of the Atg1p signaling complex
+YBR050C	Regulatory subunit of the Glc7p type-1 protein phosphatase
+YFR003C	Regulatory subunit of the type I protein phosphatase (PP1) Glc7p
+YMR048W	Replication fork associated factor
+YBR093C	Repressible acid phosphatase
+YPR129W	Repressor of translation initiation
+YDL204W	Reticulon protein
+YAR009C	Retrotransposon TYA Gag and TYB Pol genes
+YCL019W	Retrotransposon TYA Gag and TYB Pol genes
+YER138C	Retrotransposon TYA Gag and TYB Pol genes
+YER160C	Retrotransposon TYA Gag and TYB Pol genes
+YHR214C-B	Retrotransposon TYA Gag and TYB Pol genes
+YJL113W	Retrotransposon TYA Gag and TYB Pol genes
+YJR027W	Retrotransposon TYA Gag and TYB Pol genes
+YJR029W	Retrotransposon TYA Gag and TYB Pol genes
+YML039W	Retrotransposon TYA Gag and TYB Pol genes
+YML045W	Retrotransposon TYA Gag and TYB Pol genes
+YMR045C	Retrotransposon TYA Gag and TYB Pol genes
+YMR050C	Retrotransposon TYA Gag and TYB Pol genes
+YAR010C	Retrotransposon TYA Gag gene co-transcribed with TYB Pol
+YBR012W-A	Retrotransposon TYA Gag gene co-transcribed with TYB Pol
+YCL020W	Retrotransposon TYA Gag gene co-transcribed with TYB Pol
+YJL114W	Retrotransposon TYA Gag gene co-transcribed with TYB Pol
+YJR026W	Retrotransposon TYA Gag gene co-transcribed with TYB Pol
+YJR028W	Retrotransposon TYA Gag gene co-transcribed with TYB Pol
+YML040W	Retrotransposon TYA Gag gene co-transcribed with TYB Pol
+YMR046C	Retrotransposon TYA Gag gene co-transcribed with TYB Pol
+YLR318W	Reverse transcriptase subunit of the telomerase holoenzyme
+YOR134W	Rho GTPase activating protein (RhoGAP)
+YER155C	Rho GTPase activating protein (RhoGAP)
+YPL115C	Rho GTPase activating protein (RhoGAP)
+YDR236C	Riboflavin kinase, produces riboflavin monophosphate (FMN)
+YMR234W	Ribonuclease H1
+YNL072W	Ribonuclease H2 catalytic subunit
+YDR279W	Ribonuclease H2 subunit
+YDR478W	Ribonuclease MRP complex subunit
+YGR180C	Ribonucleotide-diphosphate reductase (RNR) small subunit
+YOR201C	Ribose methyltransferase
+YGR214W	Ribosomal 40S subunit protein S0A
+YLR075W	Ribosomal 60S subunit protein L10
+YPR102C	Ribosomal 60S subunit protein L11A
+YDR418W	Ribosomal 60S subunit protein L12B
+YDL082W	Ribosomal 60S subunit protein L13A
+YKL006W	Ribosomal 60S subunit protein L14A
+YHL001W	Ribosomal 60S subunit protein L14B
+YLR029C	Ribosomal 60S subunit protein L15A
+YMR121C	Ribosomal 60S subunit protein L15B
+YKL180W	Ribosomal 60S subunit protein L17A
+YJL177W	Ribosomal 60S subunit protein L17B
+YNL301C	Ribosomal 60S subunit protein L18B
+YBR084C-A	Ribosomal 60S subunit protein L19A
+YBL027W	Ribosomal 60S subunit protein L19B
+YMR242C	Ribosomal 60S subunit protein L20A
+YOR312C	Ribosomal 60S subunit protein L20B
+YBR191W	Ribosomal 60S subunit protein L21A
+YBL087C	Ribosomal 60S subunit protein L23A
+YER117W	Ribosomal 60S subunit protein L23B
+YOL127W	Ribosomal 60S subunit protein L25
+YLR344W	Ribosomal 60S subunit protein L26A
+YDR471W	Ribosomal 60S subunit protein L27B
+YDL075W	Ribosomal 60S subunit protein L31A
+YLR406C	Ribosomal 60S subunit protein L31B
+YBL092W	Ribosomal 60S subunit protein L32
+YPL143W	Ribosomal 60S subunit protein L33A
+YOR234C	Ribosomal 60S subunit protein L33B
+YDL191W	Ribosomal 60S subunit protein L35A
+YDL136W	Ribosomal 60S subunit protein L35B
+YMR194W	Ribosomal 60S subunit protein L36A
+YLR185W	Ribosomal 60S subunit protein L37A
+YDR500C	Ribosomal 60S subunit protein L37B
+YLR325C	Ribosomal 60S subunit protein L38
+YJL189W	Ribosomal 60S subunit protein L39
+YNL162W	Ribosomal 60S subunit protein L42A
+YHR141C	Ribosomal 60S subunit protein L42B
+YPR043W	Ribosomal 60S subunit protein L43A
+YJR094W-A	Ribosomal 60S subunit protein L43B
+YBR031W	Ribosomal 60S subunit protein L4A
+YDR012W	Ribosomal 60S subunit protein L4B
+YML073C	Ribosomal 60S subunit protein L6A
+YLR448W	Ribosomal 60S subunit protein L6B
+YPL198W	Ribosomal 60S subunit protein L7B
+YLL045C	Ribosomal 60S subunit protein L8B
+YNL067W	Ribosomal 60S subunit protein L9B
+YDR257C	Ribosomal lysine methyltransferase
+YLR441C	Ribosomal protein 10 (rp10) of the small (40S) subunit
+YML063W	Ribosomal protein 10 (rp10) of the small (40S) subunit
+YGR118W	Ribosomal protein 28 (rp28) of the small (40S) ribosomal subunit
+YML024W	Ribosomal protein 51 (rp51) of the small (40s) subunit
+YDR447C	Ribosomal protein 51 (rp51) of the small (40s) subunit
+YDR198C	Ribosomal protein lysine methyltransferase
+YDL130W	Ribosomal protein P1 beta
+YOL039W	Ribosomal protein P2 alpha
+YDR382W	Ribosomal protein P2 beta
+YDR169C	Ribosomal RNA processing element (RRPE)-binding protein
+YDL081C	Ribosomal stalk protein P1 alpha
+YIL016W	Ribosome-associated protein
+YJL210W	RING-finger peroxin and E3 ubiquitin ligase
+YDR313C	RING-type ubiquitin ligase of the endosomal and vacuolar membranes
+YPL228W	RNA 5'-triphosphatase involved in mRNA 5' capping
+YBR233W	RNA binding protein
+YEL026W	RNA binding protein
+YBL032W	RNA binding protein involved in asymmetric localization of ASH1 mRNA
+YDL051W	RNA binding protein required for maturation of tRNA and U6 snRNA
+YNL197C	RNA binding protein that sequesters CLN3 mRNA in cytoplasmic foci
+YHR086W	RNA binding protein, component of the U1 snRNP protein
+YLR107W	RNA exonuclease
+YER107C	RNA export factor associated with the nuclear pore complex (NPC)
+YBR237W	RNA helicase in the DEAD-box family
+YOR341W	RNA polymerase I largest subunit A190
+YDR156W	RNA polymerase I subunit A14
+YDL140C	RNA polymerase II largest subunit B220
+YJL140W	RNA polymerase II subunit B32
+YDR045C	RNA polymerase III subunit C11
+YJL011C	RNA polymerase III subunit C17
+YKL144C	RNA polymerase III subunit C25
+YNR003C	RNA polymerase III subunit C34
+YDL150W	RNA polymerase III subunit C53
+YOR224C	RNA polymerase subunit ABC14.5
+YBR154C	RNA polymerase subunit ABC27
+YNL113W	RNA polymerase subunit AC19
+YDR432W	RNA-binding protein
+YDR195W	RNA-binding protein
+YNL124W	RNA-binding protein required for the assembly of box H/ACA snoRNPs
+YNL251C	RNA-binding subunit of Nrd1 complex
+YDR301W	RNA-binding subunit of the mRNA cleavage and polyadenylation factor
+YDL175C	RNA-binding subunit of the TRAMP nuclear RNA surveillance complex
+YER172C	RNA-dependent ATPase RNA helicase (DEIH box)
+YDR207C	Rpd3L histone deacetylase complex subunit
+YKR069W	S-adenosyl-L-methionine uroporphyrinogen III transmethylase
+YBL024W	S-adenosyl-L-methionine-dependent tRNA: m5C-methyltransferase
+YJR129C	S-adenosylmethionine-dependent methyltransferase
+YNL063W	S-adenosylmethionine-dependent methyltransferase
+YHR209W	S-AdoMet-dependent methyltransferase involved in lipid homeostasis
+YLL062C	S-methylmethionine-homocysteine methyltransferase
+YCL061C	S-phase checkpoint protein required for DNA replication
+YLR128W	Scaffold-type E3 ligase
+YPR175W	Second largest subunit of DNA polymerase II (DNA polymerase epsilon)
+YDR113C	Securin
+YOL105C	Sensor-transducer of the stress-activated PKC1-MPK1 signaling pathway
+YGR098C	Separase, a caspase-like cysteine protease
+YGR092W	Ser/Thr kinase involved in transcription and stress response
+YCR008W	Ser/Thr protein kinase involved in salt tolerance
+YML059C	Serine esterase
+YMR081C	Serine-rich, hydrophilic protein
+YHR079C	Serine-threonine kinase and endoribonuclease
+YJL141C	Serine-threonine protein kinase
+YDR490C	Serine/threonine protein kinase
+YOL100W	Serine/threonine protein kinase
+YKL116C	Serine/threonine protein kinase
+YJL106W	Serine/threonine protein kinase involved in activation of meiosis
+YDR122W	Serine/threonine protein kinase involved in regulation of exocytosis
+YLR096W	Serine/threonine protein kinase involved in regulation of exocytosis
+YDR436W	Serine/threonine protein phosphatase Z, isoform of Ppz1p
+YPL165C	SET domain protein of unknown function
+YPL208W	SET-domain lysine-N-methyltransferase
+YMR032W	SH3 domain-containing protein required for cytokinesis
+YKL154W	Signal recognition particle (SRP) receptor beta subunit
+YDL092W	Signal recognition particle (SRP) subunit
+YPR088C	Signal recognition particle (SRP) subunit (homolog of mammalian SRP54)
+YCR096C	Silenced copy of a2 at HMR
+YCL066W	Silenced copy of ALPHA1 at HML
+YLR345W	Similar to 6-phosphofructo-2-kinase enzymes
+YML095C	Single-stranded DNA endonuclease (with Rad1p)
+YKL108W	Single-stranded DNA origin-binding and annealing protein
+YDR227W	SIR protein involved in assembly of silent chromatin domains
+YDL227C	Site-specific endonuclease
+YBR072W	Small heat shock protein (sHSP) with chaperone activity
+YDR171W	Small heat shock protein (sHSP) with chaperone activity
+YDR276C	Small plasma membrane protein
+YLR229C	Small rho-like GTPase
+YLR170C	Small subunit of the clathrin-associated adaptor complex AP-1
+YJL069C	Small-subunit processome protein involved in pre-18S rRNA maturation
+YHR123W	sn-1,2-diacylglycerol ethanolamine- and cholinephosphotranferase
+YAL019W	Snf2p family member with ATP-dependent chromatin remodeling activity
+YEL047C	Soluble fumarate reductase
+YBR164C	Soluble GTPase with a role in regulation of membrane traffic
+YOL159C	Soluble protein of unknown function
+YJR159W	Sorbitol dehydrogenase
+YPR158W	Sorting factor, central regulator of spatial protein quality control
+YJL036W	Sorting nexin
+YDR425W	Sorting nexin
+YDL113C	Sorting nexin family member
+YOR357C	Sorting nexin for late-Golgi enzymes
+YDR350C	Specific translational activator for the mitochondrial ATP6 mRNA
+YMR171C	Specificity factor required for Rsp5p-dependent ubiquitination
+YPR069C	Spermidine synthase
+YLR146C	Spermine synthase
+YDR297W	Sphinganine C4-hydroxylase
+YLR457C	Spindle pole body (SPB) component
+YDR130C	Spindle pole body-related intermediate filament protein
+YDR473C	Splicing factor
+YBR055C	Splicing factor
+YMR268C	Splicing factor that reanneals snRNPs during spliceosome recycling
+YOR242C	Sporulation specific protein that localizes to the spore wall
+YER096W	Sporulation-specific activator of Chs3p (chitin synthase III)
+YDR403W	Sporulation-specific enzyme required for spore wall maturation
+YOR190W	Sporulation-specific exo-1,3-beta-glucanase
+YDR218C	Sporulation-specific homolog of the CDC3/10/11/12 family of genes
+YNL196C	Sporulation-specific protein with a leucine zipper motif
+YJL079C	Sterol binding protein involved in the export of acetylated sterols
+YKR013W	Sterol binding protein involved in the export of acetylated sterols
+YGR263C	Sterol deacetylase
+YLR228C	Sterol regulatory element binding protein
+YDR213W	Sterol regulatory element binding protein
+YER095W	Strand exchange protein
+YDR453C	Stress inducible cytoplasmic thioredoxin peroxidase
+YIL113W	Stress-inducible dual-specificity MAP kinase phosphatase
+YLR227C	Structural component of the meiotic outer plaque
+YLR194C	Structural constituent of the cell wall
+YMR236W	Subunit (17 kDa) of TFIID and SAGA complexes
+YGL112C	Subunit (60 kDa) of TFIID and SAGA complexes
+YBR198C	Subunit (90 kDa) of TFIID and SAGA complexes
+YDR529C	Subunit 7 of ubiquinol cytochrome-c reductase (Complex III)
+YFR030W	Subunit alpha of assimilatory sulfite reductase
+YBR127C	Subunit B of V1 peripheral membrane domain of vacuolar H+-ATPase
+YPL037C	Subunit beta1 of the nascent polypeptide-associated complex (NAC)
+YKL016C	Subunit d of the stator stalk of mitochondrial F1F0 ATP synthase
+YEL051W	Subunit D of the V1 peripheral membrane domain of V-ATPase
+YPR020W	Subunit g of the mitochondrial F1F0 ATP synthase
+YGL187C	Subunit IV of cytochrome c oxidase
+YDR014W	Subunit of a complex that inhibits sister chromatid cohesion
+YHR191C	Subunit of a complex with Ctf18p
+YMR078C	Subunit of a complex with Ctf8p
+YCL016C	Subunit of a complex with Ctf8p and Ctf18p
+YDR532C	Subunit of a kinetochore-microtubule binding complex
+YGL093W	Subunit of a kinetochore-microtubule binding complex
+YLR002C	Subunit of a nuclear complex with Noc2p and pre-replicative complexes
+YNL273W	Subunit of a replication-pausing checkpoint complex
+YOR144C	Subunit of an alternative replication factor C complex
+YBR257W	Subunit of both RNase MRP and nuclear RNase P
+YAL033W	Subunit of both RNase MRP and nuclear RNase P
+YBL018C	Subunit of both RNase MRP and nuclear RNase P
+YHR062C	Subunit of both RNase MRP and nuclear RNase P
+YAL010C	Subunit of both the ERMES and the SAM complex
+YBR195C	Subunit of chromatin assembly factor I (CAF-1)
+YML102W	Subunit of chromatin assembly factor I (CAF-1), with Rlf2p and Msi1p
+YOL123W	Subunit of cleavage factor I
+YJR093C	Subunit of cleavage polyadenylation factor (CPF)
+YDR180W	Subunit of cohesin loading factor (Scc2p-Scc4p)
+YER147C	Subunit of cohesin loading factor (Scc2p-Scc4p)
+YDR121W	Subunit of DNA pol epsilon and of ISW2 chromatin accessibility complex
+YJR006W	Subunit of DNA polymerase delta (polymerase III)
+YKL045W	Subunit of DNA primase
+YLR320W	Subunit of E3 ubiquitin ligase complex involved in replication repair
+YGR200C	Subunit of Elongator complex
+YPL086C	Subunit of Elongator complex
+YLR384C	Subunit of Elongator complex
+YIL097W	Subunit of GID complex
+YDR390C	Subunit of heterodimeric nuclear SUMO activating enzyme E1 with Aos1p
+YNL290W	Subunit of heteropentameric Replication factor C (RF-C)
+YBR087W	Subunit of heteropentameric Replication factor C (RF-C)
+YAR007C	Subunit of heterotrimeric Replication Protein A (RPA)
+YNL312W	Subunit of heterotrimeric Replication Protein A (RPA)
+YJL173C	Subunit of heterotrimeric Replication Protein A (RPA)
+YPL101W	Subunit of hexameric RecA-like ATPase Elp456 Elongator subcomplex
+YMR312W	Subunit of hexameric RecA-like ATPase Elp456 Elongator subcomplex
+YAL043C	Subunit of holo-CPF
+YNL037C	Subunit of mitochondrial NAD(+)-dependent isocitrate dehydrogenase
+YOR136W	Subunit of mitochondrial NAD(+)-dependent isocitrate dehydrogenase
+YIR015W	Subunit of nuclear RNase P
+YHR013C	Subunit of protein N-terminal acetyltransferase NatA
+YNL201C	Subunit of protein phosphatase PP4 complex
+YJR033C	Subunit of RAVE complex (Rav1p, Rav2p, Skp1p)
+YDR202C	Subunit of RAVE complex (Rav1p, Rav2p, Skp1p)
+YBR123C	Subunit of RNA polymerase III transcription initiation factor complex
+YAL001C	Subunit of RNA polymerase III transcription initiation factor complex
+YDR362C	Subunit of RNA polymerase III transcription initiation factor complex
+YPL007C	Subunit of RNA polymerase III transcription initiation factor complex
+YLR145W	Subunit of RNase MRP
+YHR099W	Subunit of SAGA and NuA4 histone acetyltransferase complexes
+YEL062W	Subunit of SEA (Seh1-associated), Npr2/3, and Iml1p complexes
+YHL023C	Subunit of SEA (Seh1-associated), Npr2/3, and Iml1p complexes
+YML055W	Subunit of signal peptidase complex
+YGL131C	Subunit of Snt2C complex, RING finger ubiquitin ligase (E3)
+YDR386W	Subunit of structure-specific Mms4p-Mus81p endonuclease
+YPL129W	Subunit of TFIID, TFIIF, INO80, SWI/SNF, and NuA3 complexes
+YDR311W	Subunit of TFIIH and nucleotide excision repair factor 3 complexes
+YPR056W	Subunit of TFIIH complex
+YOR352W	Subunit of TFIIH complex
+YDR260C	Subunit of the anaphase-promoting complex (APC)
+YLR127C	Subunit of the Anaphase-Promoting Complex/Cyclosome (APC/C)
+YDR118W	Subunit of the Anaphase-Promoting Complex/Cyclosome (APC/C)
+YBL084C	Subunit of the Anaphase-Promoting Complex/Cyclosome (APC/C)
+YGR099W	Subunit of the ASTRA complex, involved in chromatin remodeling
+YKL033W	Subunit of the ASTRA complex, involved in chromatin remodeling
+YLR408C	Subunit of the BLOC-1 complex involved in endosomal maturation
+YDR357C	Subunit of the BLOC-1 complex involved in endosomal maturation
+YEL005C	Subunit of the BLOC-1 complex involved in endosomal maturation
+YIL026C	Subunit of the cohesin complex
+YDR469W	Subunit of the COMPASS (Set1C) complex
+YBR258C	Subunit of the COMPASS (Set1C) complex
+YAR003W	Subunit of the COMPASS (Set1C) complex
+YKL018W	Subunit of the COMPASS (Set1C) histone H3K4 methyltransferase complex
+YBL097W	Subunit of the condensin complex
+YLR086W	Subunit of the condensin complex
+YDR325W	Subunit of the condensin complex
+YBR156C	Subunit of the conserved chromosomal passenger complex (CPC)
+YMR025W	Subunit of the Cop9 signalosome
+YOL117W	Subunit of the COP9 signalosome (CSN) complex
+YLR005W	Subunit of the core form of RNA polymerase transcription factor TFIIH
+YDL143W	Subunit of the cytosolic chaperonin Cct ring complex
+YDR188W	Subunit of the cytosolic chaperonin Cct ring complex
+YJL111W	Subunit of the cytosolic chaperonin Cct ring complex
+YJL085W	Subunit of the exocyst complex
+YHR005C	Subunit of the G protein involved in pheromone response
+YER083C	Subunit of the GET complex
+YDR013W	Subunit of the GINS complex (Sld5p, Psf1p, Psf2p, Psf3p)
+YOL146W	Subunit of the GINS complex (Sld5p, Psf1p, Psf2p, Psf3p)
+YDR489W	Subunit of the GINS complex (Sld5p, Psf1p, Psf2p, Psf3p)
+YLR088W	Subunit of the GPI:protein transamidase complex
+YOR358W	Subunit of the Hap2p/3p/4p/5p CCAAT-binding complex
+YEL056W	Subunit of the Hat1p-Hat2p histone acetyltransferase complex
+YDR295C	Subunit of the HDA1 histone deacetylase complex
+YEL003W	Subunit of the heterohexameric cochaperone prefoldin complex
+YML094W	Subunit of the heterohexameric cochaperone prefoldin complex
+YLR200W	Subunit of the heterohexameric Gim/prefoldin protein complex
+YBL008W	Subunit of the HIR complex
+YDL077C	Subunit of the HOPS endocytic tethering complex
+YDR080W	Subunit of the HOPS endocytic tethering complex
+YER105C	Subunit of the inner ring of the nuclear pore complex (NPC)
+YBL079W	Subunit of the inner ring of the nuclear pore complex (NPC)
+YML103C	Subunit of the inner ring of the nuclear pore complex (NPC)
+YLR052W	Subunit of the INO80 chromatin remodeling complex
+YLR095C	Subunit of the Isw1b complex
+YOR132W	Subunit of the membrane-associated retromer complex
+YHR012W	Subunit of the membrane-associated retromer complex
+YIL125W	Subunit of the mitochondrial alpha-ketoglutarate dehydrogenase complex
+YFL008W	Subunit of the multiprotein cohesin complex
+YJL074C	Subunit of the multiprotein cohesin complex
+YNL136W	Subunit of the NuA4 histone acetyltransferase complex
+YMR119W	Subunit of the nuclear inner membrane Asi ubiquitin ligase complex
+YKL057C	Subunit of the Nup84p subcomplex of the nuclear pore complex (NPC)
+YDL116W	Subunit of the Nup84p subcomplex of the nuclear pore complex (NPC)
+YDL232W	Subunit of the oligosaccharyltransferase complex of the ER lumen
+YML019W	Subunit of the oligosaccharyltransferase complex of the ER lumen
+YBR060C	Subunit of the origin recognition complex (ORC)
+YLL004W	Subunit of the origin recognition complex (ORC)
+YPR070W	Subunit of the RNA polymerase II mediator complex
+YMR112C	Subunit of the RNA polymerase II mediator complex
+YPR168W	Subunit of the RNA polymerase II mediator complex
+YGL025C	Subunit of the RNA polymerase II mediator complex
+YBL093C	Subunit of the RNA polymerase II mediator complex
+YGL127C	Subunit of the RNA polymerase II mediator complex
+YHR041C	Subunit of the RNA polymerase II mediator complex
+YER022W	Subunit of the RNA polymerase II mediator complex
+YGR104C	Subunit of the RNA polymerase II mediator complex
+YCR081W	Subunit of the RNA polymerase II mediator complex
+YDR443C	Subunit of the RNA polymerase II mediator complex
+YDR392W	Subunit of the SAGA and SAGA-like transcriptional regulatory complexes
+YBR081C	Subunit of the SAGA transcriptional regulatory complex
+YLR055C	Subunit of the SAGA transcriptional regulatory complex
+YDR181C	Subunit of the SAS complex (Sas2p, Sas4p, Sas5p)
+YOL138C	Subunit of the SEA (Seh1-associated) complex
+YDL043C	Subunit of the SF3a splicing factor complex
+YDL030W	Subunit of the SF3a splicing factor complex
+YML105C	Subunit of the signal recognition particle (SRP)
+YDL013W	Subunit of the Slx5-Slx8 SUMO-targeted ubiquitin ligase complex
+YMR176W	Subunit of the Snt2C complex
+YBR283C	Subunit of the Ssh1 translocon complex
+YBR289W	Subunit of the SWI/SNF chromatin remodeling complex
+YPL016W	Subunit of the SWI/SNF chromatin remodeling complex
+YJL176C	Subunit of the SWI/SNF chromatin remodeling complex
+YMR284W	Subunit of the telomeric Ku complex (Yku70p-Yku80p)
+YMR106C	Subunit of the telomeric Ku complex (Yku70p-Yku80p)
+YPL098C	Subunit of the TIM23 translocase complex
+YML031W	Subunit of the transmembrane ring of the nuclear pore complex (NPC)
+YBL080C	Subunit of the trimeric GatFAB AmidoTransferase(AdT) complex
+YMR059W	Subunit of the tRNA splicing endonuclease
+YAR008W	Subunit of the tRNA splicing endonuclease
+YHR186C	Subunit of TORC1
+YPL180W	Subunit of TORC1 (Tor1p or Tor2p-Kog1p-Lst8p-Tco89p)
+YER093C	Subunit of TORC2 (Tor2p-Lst8p-Avo1-Avo2-Tsc11p-Bit61p)
+YBR270C	Subunit of TORC2 membrane-associated complex
+YJL035C	Subunit of tRNA-specific adenosine-34 deaminase
+YDR324C	Subunit of U3-containing 90S preribosome and SSU processome complexes
+YDL153C	Subunit of U3-containing Small Subunit (SSU) processome complex
+YML093W	Subunit of U3-containing Small Subunit (SSU) processome complex
+YIL111W	Subunit Vb of cytochrome c oxidase
+YLR395C	Subunit VIII of cytochrome c oxidase (Complex IV)
+YBR006W	Succinate semialdehyde dehydrogenase
+YKL086W	Sulfiredoxin
+YJR137C	Sulfite reductase beta subunit
+YOR156C	SUMO E3 ligase
+YDR363W	Sumo-like domain protein
+YDR409W	SUMO/Smt3 ligase
+YOR049C	Suppressor of sphingoid LCB sensitivity of an LCB-lyase mutation
+YOR191W	Swi2/Snf2-related translocase, SUMO-Targeted Ubiquitin Ligase (STUbL)
+YBR126C	Synthase subunit of trehalose-6-P synthase/phosphatase complex
+YDR019C	T subunit of the mitochondrial glycine decarboxylase complex
+YOR075W	t-SNARE protein required for retrograde vesicular traffic
+YAL028W	Tail-anchored ER membrane protein of unknown function
+YDL012C	Tail-anchored plasma membrane protein with a conserved CYSTM module
+YOL044W	Tail-anchored type II integral peroxisomal membrane protein
+YOR036W	Target membrane receptor (t-SNARE)
+YNL233W	Targeting subunit for Glc7p protein phosphatase
+YER148W	TATA-binding protein
+YDR082W	Telomere end-binding and capping protein
+YKL152C	Tetrameric phosphoglycerate mutase
+YCR042C	TFIID subunit (150 kDa)
+YML114C	TFIID subunit (65 kDa)
+YKR062W	TFIIE small subunit
+YML130C	Thiol oxidase required for oxidative protein folding in the ER
+YLR109W	Thiol-specific peroxiredoxin
+YJR043C	Third subunit of DNA polymerase delta
+YEL046C	Threonine aldolase
+YOR074C	Thymidylate synthase
+YLR233C	TLC1 RNA-associated factor involved in telomere length regulation
+YNL088W	Topoisomerase II
+YBR155W	TPR-containing co-chaperone
+YER175C	Trans-aconitate methyltransferase
+YMR162C	Trans-golgi network aminophospholipid translocase (flippase)
+YAL026C	Trans-golgi network aminophospholipid translocase (flippase)
+YGR043C	Transaldolase of unknown function
+YDR448W	Transcription coactivator
+YKL109W	Transcription factor
+YLR266C	Transcription factor
+YHR178W	Transcription factor
+YMR172W	Transcription factor for glycerol biosynthetic genes
+YOL108C	Transcription factor involved in phospholipid synthesis
+YMR042W	Transcription factor involved in regulating arginine-responsive genes
+YPL133C	Transcription factor involved in regulating gluconeogenesis
+YCL055W	Transcription factor required for response to pheromones
+YLR131C	Transcription factor required for septum destruction after cytokinesis
+YBR083W	Transcription factor targeting filamentation genes and Ty1 expression
+YDR146C	Transcription factor that recruits Mediator and Swi/Snf complexes
+YML081W	Transcription factor that regulates acetate production
+YGL013C	Transcription factor that regulates the pleiotropic drug response
+YIL119C	Transcription factor, allelic differences between S288C and Sigma1278b
+YNL199C	Transcriptional activator of genes involved in glycolysis
+YBL005W	Transcriptional activator of the pleiotropic drug resistance network
+YBR240C	Transcriptional activator of thiamine biosynthetic genes
+YKL043W	Transcriptional activator that enhances pseudohyphal growth
+YNR009W	Transcriptional co-repressor of MBF-regulated gene expression
+YDR223W	Transcriptional corepressor
+YOR229W	Transcriptional modulator
+YDR009W	Transcriptional regulator
+YER028C	Transcriptional regulator
+YEL007W	Transcriptional regulator of pseudohyphal growth
+YBR066C	Transcriptional repressor
+YOR140W	Transcriptional repressor and activator
+YMR070W	Transcriptional repressor and activator with two C2-H2 zinc fingers
+YKL032C	Transcriptional repressor that regulates hypoxic genes during normoxia
+YAL003W	Translation elongation factor 1 beta
+YJR047C	Translation elongation factor eIF-5A
+YEL034W	Translation elongation factor eIF-5A
+YPR163C	Translation initiation factor eIF-4B
+YGR162W	Translation initiation factor eIF4G
+YAL035W	Translation initiation factor eIF5B
+YDR172W	Translation termination factor eRF3
+YNL255C	Translational activator for mRNAs with internal ribosome entry sites
+YBR118W	Translational elongation factor EF-1 alpha
+YNL014W	Translational elongation factor EF-3
+YER118C	Transmembrane osmosensor for filamentous growth and HOG pathways
+YDL063C	Transport adaptor or symportin
+YDR058C	Triacylglycerol lipase that is localized to the mitochondria
+YPL116W	Trichostatin A-insensitive homodimeric histone deacetylase (HDAC)
+YOL055C	Trifunctional enzyme of thiamine biosynthesis, degradation and salvage
+YDR050C	Triose phosphate isomerase, abundant glycolytic enzyme
+YKR079C	tRNA 3'-end processing endonuclease tRNase Z
+YJL087C	tRNA ligase
+YDR120C	tRNA methyltransferase
+YOL093W	tRNA methyltransferase
+YKR056W	tRNA methyltransferase
+YKL027W	tRNA threonylcarbamoyladenosine dehydratase
+YFL001W	tRNA:pseudouridine synthase
+YPL212C	tRNA:pseudouridine synthase
+YGR169C	tRNA:pseudouridine synthase
+YLR218C	Twin Cx(9)C protein involved in cytochrome c oxidase organization
+YDL047W	Type 2A-related serine-threonine phosphatase
+YDL006W	Type 2C protein phosphatase (PP2C)
+YBL056W	Type 2C protein phosphatase (PP2C)
+YFR041C	Type I membrane protein with a J domain
+YMR274C	Type II CAAX prenyl protease
+YNL007C	Type II HSP40 co-chaperone that interacts with the HSP70 protein Ssa1p
+YIL004C	Type II membrane protein required for vesicular transport
+YHR023W	Type II myosin heavy chain
+YCL026C-A	Type II nitroreductase, using NADH as reductant
+YJL100W	Type II phosphatidylinositol 4-kinase
+YAL029C	Type V myosin motor involved in actin-based transport of cargos
+YBR223C	Tyrosyl-DNA phosphodiesterase I
+YML046W	U1 snRNP protein involved in splicing
+YDR235W	U1 snRNP protein involved in splicing
+YPL126W	U3 snoRNP protein
+YEL024W	Ubiquinol-cytochrome-c reductase
+YLL039C	Ubiquitin
+YJR099W	Ubiquitin C-terminal hydrolase
+YMR022W	Ubiquitin conjugating enzyme
+YNR051C	Ubiquitin protease cofactor
+YOR042W	Ubiquitin-binding protein
+YOR339C	Ubiquitin-conjugating enzyme
+YDR059C	Ubiquitin-conjugating enzyme
+YBR082C	Ubiquitin-conjugating enzyme (E2)
+YOL013C	Ubiquitin-protein ligase
+YDR143C	Ubiquitin-protein ligase
+YER068W	Ubiquitin-protein ligase subunit of the CCR4-NOT complex
+YKR094C	Ubiquitin-ribosomal 60S subunit protein L40B fusion protein
+YKR098C	Ubiquitin-specific protease
+YMR223W	Ubiquitin-specific protease component of the SAGA acetylation complex
+YIL156W	Ubiquitin-specific protease that cleaves ubiquitin-protein fusions
+YNL186W	Ubiquitin-specific protease, deubiquitinates Ub-protein moieties
+YDR330W	UBX domain-containing protein that interacts with Cdc48p
+YBR243C	UDP-N-acetyl-glucosamine-1-P transferase
+YDL103C	UDP-N-acetylglucosamine pyrophosphorylase
+YER129W	Upstream serine/threonine kinase for the SNF1 complex
+YML021C	Uracil-DNA glycosylase
+YBR208C	Urea amidolyase
+YIR032C	Ureidoglycolate lyase
+YEL004W	Uridine diphosphate-N-acetylglucosamine (UDP-GlcNAc) transporter
+YDR400W	Uridine nucleosidase (uridine-cytidine N-ribohydrolase)
+YMR123W	V-ATPase assembly factor
+YGR142W	v-SNARE binding protein
+YGL156W	Vacuolar alpha mannosidase
+YKL103C	Vacuolar aminopeptidase yscI
+YER119C	Vacuolar aspartate and glutamate exporter
+YGL006W	Vacuolar Ca2+ ATPase involved in depleting cytosol of Ca2+ ions
+YJL172W	Vacuolar carboxypeptidase S
+YOR087W	Vacuolar cation channel
+YLR220W	Vacuolar Fe2+/Mn2+ transporter
+YCL038C	Vacuolar integral membrane protein required for efflux of amino acids
+YPL006W	Vacuolar membrane protein
+YHL035C	Vacuolar membrane protein
+YPL236C	Vacuolar membrane protein kinase
+YDR105C	Vacuolar membrane protein of unknown function
+YJL053W	Vacuolar protein component of the retromer
+YPL123C	Vacuolar RNase of the T(2) family
+YKL146W	Vacuolar transporter
+YNL101W	Vacuolar transporter
+YAL030W	Vesicle membrane receptor protein (v-SNARE)
+YOR327C	Vesicle membrane receptor protein (v-SNARE)
+YLL052C	Water channel that mediates water transport across cell membranes
+YCR072C	WD-repeat protein involved in ribosome biogenesis
+YPL183C	WD40 domain-containing protein involved in endosomal recycling
+YLR070C	Xylitol dehydrogenase
+YJR096W	Xylose and arabinose reductase
+YGR194C	Xylulokinase
+YDL231C	Zinc finger protein containing five transmembrane domains
+YGR044C	Zinc finger protein involved in control of meiosis
+YLR256W	Zinc finger transcription factor
+YLR014C	Zinc finger transcription factor
+YOR172W	Zinc finger transcription factor involved in multidrug resistance
+YDR421W	Zinc finger transcriptional activator of the Zn2Cys6 family
+YGL209W	Zinc finger transcriptional repressor
+YCL057W	Zinc metalloendopeptidase
+YDR253C	Zinc-finger DNA-binding transcription factor
+YJR127C	Zinc-finger protein
+YPL054W	Zinc-finger protein of unknown function
+YLR451W	Zinc-knuckle transcription factor, repressor and activator

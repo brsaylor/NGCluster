@@ -127,6 +127,10 @@ def main(datadir, outdir, run_configs):
                     comments='')
 
         for ext_filename, ext_clusters in external_clusterings:
+
+            # Only consider genes that are clustered in both clusterings
+            ext_clusters[clusters < 0] = -1
+
             rand_index_val = rand_index(clusters, ext_clusters)
             log("Rand index = {0} ({1})".format(rand_index_val, ext_filename))
 
