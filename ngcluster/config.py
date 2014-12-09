@@ -22,6 +22,11 @@ configurations = OrderedDict([
         'cluster': (graph_clusters, {'threshold': 5}),
         'graph': (threshold_graph, {'threshold': 0.85})
         }),
+    ('threshold_graph_euclidean_default', {
+        'description': "Default threshold graph clustering",
+        'cluster': (graph_clusters, {'threshold': 5}),
+        'graph': (threshold_graph, {'metric': 'euclidean', 'threshold': 100})
+        }),
     ('nearest_neighbor_default', {
         'description': "Default nearest neighbor graph clustering",
         'cluster': (graph_clusters, {'threshold': 5}),

@@ -12,7 +12,7 @@ from ngcluster import graph
 class TestThresholdGraph(unittest.TestCase):
     """ Tests for threshold_graph """
 
-    def testThresholdGraph(self):
+    def testCorrelation(self):
         threshold = 0.5
         data = np.array([
             [1, 2, 3],
@@ -29,6 +29,56 @@ class TestThresholdGraph(unittest.TestCase):
             [0, 0, 1, 0]
             ])
         assert_array_equal(graph.threshold_graph(data, threshold), adj)
+
+    def testCorrelationZeros(self):
+        # Test for when data has all-zero rows
+        threshold = 0.5
+        data = np.array([
+            [0, 1],
+            [0, 2],
+            [0, 0],
+            [0, 0],
+            ])
+        adj = np.array([
+            [0, 1, 0, 0],
+            [1, 0, 0, 0],
+            [0, 0, 0, 0],
+            [0, 0, 0, 0],
+            ])
+        assert_array_equal(graph.threshold_graph(data, threshold), adj)
+
+    def testEuclidean(self):
+        threshold = 1
+        data = np.array([
+            [0, 0],
+            [0.9, 0],
+            [0, 0.9],
+            [0, 1]
+            ])
+        adj = np.array([
+            [0, 1, 1, 0],
+            [1, 0, 0, 0],
+            [1, 0, 0, 1],
+            [0, 0, 1, 0],
+            ])
+        assert_array_equal(graph.threshold_graph(
+            data, threshold, metric='euclidean'), adj)
+
+    def testEuclideanZeros(self):
+        # Test for when data is all zero
+        threshold = 1
+        data = np.array([
+            [0, 0],
+            [0, 0],
+            [0, 0],
+            ])
+        adj = np.array([
+            [0, 1, 1],
+            [1, 0, 1],
+            [1, 1, 0],
+            ])
+        assert_array_equal(graph.threshold_graph(
+            data, threshold, metric='euclidean'), adj)
 
 class TestNearestNeighborGraph(unittest.TestCase):
     """ Tests for nearest_neighbor_graph """
@@ -51,15 +101,17 @@ class TestNearestNeighborGraph(unittest.TestCase):
     def testNearestNeighbor4WithZeros(self):
         data = np.array([
             [1, 2, 3],
+            [1, 2, 3],
+            [3, 2, 1],
+            [3, 2, 1],
             [0, 0, 0],
-            [3, 2, 1],
-            [3, 2, 1],
             ])
         adj = np.array([
-            [0, 1, 0, 0],
-            [1, 0, 0, 0],
-            [0, 0, 0, 1],
-            [0, 0, 1, 0],
+            [0, 1, 0, 0, 0],
+            [1, 0, 0, 0, 0],
+            [0, 0, 0, 1, 0],
+            [0, 0, 1, 0, 0],
+            [0, 0, 0, 0, 0],
             ])
         assert_array_equal(graph.nearest_neighbor_graph(data), adj)
 

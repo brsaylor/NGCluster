@@ -2,15 +2,42 @@
 Functions for creating neighborhood graphs from expression data
 """
 
-from math import isnan
+from math import isnan, isfinite
 
 import numpy as np
+from numpy import inf
+from scipy.spatial.distance import pdist, squareform
 from numba import jit
 
-def threshold_graph(data, threshold):
+def distance_matrix(data, metric):
     """
-    Create a threshold neighbor graph from the given expression data. The
-    correlation coefficient is used as a similarity measure.
+    Create a square, symmetric distance matrix using the given distance metric
+    over the rows of data.
+
+    Parameters
+    ----------
+    data : ndarray
+        An n*m array of of expression data for n genes under m conditions.
+    
+    metric : string
+        The distance metric to use if `dmatrix` is not supplied. Any metric
+        accepted by scipy.spatial.distance.pdist can be used - for example,
+        'euclidean', 'correlation', 'cosine'.
+    
+    Returns
+    -------
+    ndarray
+        An n*n matrix of pairwise distances.
+    """
+    with np.errstate(invalid='ignore'):
+        dist = pdist(data, metric)
+    dist[np.isnan(dist)] = inf
+    dist = squareform(dist)
+    return dist
+
+def threshold_graph(data, threshold, metric='correlation'):
+    """
+    Create a threshold neighbor graph from the given expression data.
 
     Parameters
     ----------
@@ -18,8 +45,14 @@ def threshold_graph(data, threshold):
         An n*m array of of expression data for n genes under m conditions.
 
     threshold : float
-        Two genes will be connected by an edge if their correlation coefficient
-        is greater than the threshold.
+        Two genes will be connected by an edge if their distance is less than
+        the threshold (or, if metric is 'correlation', their correlation
+        coefficient is greater than the threshold).
+
+    metric : string, optional
+        The distance metric to be used. Any metric accepted by
+        scipy.spatial.distance.pdist can be used - for example, 'euclidean'
+        'correlation' (default), 'cosine'.
 
     Returns
     -------
@@ -27,50 +60,56 @@ def threshold_graph(data, threshold):
         An adjacency matrix represented by an n*n array of boolean values.
     """
 
-    # Compute correlation matrix, replacing NaN (due to all-zero rows) with 0
-    with np.errstate(invalid='ignore'):
-        corr = np.nan_to_num(np.corrcoef(data))
+    if metric == 'correlation':
+        threshold = 1 - threshold
+
+    dist = distance_matrix(data, metric)
 
     # Compute the adjacency matrix
-    adj = (corr > threshold)
+    adj = (dist < threshold)
     np.fill_diagonal(adj, 0)
 
     return adj
 
-def nearest_neighbor_graph(data):
+def nearest_neighbor_graph(data, metric='correlation'):
     """
-    Create a nearest neighbor graph from the given expression data. The
-    correlation coefficient is used as a similarity measure.
+    Create a nearest neighbor graph from the given expression data.
 
     Parameters
     ----------
     data : ndarray
         An n*m array of of expression data for n genes under m conditions.
 
+    metric : string, optional
+        The distance metric to be used. Any metric accepted by
+        scipy.spatial.distance.pdist can be used - for example, 'euclidean'
+        'correlation' (default), 'cosine'.
+
     Returns
     -------
     ndarray
         An adjacency matrix represented by an n*n array of boolean values.
     """
 
-    # Compute correlation matrix, replacing NaN (due to all-zero rows) with 0
-    with np.errstate(invalid='ignore'):
-        corr = np.nan_to_num(np.corrcoef(data))
+    dist = distance_matrix(data, metric)
 
     # Prevent any vertex from being its own nearest neighbor
-    np.fill_diagonal(corr, -np.inf)
+    np.fill_diagonal(dist, inf)
 
-    nearest_neighbors = corr.argmax(1)
+    nearest_neighbors = dist.argmin(1)
 
-    # TODO: Find a fast numpy way to do this
-    adj = np.zeros(corr.shape, dtype=bool)
+    adj = np.zeros(dist.shape, dtype=bool)
+
+    # TODO: @jit the loop
     for i, j in enumerate(nearest_neighbors):
-        adj[i][j] = True
-        adj[j][i] = True
+        if dist[i, j] == inf:
+            continue
+        adj[i, j] = True
+        adj[j, i] = True
 
     return adj
 
-def relative_neighborhood_graph(data):
+def relative_neighborhood_graph(data, metric='correlation'):
     """
     Create a relative neighborhood graph from the given expression data. The
     correlation coefficient is used as a similarity measure.
@@ -80,37 +119,38 @@ def relative_neighborhood_graph(data):
     data : ndarray
         An n*m array of of expression data for n genes under m conditions.
 
+    metric : string, optional
+        The distance metric to be used. Any metric accepted by
+        scipy.spatial.distance.pdist can be used - for example, 'euclidean'
+        'correlation' (default), 'cosine'.
+
     Returns
     -------
     ndarray
         An adjacency matrix represented by an n*n array of boolean values.
     """
 
-    # Compute correlation matrix.
-    # There are some all-zero rows resulting in NaN for the corresponding
-    # correlations; these are skipped when computing the graph.
-    with np.errstate(invalid='ignore'): # Supress warnings from all-zero rows
-        corr = np.corrcoef(data)
+    dist = distance_matrix(data, metric)
 
-    adj = np.zeros(corr.shape, dtype=bool)
+    adj = np.zeros(dist.shape, dtype=bool)
 
     # TODO: Improvement over this basic algorithm is possible (Supowit 1983)
     @jit(nopython=True)
-    def build_graph(corr, adj):
+    def build_graph(dist, adj):
         # For each pair of points (p, q)...
-        for p in range(corr.shape[0] - 1):
-            for q in range(p + 1, corr.shape[0]):
+        for p in range(dist.shape[0] - 1):
+            for q in range(p + 1, dist.shape[0]):
 
-                if isnan(corr[p, q]):
+                if not isfinite(dist[p, q]):
                     continue
 
                 # ...if there is no other point z closer to both p and q than
                 # they are to each other...
-                for z in range(corr.shape[0]):
+                for z in range(dist.shape[0]):
                     if (z == p or z == q or
-                            isnan(corr[p, z]) or isnan(corr[q, z])):
+                            not isfinite(dist[p, z]) or not isfinite(dist[q, z])):
                         continue
-                    if corr[p, z] > corr[p, q] and corr[q, z] > corr[p, q]:
+                    if dist[p, z] < dist[p, q] and dist[q, z] < dist[p, q]:
                         # (don't add an edge)
                         break
                 else:
@@ -118,7 +158,7 @@ def relative_neighborhood_graph(data):
                     adj[p, q] = adj[q, p] = True
         return adj
 
-    return build_graph(corr, adj)
+    return build_graph(dist, adj)
 
 def gabriel_graph(data):
     """
