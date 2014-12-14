@@ -131,8 +131,10 @@ def main(datadir, outdir, run_configs):
 
             # Only consider genes that are clustered in both clusterings
             ext_clusters[clusters < 0] = -1
+            int_clusters = clusters.copy()
+            int_clusters[ext_clusters < 0] = -1
 
-            rand_index_val = rand_index(clusters, ext_clusters)
+            rand_index_val = rand_index(int_clusters, ext_clusters)
             log("Rand index = {0} ({1})".format(rand_index_val, ext_filename))
 
         log("Plotting cluster expression levels")
