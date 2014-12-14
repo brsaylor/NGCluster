@@ -49,4 +49,5 @@ configurations = OrderedDict([
 external_cluster_files = [
         'threshold_graph_default-clusters.txt',
         'gene_association.txt',
+        'Ranked_TFs.txt',
         ]
