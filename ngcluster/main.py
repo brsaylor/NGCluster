@@ -206,6 +206,8 @@ def load_external_clusters(names, filename):
     with open(filename, 'r') as f:
         for line in f:
             gene_name, cluster_label = line.split(maxsplit=1)
+            if gene_name not in names:
+                continue
             clusters[gene_id_lookup[gene_name]] = get_cluster_id(cluster_label)
 
     return clusters
