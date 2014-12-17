@@ -4,7 +4,8 @@ Named sets of clustering parameters
 
 from collections import OrderedDict
 
-from ngcluster.cluster import random_clusters, kmeans, graph_clusters
+from ngcluster.cluster import (random_clusters, kmeans, graph_clusters,
+        graph_clusters_expanding)
 from ngcluster.graph import (threshold_graph, nearest_neighbor_graph,
         relative_neighborhood_graph, gabriel_graph)
 
@@ -22,8 +23,13 @@ configurations = OrderedDict([
         'cluster': (graph_clusters, {'threshold': 5}),
         'graph': (threshold_graph, {'threshold': 0.85})
         }),
+    ('threshold_graph_expand2', {
+        'description': "Threshold graph expand2",
+        'cluster': (graph_clusters_expanding, {'threshold': 5, 'iterations': 2}),
+        'graph': (threshold_graph, {'threshold': 0.85})
+        }),
     ('threshold_graph_euclidean_default', {
-        'description': "Default threshold graph clustering",
+        'description': "Default threshold graph clustering (Euclidean)",
         'cluster': (graph_clusters, {'threshold': 5}),
         'graph': (threshold_graph, {'metric': 'euclidean', 'threshold': 100})
         }),
@@ -35,6 +41,11 @@ configurations = OrderedDict([
     ('relative_neighbor_default', {
         'description': "Default relative neighbor graph clustering",
         'cluster': (graph_clusters, {'threshold': 5}),
+        'graph': (relative_neighborhood_graph, {})
+        }),
+    ('relative_neighbor_expand2', {
+        'description': "Relative neighbor graph expand2",
+        'cluster': (graph_clusters_expanding, {'threshold': 9, 'iterations': 2}),
         'graph': (relative_neighborhood_graph, {})
         }),
     ('gabriel_default', {

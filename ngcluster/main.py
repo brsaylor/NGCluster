@@ -84,7 +84,7 @@ def main(datadir, outdir, run_configs):
         try:
             fom = aggregate_fom(data, cluster_fn, [], cluster_kwargs)
             log("Aggregate FOM = {0}".format(fom))
-            #pass
+            pass
         except ClusterEvaluationError as e:
             log("Cannot calculate aggregate FOM: {0}".format(e))
 
