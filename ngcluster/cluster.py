@@ -128,9 +128,10 @@ def graph_clusters_expanding(data, fn, fn_args=[], fn_kwargs={}, threshold=5,
         iterations=1):
     """
     Compute a graph-based clustering of the data. Clusters are initialized to
-    include high-degree nodes (with degree above `threshold`) and their
-    neighbors. In each subsequent iteration, clusters are expanded outward to
-    include neighbors of neighbors, etc.
+    include high-degree nodes (with degree above `threshold`, and without
+    neighbors of higher degree) and their neighbors. In each subsequent
+    iteration, clusters are expanded outward to include neighbors of neighbors,
+    etc.
 
     Parameters
     ----------
@@ -184,9 +185,13 @@ def graph_clusters_expanding(data, fn, fn_args=[], fn_kwargs={}, threshold=5,
     @jit(nopython=True)
     def do_clustering(nodes, adj, deg, clusters, threshold, iterations):
 
-        marker = 9999
-
         cluster_id = -1
+
+        # Used for marking nodes for later assignment to a particular cluster.
+        # The marker value is subtracted from the cluster id to be assigned,
+        # resulting in a negative value that causes the node to be treated as
+        # unclustered.
+        marker = 9999
 
         # Create clusters from high-degree nodes and their immediate neighbors
         for i in range(len(nodes)):
@@ -194,22 +199,27 @@ def graph_clusters_expanding(data, fn, fn_args=[], fn_kwargs={}, threshold=5,
 
             # If we've reached the degree threshold, stop creating clusters
             if deg[p] <= threshold:
-                # Remember the index of this node, because all prior nodes have
-                # been clustered, and so don't need to be checked in the outward
-                # expansion loop.
-                threshold_i = i
                 break
 
-            # If node p is not in a cluster, assign it to a new cluster...
+            # If node p is not in a cluster...
             if clusters[p] < 0:
+
+                # ...and has no neighbors of higher degree...
+                for j in range(i):
+                    q = nodes[j]
+                    has_higher_degree_neighbor = False
+                    if adj[p, q] and deg[q] > deg[p]:
+                        has_higher_degree_neighbor = True
+                        break
+                if has_higher_degree_neighbor:
+                    continue
+
+                # ...assign it to a new cluster...
                 cluster_id += 1
                 clusters[p] = cluster_id
 
-                # ...and assign all of its unclustered neighbors to that
-                # cluster.  (Note that all nodes through nodes[i] = p have been
-                # clustered, and have degree greater than or equal to to all
-                # subsequent nodes.)
-                for j in range(i + 1, len(nodes)):
+                # ...and assign all of its unclustered neighbors to the cluster.
+                for j in range(len(nodes)):
                     q = nodes[j]
                     if adj[p, q] and clusters[q] < 0:
                         clusters[q] = cluster_id
@@ -217,30 +227,24 @@ def graph_clusters_expanding(data, fn, fn_args=[], fn_kwargs={}, threshold=5,
         # Expand the clusters outward (neighbors of neighbors, etc.)
         for iteration in range(1, iterations):
 
-            # For each node p that might not be in a cluster...
-            for i in range(threshold_i, len(nodes)):
+            # For each unclustered node p...
+            for i in range(len(nodes)):
                 p = nodes[i]
+                if clusters[p] >= 0:
+                    continue
 
-                # ...if p is not in a cluster and is adjacent to a clustered
-                # node q...
-                if clusters[p] < 0:
-                    for j in range(len(nodes)):
-                        q = nodes[j]
-                        if adj[p, q] and clusters[q] >= 0:
-                            # ...assign p to the same cluster as q.
-                            # (Subtracting the marker value is a way to mark p
-                            # for assignment at the end of the outer iteration.
-                            # An immediate assignment could cause neighbors of p
-                            # to be assigned to the same cluster in this
-                            # iteration, which is not the desired behavior.)
-                            clusters[p] = clusters[q] - marker
-                            break
+                # ...if p is adjacent to a clustered node q...
+                for j in range(len(nodes)):
+                    q = nodes[j]
+                    if adj[p, q] and clusters[q] >= 0:
+                        # ...mark p for assignment to the same cluster as q.
+                        clusters[p] = clusters[q] - marker
+                        break
 
-            # Finalize new cluster assignments
-            for i in range(threshold_i, len(nodes)):
+            # Assign the nodes marked for cluster assignment
+            for i in range(len(nodes)):
                 p = nodes[i]
                 if clusters[p] < -1:
-                    # p is marked for cluster assignment
                     clusters[p] += marker
 
     do_clustering(nodes, adj, deg, clusters, threshold, iterations)
