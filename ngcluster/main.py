@@ -74,7 +74,7 @@ def main(datadir, outdir, run_configs):
         print("===============================================================")
         log(datetime.datetime.now().strftime('%c'))
         log("Running configuration " + key)
-        log("Description: " + config['description'])
+        log(str(config))
 
         cluster_fn, cluster_kwargs = config['cluster']
         graph_fn, graph_kwargs = config.get('graph', (None, None))
