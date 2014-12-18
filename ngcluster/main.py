@@ -6,6 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from ngcluster.config import configurations, external_cluster_files
+from ngcluster.graph import count_edges
 from ngcluster.evaluate import (ClusterEvaluationError, aggregate_fom,
         rand_index, silhouette_widths, silhouette_stats)
 from ngcluster.plot import plot_cluster_expression, save_pdf
@@ -96,6 +97,8 @@ def main(datadir, outdir, run_configs):
             # Do graph-based clustering
             log("Computing graph")
             adj = graph_fn(data, **graph_kwargs)
+            log("Edges-to-nodes ratio = {}".format(
+                float(count_edges(adj)) / data.shape[0]))
             log("Computing clusters")
             clusters = cluster_fn(adj, **cluster_kwargs)
 

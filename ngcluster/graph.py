@@ -2,7 +2,7 @@
 Functions for creating neighborhood graphs from expression data
 """
 
-from math import isnan, isfinite
+from math import isfinite
 
 import numpy as np
 from numpy import inf
@@ -34,6 +34,27 @@ def distance_matrix(data, metric):
     dist[np.isnan(dist)] = inf
     dist = squareform(dist)
     return dist
+
+@jit(nopython=True)
+def count_edges(adj):
+    """
+    Count the number of edges in the given graph.
+
+    Parameters
+    ----------
+    adj : ndarray
+        An adjacency matrix represented by an n*n array of boolean values.
+
+    Returns
+    -------
+    int
+        The number of edges in the graph.
+    """
+    count = 0
+    for i in range(adj.shape[0]):
+        for j in range(i, adj.shape[0]):
+            count += adj[i, j]
+    return count
 
 def threshold_graph(data, threshold, metric='correlation'):
     """

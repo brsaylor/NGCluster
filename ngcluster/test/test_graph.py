@@ -288,3 +288,29 @@ class TestGabrielGraph(unittest.TestCase):
             [0, 0, 0, 1, 1, 0, 1, 0], # h
             ])
         assert_array_equal(graph.gabriel_graph(data), adj)
+
+class TestCountEdges(unittest.TestCase):
+    """ Tests for count_edges """
+
+    def testCount9(self):
+
+        #    1
+        #    |
+        # 4--0--2--5--6--7
+        #    |        |
+        #    3        8
+
+        adj = np.array([
+            #0  1  2  3  4  5  6  7  8
+            [0, 1, 1, 1, 1, 0, 0, 0, 0], #0
+            [1, 0, 0, 0, 0, 0, 0, 0, 0], #1
+            [1, 0, 0, 0, 0, 1, 0, 0, 0], #2
+            [1, 0, 0, 0, 0, 0, 0, 0, 0], #3
+            [1, 0, 0, 0, 0, 0, 0, 0, 0], #4
+            [0, 0, 1, 0, 0, 0, 1, 0, 0], #5
+            [0, 0, 0, 0, 0, 1, 0, 1, 1], #6
+            [0, 0, 0, 0, 0, 0, 1, 0, 0], #7
+            [0, 0, 0, 0, 0, 0, 1, 0, 0], #8
+            ])
+
+        self.assertEqual(graph.count_edges(adj), 8)
