@@ -125,7 +125,7 @@ def graph_clusters(data, fn, fn_args=[], fn_kwargs={}, threshold=5):
     return clusters
 
 def graph_clusters_expanding(data, fn, fn_args=[], fn_kwargs={}, threshold=5,
-        iterations=1):
+        max_clusters=1000, iterations=1):
     """
     Compute a graph-based clustering of the data. Clusters are initialized to
     include high-degree nodes (with degree above `threshold`, and without
@@ -151,6 +151,9 @@ def graph_clusters_expanding(data, fn, fn_args=[], fn_kwargs={}, threshold=5,
     threshold : int, optional
         The degree threshold for above which cluster initialization nodes are
         chosen. (Default: 5)
+
+    max_clusters : int, optional
+        The maximum number of clusters to create. (Default: 1000)
 
     iterations : int, optional
         The number of times to expand outward to include additional neighbors of
@@ -183,7 +186,8 @@ def graph_clusters_expanding(data, fn, fn_args=[], fn_kwargs={}, threshold=5,
     nodes = np.argsort(-deg)
 
     @jit(nopython=True)
-    def do_clustering(nodes, adj, deg, clusters, threshold, iterations):
+    def do_clustering(
+            nodes, adj, deg, clusters, threshold, max_clusters, iterations):
 
         cluster_id = -1
 
@@ -197,8 +201,9 @@ def graph_clusters_expanding(data, fn, fn_args=[], fn_kwargs={}, threshold=5,
         for i in range(len(nodes)):
             p = nodes[i]
 
-            # If we've reached the degree threshold, stop creating clusters
-            if deg[p] <= threshold:
+            # If we've reached the degree threshold or the maximum number of
+            # clusters, stop creating clusters
+            if deg[p] <= threshold or cluster_id + 1 == max_clusters:
                 break
 
             # If node p is not in a cluster...
@@ -247,6 +252,6 @@ def graph_clusters_expanding(data, fn, fn_args=[], fn_kwargs={}, threshold=5,
                 if clusters[p] < -1:
                     clusters[p] += marker
 
-    do_clustering(nodes, adj, deg, clusters, threshold, iterations)
+    do_clustering(nodes, adj, deg, clusters, threshold, max_clusters, iterations)
 
     return clusters

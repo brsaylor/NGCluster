@@ -285,3 +285,11 @@ class TestGraphClustersExpanding(unittest.TestCase):
                 graph_clusters_expanding(
                     np.empty(9), self.graph9, threshold=3, iterations=4),
                 np.array([0, 0, 0, 0, 0, 0, 0, 0, 0]))
+
+    def test9limit1(self):
+
+        assert_array_equal(
+                graph_clusters_expanding(
+                    np.empty(9), self.graph9,
+                    threshold=2, max_clusters=1, iterations=1),
+                np.array([0, 0, 0, 0, 0, -1, -1, -1, -1]))

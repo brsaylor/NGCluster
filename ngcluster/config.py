@@ -48,6 +48,12 @@ configurations = OrderedDict([
         'cluster': (graph_clusters_expanding, {'threshold': 9, 'iterations': 2}),
         'graph': (relative_neighborhood_graph, {})
         }),
+    ('relative_neighbor_expand2_limit10', {
+        'description': "Relative neighbor graph expand2",
+        'cluster': (graph_clusters_expanding, {
+            'max_clusters': 10, 'iterations': 2}),
+        'graph': (relative_neighborhood_graph, {})
+        }),
     ('gabriel_default', {
         'description': "Default Gabriel graph clustering",
         'cluster': (graph_clusters, {'threshold': 5}),
