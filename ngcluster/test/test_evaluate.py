@@ -263,7 +263,7 @@ class TestSilhouetteStats(unittest.TestCase):
     def test1(self):
         clusters = np.array([0, 0, 1, 1, 2, 2, -1])
         widths =   np.array([6, 5, 4, 3, 2, 1, 100])
-        stats = silhouette_stats(clusters, widths)
+        stats, summary = silhouette_stats(clusters, widths)
         correct_stats = np.array([
             (2, 2, 1.5, 1, 2),
             (1, 2, 3.5, 3, 4),

@@ -290,11 +290,15 @@ def silhouette_stats(clusters, widths):
 
     Returns
     -------
-    ndarray
+    stats : ndarray
         A structured array with length equal to the number of clusters, and the
         following fields with statistics for silhouette widths by cluster:
         cluster, count, mean, min, max
         The records are sorted by mean silhouette width.
+
+    summary : dict
+        A dictionary containing the following overall summary statistics:
+        weighted_mean, min, max.
     """
 
     k = int(clusters.max() + 1)
@@ -316,4 +320,10 @@ def silhouette_stats(clusters, widths):
 
     stats.sort(order=['mean'])
 
-    return stats
+    summary = {
+            'weighted_mean': widths[clusters >= 0].mean(),
+            'min': stats['min'].min(),
+            'max': stats['max'].max(),
+            }
+
+    return stats, summary

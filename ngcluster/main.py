@@ -107,16 +107,13 @@ def main(datadir, outdir, run_configs):
                 clusters_outdata, fmt='%s')
 
         log("Silhouette statistics:")
-        log("{:11} {:9} {:9} {:9}".format(
-            "metric", "mean_mean", "min_mean",  "max_mean"))
+        log("{:11} {:>13} {:>9} {:>9}".format(
+            "metric", "weighted_mean", "min",  "max"))
         for metric in 'euclidean', 'correlation', 'cosine':
             widths = silhouette_widths(clusters, data, metric)
-            stats = silhouette_stats(clusters, widths)
-            mean_mean = stats['mean'].mean()
-            min_mean = stats['mean'].min()
-            max_mean = stats['mean'].max()
-            log("{:11} {:9.3f} {:9.3f} {:9.3f}".format(
-                metric, mean_mean, min_mean, max_mean))
+            stats, summary = silhouette_stats(clusters, widths)
+            log("{:11} {:13.3f} {:9.3f} {:9.3f}".format(metric,
+                summary['weighted_mean'], summary['min'], summary['max']))
 
             np.savetxt(
                     os.path.join(
@@ -124,7 +121,7 @@ def main(datadir, outdir, run_configs):
                         "{0}-silhouette-{1}.txt".format(key, metric)),
                     stats,
                     header=' '.join(stats.dtype.names),
-                    fmt="%3d %3d %6.3f %6.3f %6.3f",
+                    fmt="%d %3d %6.3f %6.3f %6.3f",
                     comments='')
 
         for ext_filename, ext_clusters in external_clusterings:
