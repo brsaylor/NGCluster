@@ -70,7 +70,10 @@ def fom(clusters, hidden_data, adjust=True):
 
     return result
 
-def aggregate_fom(data, fn, fn_args=[], fn_kwargs={}, adjust=True):
+def aggregate_fom(data,
+        graph_fn=None, graph_kwargs={},
+        cluster_fn=None, cluster_kwargs={},
+        adjust=True):
     """
     Calculate the aggregate 2-norm figure of merit as defined in Yeung et al.,
     2000.
@@ -84,15 +87,17 @@ def aggregate_fom(data, fn, fn_args=[], fn_kwargs={}, adjust=True):
     data : ndarray
         An n*m array of expression data for n genes under m conditions.
 
-    fn : function
-        The clustering function to use. It is expected to take the expression
-        data as its first argument.
+    graph_fn : function, optional
+        The graph function to use, if `cluster_fn` is graph-based.
 
-    fn_args : list, optional
-        A list of arguments to supply to `fn` following the data argument.
+    graph_kwargs : dict, optional
+        The keyword arguments to supply to `graph_fn`.
 
-    fn_kwargs : dict, optional
-        A list of keyword arguments to supply to `fn`.
+    cluster_fn : function
+        The clustering function to use.
+
+    cluster_kwargs : dict, optional
+        The keyword arguments to supply to `cluster_fn`.
 
     adjust : bool, optional
         If True (default), the adjusted figure of merit will be used.
@@ -115,8 +120,13 @@ def aggregate_fom(data, fn, fn_args=[], fn_kwargs={}, adjust=True):
         # Get the removed column of data
         hidden_data = data.take(e, axis=1)
 
-        # Do the clustering
-        clusters = fn(data_to_cluster, *fn_args, **fn_kwargs)
+        if graph_fn is None:
+            # Do non-graph-based clustering
+            clusters = cluster_fn(data_to_cluster, **cluster_kwargs)
+        else:
+            # Do graph-based clustering
+            adj = graph_fn(data_to_cluster, **graph_kwargs)
+            clusters = cluster_fn(adj, **cluster_kwargs)
 
         # Add the FOM based on the clustering to the result
         result += fom(clusters, hidden_data, adjust)

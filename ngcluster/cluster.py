@@ -57,24 +57,14 @@ def kmeans(data, k):
 
     return clusters
 
-def graph_clusters(data, fn, fn_args=[], fn_kwargs={}, threshold=5):
+def graph_clusters(adj, threshold=5):
     """
-    Perform local-peak clustering on the data based on the given graph function.
+    Perform local-peak clustering on the data based on the given graph.
 
     Parameters
     ----------
-    data : ndarray
-        An n*m array of of expression data for n genes under m conditions.
-
-    fn : function
-        The graph function to use. It is expected to take the expression data as
-        its first argument and return an adjacency matrix.
-
-    fn_args : list, optional
-        A list of arguments to supply to `fn` following the data argument.
-
-    fn_kwargs : dict, optional
-        A list of keyword arguments to supply to `fn`.
+    adj : ndarray
+        An adjacency matrix represented by an n*n array of boolean values.
 
     threshold : int, optional
         The degree threshold for identifying local peaks.
@@ -85,9 +75,6 @@ def graph_clusters(data, fn, fn_args=[], fn_kwargs={}, threshold=5):
         A 1-dimensional array of length n, where each element is the cluster ID
         (from 0 to k-1) of the corresponding row in the input data.
     """
-
-    # Compute the graph
-    adj = fn(data, *fn_args, **fn_kwargs)
 
     # Compute the degree of each node
     deg = adj.sum(1) # sum(1) counts the number of True elements in each row
@@ -112,7 +99,7 @@ def graph_clusters(data, fn, fn_args=[], fn_kwargs={}, threshold=5):
     # Clusters is a list of lists of integers, each of which is an index into
     # the data array
     # TODO: Find a faster numpy-based way to do this
-    clusters = np.empty(data.shape[0], dtype=int)
+    clusters = np.empty(adj.shape[0], dtype=int)
     clusters.fill(-1)
     cluster_id = 0
     for i in peaks:
@@ -124,29 +111,19 @@ def graph_clusters(data, fn, fn_args=[], fn_kwargs={}, threshold=5):
 
     return clusters
 
-def graph_clusters_expanding(data, fn, fn_args=[], fn_kwargs={}, threshold=5,
-        max_clusters=1000, iterations=1):
+def graph_clusters_expanding(adj, threshold=5, max_clusters=1000, iterations=1):
     """
-    Compute a graph-based clustering of the data. Clusters are initialized to
-    include high-degree nodes (with degree above `threshold`, and without
-    neighbors of higher degree) and their neighbors. In each subsequent
-    iteration, clusters are expanded outward to include neighbors of neighbors,
+    Compute a graph-based clustering of the data. Up to `max_clusters` clusters
+    are initialized to include high-degree nodes (with degree above `threshold`,
+    and without neighbors of higher degree) and their neighbors. In each
+    subsequent iteration, clusters are expanded outward to include neighbors of
+    neighbors,
     etc.
 
     Parameters
     ----------
-    data : ndarray
-        An n*m array of of expression data for n genes under m conditions.
-
-    fn : function
-        The graph function to use. It is expected to take the expression data as
-        its first argument and return an adjacency matrix.
-
-    fn_args : list, optional
-        A list of arguments to supply to `fn` following the data argument.
-
-    fn_kwargs : dict, optional
-        A list of keyword arguments to supply to `fn`.
+    adj : ndarray
+        An adjacency matrix represented by an n*n array of boolean values.
 
     threshold : int, optional
         The degree threshold for above which cluster initialization nodes are
@@ -173,13 +150,10 @@ def graph_clusters_expanding(data, fn, fn_args=[], fn_kwargs={}, threshold=5,
     # graph would be more efficient, and maybe also some way of separating
     # clustered from unclustered nodes.
     
-    # Compute the graph
-    adj = fn(data, *fn_args, **fn_kwargs)
-
     # Compute the degree of each node
     deg = adj.sum(1) # sum(1) counts the number of True elements in each row
 
-    clusters = np.empty(data.shape[0], dtype=int)
+    clusters = np.empty(adj.shape[0], dtype=int)
     clusters.fill(-1)
 
     # Array of gene indices, sorted by node degree non-increasing

@@ -77,19 +77,27 @@ def main(datadir, outdir, run_configs):
 
         cluster_fn, cluster_kwargs = config['cluster']
         graph_fn, graph_kwargs = config.get('graph', (None, None))
-        if graph_fn:
-            cluster_kwargs.update({'fn': graph_fn, 'fn_kwargs': graph_kwargs})
 
         log("Calculating aggregate FOM")
         try:
-            fom = aggregate_fom(data, cluster_fn, [], cluster_kwargs)
+            fom = aggregate_fom(data,
+                    graph_fn, graph_kwargs, cluster_fn, cluster_kwargs)
             log("Aggregate FOM = {0}".format(fom))
             pass
         except ClusterEvaluationError as e:
             log("Cannot calculate aggregate FOM: {0}".format(e))
 
         log("Clustering entire dataset")
-        clusters = cluster_fn(data, **cluster_kwargs)
+        if graph_fn is None:
+            # Do non-graph-based clustering
+            log("Computing clusters")
+            clusters = cluster_fn(data, **cluster_kwargs)
+        else:
+            # Do graph-based clustering
+            log("Computing graph")
+            adj = graph_fn(data, **graph_kwargs)
+            log("Computing clusters")
+            clusters = cluster_fn(adj, **cluster_kwargs)
 
         num_clusters = clusters.max() + 1
         log("{0} clusters generated".format(num_clusters))

@@ -46,14 +46,17 @@ class TestAggregateFOM(unittest.TestCase):
         numrows = 10
         k = 5
         data = np.array([[0,0,0] for i in range(numrows)])
-        self.assertEqual(aggregate_fom(data, dummy_clusters, [k]), 0.)
+        self.assertEqual(aggregate_fom(
+            data, cluster_fn=dummy_clusters, cluster_kwargs={'k': k}),
+            0.)
 
     def testZero2(self):
         # If all rows have equal values, the aggregate FOM should be zero.
         numrows = 10
         k = 5
         data = np.array([[0,1,2] for i in range(numrows)])
-        self.assertEqual(aggregate_fom(data, dummy_clusters, [k]), 0.)
+        self.assertEqual(aggregate_fom(
+            data, cluster_fn=dummy_clusters, cluster_kwargs={'k': k}), 0.)
 
     def testTwoPerCluster(self):
         # If all columns have equal values, the aggregate FOM should be numcols
@@ -65,7 +68,8 @@ class TestAggregateFOM(unittest.TestCase):
             [4, 4, 4, 4], 
             [12, 12, 12, 12], 
             ])
-        self.assertAlmostEqual(aggregate_fom(data, dummy_clusters, [k]),
+        self.assertAlmostEqual(aggregate_fom(
+            data, cluster_fn=dummy_clusters, cluster_kwargs={'k': k}),
                 4*2.828427125)
 
     def testNonAdjustedTwoPerCluster(self):
@@ -77,8 +81,9 @@ class TestAggregateFOM(unittest.TestCase):
             [4, 4, 4, 4], 
             [12, 12, 12, 12], 
             ])
-        self.assertAlmostEqual(
-                aggregate_fom(data, dummy_clusters, [k], adjust=False), 8)
+        self.assertAlmostEqual(aggregate_fom(
+            data, cluster_fn=dummy_clusters, cluster_kwargs={'k': k},
+            adjust=False), 8)
 
     def testFibonacci(self):
         # Yields a FOM that's different for each cluster and each condition
@@ -89,7 +94,8 @@ class TestAggregateFOM(unittest.TestCase):
             [13, 21, 34],
             [55, 89, 144],
             ])
-        self.assertAlmostEqual(aggregate_fom(data, dummy_clusters, [k]),
+        self.assertAlmostEqual(aggregate_fom(
+            data, cluster_fn=dummy_clusters, cluster_kwargs={'k': k}),
                 139.7143912044)
 
 class TestRandIndex(unittest.TestCase):
