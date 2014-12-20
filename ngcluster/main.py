@@ -1,6 +1,9 @@
 import os
 import sys
 import datetime
+from collections import OrderedDict
+import json
+import csv
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -44,7 +47,10 @@ def main(datadir, outdir, run_configs):
               "    python3 run.py <config1> [<config2> ...]\n"
               "  or\n"
               "    python3 run.py all\n"
-              "  to run all configurations.\n"
+              "  to run all configurations\n"
+              "  or\n"
+              "    python3 run.py compile\n"
+              "  to compile results from all previous runs into a CSV file\n"
               "Available configurations (see ngcluster/config.py):")
         for key, config in configurations.items():
             print("  {0}: {1}".format(key, config['description']))
@@ -54,6 +60,8 @@ def main(datadir, outdir, run_configs):
         run_configs = list(configurations.keys())
         print("Running all {0} configurations: {1}"
                 .format(len(run_configs), ", ".join(run_configs)))
+    elif run_configs == ['compile']:
+        run_configs = []
     else:
         for key in run_configs:
             if key not in configurations:
@@ -77,13 +85,28 @@ def main(datadir, outdir, run_configs):
         log(str(config))
 
         cluster_fn, cluster_kwargs = config['cluster']
-        graph_fn, graph_kwargs = config.get('graph', (None, None))
+        graph_fn, graph_kwargs = config.get('graph', (None, {}))
+
+        # Output data to be stored in a JSON file for later compilation into a
+        # table for comparing the results of the various configurations
+        outdict = OrderedDict([
+            ('key', key),
+            ('graph', graph_fn.__name__ if graph_fn else ''),
+            ('metric', graph_kwargs.get('metric', '')),
+            ('graph_threshold', graph_kwargs.get('threshold', '')),
+            ('cluster', cluster_fn.__name__),
+            ('k', cluster_kwargs.get('k', '')),
+            ('cluster_threshold', cluster_kwargs.get('threshold', '')),
+            ('max_clusters', cluster_kwargs.get('max_clusters', '')),
+            ('iterations', cluster_kwargs.get('iterations', '')),
+            ])
 
         log("Calculating aggregate FOM")
         try:
             fom = aggregate_fom(data,
                     graph_fn, graph_kwargs, cluster_fn, cluster_kwargs)
             log("Aggregate FOM = {0}".format(fom))
+            outdict['aggregate_fom'] = fom
             pass
         except ClusterEvaluationError as e:
             log("Cannot calculate aggregate FOM: {0}".format(e))
@@ -91,27 +114,33 @@ def main(datadir, outdir, run_configs):
         log("Clustering entire dataset")
         if graph_fn is None:
             # Do non-graph-based clustering
+            outdict['edges_to_nodes_ratio'] = ''
             log("Computing clusters")
             clusters = cluster_fn(data, **cluster_kwargs)
         else:
             # Do graph-based clustering
             log("Computing graph")
             adj = graph_fn(data, **graph_kwargs)
-            log("Edges-to-nodes ratio = {}".format(
-                float(count_edges(adj)) / data.shape[0]))
+            edges_to_nodes_ratio = float(count_edges(adj)) / data.shape[0]
+            log("Edges-to-nodes ratio = {}".format(edges_to_nodes_ratio))
+            outdict['edges_to_nodes_ratio'] = edges_to_nodes_ratio
+
             log("Computing clusters")
             clusters = cluster_fn(adj, **cluster_kwargs)
 
-        num_clusters = clusters.max() + 1
+        num_clusters = int(clusters.max() + 1)
         log("{0} clusters generated".format(num_clusters))
+        outdict['num_clusters'] = num_clusters
         if num_clusters <= 0:
             log("Error: There are no clusters. Skipping configuration")
             continue
         total_genes = len(data)
-        clustered_genes = (clusters >= 0).sum()
+        clustered_genes = int((clusters >= 0).sum())
+        clustered_genes_pct = round(100 * float(clustered_genes) / total_genes)
         log("{0} of {1} genes clustered ({2}%)"
-                .format(clustered_genes, total_genes,
-                    round(100 * float(clustered_genes) / total_genes)))
+                .format(clustered_genes, total_genes, clustered_genes_pct))
+        outdict['clustered_genes'] = clustered_genes
+        outdict['clustered_genes_pct'] = clustered_genes_pct
 
         clusters_outdata = np.vstack((names, clusters)).transpose()
         np.savetxt(os.path.join(config_outdir, key + '-clusters.txt'),
@@ -125,6 +154,10 @@ def main(datadir, outdir, run_configs):
             stats, summary = silhouette_stats(clusters, widths)
             log("{:11} {:13.3f} {:9.3f} {:9.3f}".format(metric,
                 summary['weighted_mean'], summary['min'], summary['max']))
+            outdict['silhouette_' + metric + '_weighted_mean'] = (
+                    summary['weighted_mean'])
+            outdict['silhouette_' + metric + '_min'] = summary['min']
+            outdict['silhouette_' + metric + '_max'] = summary['max']
 
             np.savetxt(
                     os.path.join(
@@ -137,9 +170,15 @@ def main(datadir, outdir, run_configs):
 
         log("\nCluster size:")
         log("{:>8} {:>8} {:>8}".format("mean", "min", "max"))
+        cluster_size_mean = stats['count'].mean()
+        cluster_size_min = stats['count'].min()
+        cluster_size_max = stats['count'].max()
         log("{:8.2f} {:8d} {:8d}".format(
-            stats['count'].mean(), stats['count'].min(), stats['count'].max()))
+            cluster_size_mean, cluster_size_min, cluster_size_max))
         log('')
+        outdict['cluster_size_mean'] = cluster_size_mean
+        outdict['cluster_size_min'] = int(cluster_size_min)
+        outdict['cluster_size_max'] = int(cluster_size_max)
 
         for ext_filename, ext_clusters in external_clusterings:
 
@@ -151,6 +190,7 @@ def main(datadir, outdir, run_configs):
 
             rand_index_val = rand_index(int_clusters, ext_clusters)
             log("Rand index = {0} ({1})".format(rand_index_val, ext_filename))
+            outdict['rand_' + ext_filename] = rand_index_val
 
         log("Plotting cluster expression levels")
         figs = plot_cluster_expression(names, data, clusters)
@@ -164,6 +204,44 @@ def main(datadir, outdir, run_configs):
         log(datetime.datetime.now().strftime('%c'))
         print()
         logfile.close()
+
+        with open(os.path.join(config_outdir, 'results.json'), 'w') as fp:
+            json.dump(outdict, fp, indent=4)
+
+    compile_results(outdir)
+
+def compile_results(outdir):
+    """
+    Read the results.json file in the output directory of each configuration,
+    and combine the data into a CSV file in the top-level output directory.
+
+    Parameters
+    ----------
+    outdir : string
+        The output directory path
+    """
+
+    os.makedirs(outdir, exist_ok=True)
+
+    csvfilename = os.path.join(outdir, 'compiled-results.csv')
+    print("Compiling all results (including previous runs) into " + csvfilename)
+    csvfile = open(csvfilename, 'w')
+    writer = None
+    
+    for key in configurations:
+        try:
+            with open(os.path.join(outdir, key, 'results.json')) as fp:
+                rowdict = json.load(fp, object_pairs_hook=OrderedDict)
+            print("OK                      " + key)
+        except FileNotFoundError:
+            print("results.json not found: " + key)
+            continue
+        if writer is None:
+            writer = csv.DictWriter(csvfile, fieldnames=rowdict.keys())
+            writer.writeheader()
+        writer.writerow(rowdict)
+
+    csvfile.close()
 
 def load_external_clusters(names, filename):
     """
