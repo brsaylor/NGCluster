@@ -154,7 +154,7 @@ def main(datadir, outdir, run_configs):
 
         log("Plotting cluster expression levels")
         figs = plot_cluster_expression(names, data, clusters)
-        save_pdf(figs, os.path.join(config_outdir, key + '-figures.pdf'))
+        #save_pdf(figs, os.path.join(config_outdir, key + '-figures.pdf'))
         for i, fig in enumerate(figs):
             fig.savefig(os.path.join(config_outdir, key + '-cluster-{0}.png'
                 .format(i)))
