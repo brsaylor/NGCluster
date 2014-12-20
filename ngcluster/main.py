@@ -144,6 +144,7 @@ def main(datadir, outdir, run_configs):
         for ext_filename, ext_clusters in external_clusterings:
 
             # Only consider genes that are clustered in both clusterings
+            ext_clusters = ext_clusters.copy()
             ext_clusters[clusters < 0] = -1
             int_clusters = clusters.copy()
             int_clusters[ext_clusters < 0] = -1
