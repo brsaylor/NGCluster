@@ -10,6 +10,8 @@ from ngcluster.graph import (threshold_graph, nearest_neighbor_graph,
         relative_neighborhood_graph, gabriel_graph)
 
 configurations = OrderedDict([
+    
+    # Control configurations
     ('random10', {
         'description': "10 random clusters",
         'cluster': (random_clusters, {'k': 10})
@@ -18,47 +20,60 @@ configurations = OrderedDict([
         'description': "k-means with 10 clusters",
         'cluster': (kmeans, {'k': 10})
         }),
+
+    # The class assignment from Lonardi
     ('threshold_graph_default', {
         'description': "Default threshold graph clustering",
         'cluster': (graph_clusters, {'threshold': 5}),
-        'graph': (threshold_graph, {'threshold': 0.85})
+        'graph': (threshold_graph, {'metric': 'correlation', 'threshold': 0.85})
         }),
-    ('threshold_graph_expand2', {
-        'description': "Threshold graph expand2",
-        'cluster': (graph_clusters_expanding, {'threshold': 5, 'iterations': 2}),
-        'graph': (threshold_graph, {'threshold': 0.85})
+
+    # Vary the following parameters:
+    # graph: nearest, relative, gabriel
+    # metric: correlation, cosine, euclidean
+    # threshold: 5, 10
+    # iterations: 1, 2
+    # max_clusters: none, 10
+    # Use graph_clusters_expanding only.
+
+    ('nearest_cor_thresh5_iter1_nomax', {
+        'description': "Nearest neighbor graph",
+        'graph': (nearest_neighbor_graph, {'metric': 'correlation'}),
+        'cluster': (graph_clusters_expanding, {'threshold': 5, 'iterations': 1}),
         }),
-    ('threshold_graph_euclidean_default', {
-        'description': "Default threshold graph clustering (Euclidean)",
-        'cluster': (graph_clusters, {'threshold': 5}),
-        'graph': (threshold_graph, {'metric': 'euclidean', 'threshold': 100})
+    ('relative_cor_thresh5_iter1_nomax', {
+        'description': "Relative neighborhood graph",
+        'graph': (relative_neighborhood_graph, {'metric': 'correlation'}),
+        'cluster': (graph_clusters_expanding, {'threshold': 5, 'iterations': 1}),
         }),
-    ('nearest_neighbor_default', {
-        'description': "Default nearest neighbor graph clustering",
-        'cluster': (graph_clusters, {'threshold': 5}),
-        'graph': (nearest_neighbor_graph, {})
+
+    ('nearest_cos_thresh5_iter1_nomax', {
+        'description': "Nearest neighborhood graph",
+        'graph': (nearest_neighbor_graph, {'metric': 'cosine'}),
+        'cluster': (graph_clusters_expanding, {'threshold': 5, 'iterations': 1}),
         }),
-    ('relative_neighbor_default', {
-        'description': "Default relative neighbor graph clustering",
-        'cluster': (graph_clusters, {'threshold': 5}),
-        'graph': (relative_neighborhood_graph, {})
+    ('relative_cos_thresh5_iter1_nomax', {
+        'description': "Relative neighborhood graph",
+        'graph': (relative_neighborhood_graph, {'metric': 'cosine'}),
+        'cluster': (graph_clusters_expanding, {'threshold': 5, 'iterations': 1}),
         }),
-    ('relative_neighbor_expand2', {
-        'description': "Relative neighbor graph expand2",
-        'cluster': (graph_clusters_expanding, {'threshold': 9, 'iterations': 2}),
-        'graph': (relative_neighborhood_graph, {})
+
+    ('nearest_euc_thresh5_iter1_nomax', {
+        'description': "Nearest neighbor graph",
+        'graph': (nearest_neighbor_graph, {'metric': 'euclidean'}),
+        'cluster': (graph_clusters_expanding, {'threshold': 5, 'iterations': 1}),
         }),
-    ('relative_neighbor_expand2_limit10', {
-        'description': "Relative neighbor graph expand2",
-        'cluster': (graph_clusters_expanding, {
-            'max_clusters': 10, 'iterations': 2}),
-        'graph': (relative_neighborhood_graph, {})
+    ('relative_euc_thresh5_iter1_nomax', {
+        'description': "Relative neighborhood graph",
+        'graph': (relative_neighborhood_graph, {'metric': 'euclidean'}),
+        'cluster': (graph_clusters_expanding, {'threshold': 5, 'iterations': 1}),
         }),
-    ('gabriel_default', {
-        'description': "Default Gabriel graph clustering",
-        'cluster': (graph_clusters, {'threshold': 5}),
-        'graph': (gabriel_graph, {})
+    ('gabriel_euc_thresh5_iter1_nomax', {
+        'description': "Gabriel graph",
+        'graph': (gabriel_graph, {}),
+        'cluster': (graph_clusters_expanding, {'threshold': 5, 'iterations': 1}),
         }),
+
     ])
 
 # Files with external cluster assignments to be used in calculating the Rand

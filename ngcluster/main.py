@@ -120,6 +120,8 @@ def main(datadir, outdir, run_configs):
         else:
             # Do graph-based clustering
             log("Computing graph")
+            if graph_fn.__name__ == 'gabriel_graph':
+                outdict['metric'] = 'euclidean'
             adj = graph_fn(data, **graph_kwargs)
             edges_to_nodes_ratio = float(count_edges(adj)) / data.shape[0]
             log("Edges-to-nodes ratio = {}".format(edges_to_nodes_ratio))
