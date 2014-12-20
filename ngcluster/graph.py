@@ -7,6 +7,7 @@ from math import isfinite
 import numpy as np
 from numpy import inf
 from scipy.spatial.distance import pdist, squareform
+from scipy.spatial import Delaunay
 from numba import jit
 
 def distance_matrix(data, metric):
@@ -239,3 +240,58 @@ def gabriel_graph(data):
         return adj
 
     return build_graph(data, rows, cols, midpoint, adj)
+
+def gabriel_graph_delaunay(data):
+    """
+    An attempt at a more efficient algorithm for building the Gabriel graph by
+    taking advantage of the fact that it is a subgraph of the Delaunay
+    tesselation. It passes all unit tests except the first (which has too few
+    data points). Unfortunately, it consumes a huge amount of memory when run
+    on the real data.
+    """
+
+    rows, cols = data.shape
+    midpoint = np.empty(cols)
+    adj = np.zeros((rows, rows), dtype=bool)
+
+    delaunay = Delaunay(data)
+    indices, indptr = delaunay.vertex_neighbor_vertices
+
+    @jit(nopython=True)
+    def build_graph(data, rows, cols, midpoint, adj, indices, indptr):
+
+        # For each pair of points (p, q) that are neighbors in the Delaunay
+        # triangulation...
+        for p in range(rows - 1):
+            for i in range(indices[p], indices[p+1]):
+                q = indptr[i]
+
+                # ...calculate their midpoint and their distance 'radius' to it.
+                radius = 0
+                for i in range(cols):
+                    midpoint[i] = (data[p, i] + data[q, i]) * 0.5
+                    radius += (data[p, i] - midpoint[i]) ** 2
+                radius **= 0.5
+
+                # For each other point z...
+                for z in range(rows):
+                    if z == p or z == q:
+                        continue
+
+                    # ...calculate its distance from the midpoint.
+                    dist = 0
+                    for i in range(cols):
+                        dist += (data[z, i] - midpoint[i]) ** 2
+                    dist **= 0.5
+
+                    # If that distance is less than 'radius', then p and q are not
+                    # Gabriel neighbors.
+                    if dist <= radius:
+                        break
+                else:
+                    # Since there is no other point z is within 'radius' distance of
+                    # the midpoint, p and q are Gabriel neighbors.
+                    adj[p, q] = adj[q, p] = True
+        return adj
+
+    return build_graph(data, rows, cols, midpoint, adj, indices, indptr)
