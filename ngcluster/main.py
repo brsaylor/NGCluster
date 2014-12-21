@@ -1,3 +1,11 @@
+"""
+NGCluster
+Ben Saylor and Londen Johnson
+Dr. Rahul Singh, Professor, Computer Science, SFSU
+CSC 857 - Bioinformatics Computing, Fall 2014
+San Francisco State University
+"""
+
 import os
 import sys
 import datetime

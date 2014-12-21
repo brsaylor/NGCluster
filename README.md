@@ -4,6 +4,11 @@ NGCluster
 NGCluster is an experiment with clustering gene expression data using
 neighborhood graphs.
 
+Ben Saylor and Londen Johnson  
+Dr. Rahul Singh, Professor, Computer Science, SFSU  
+CSC 857 - Bioinformatics Computing, Fall 2014  
+San Francisco State University
+
 Software Dependencies
 ---------------------
 
@@ -31,7 +36,9 @@ Usage
 NGCluster includes a number of configurations of graph and clustering
 parameters. Running a configuration produces a set of output files in a
 directory named output/*configuration-key*, where *configuration-key* is the
-short name for one of the configurations listed by `python run.py`.
+short name for one of the configurations listed by `python run.py`. Running the
+program also compiles summary output for the listed and all previously run
+configurations in output/compiled-results.csv.
 
 To list available configurations:
 
@@ -44,3 +51,8 @@ To run a set of configurations:
 To run all configurations:
 
     python run.py all
+
+To run no configurations but produce the compiled output file based on existing
+output:
+
+    python run.py compile
